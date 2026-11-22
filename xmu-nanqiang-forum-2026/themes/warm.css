@@ -85,71 +85,63 @@ section.lead .kicker { margin-bottom: 0.6em; }
 .punch { font-size: 23px; font-weight: 600; color: var(--ink); border-top: 1px solid var(--rule); padding-top: 0.45em; margin-top: 0.7em; }
 section.tight { font-size: 23px; }
 
-/* 个人经历 */
-.path { display: grid; grid-template-columns: 1fr 34px 1.35fr 34px 1fr; align-items: start; margin-top: 0.9em; }
-.path .arrow { color: var(--accent); font-size: 26px; text-align: center; padding-top: 52px; }
-.step { background: var(--card); border: 1px solid var(--rule-soft); border-top: 2px solid var(--rule); padding: 0.7em 0.9em; }
-.step.main { border-top-color: var(--accent); }
-.step .when { font-size: 16px; color: var(--ink-mute); letter-spacing: 0.04em; }
-.step .org { font-size: 25px; font-weight: 600; margin-top: 2px; }
-.step .what { font-size: 17px; color: var(--ink-soft); margin-top: 4px; }
-.step .detail { font-size: 16px; color: var(--ink-mute); margin-top: 6px; line-height: 1.5; }
-.step .side { margin-top: 0.7em; padding-top: 0.55em; border-top: 1px dashed var(--rule); font-size: 16.5px; color: var(--ink-soft); line-height: 1.6; }
-.step .side b { color: var(--accent-deep); font-weight: 600; }
-.cat { font-size: 14px; font-weight: 600; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 4px; }
 
-.statbar { display: grid; grid-template-columns: 0.7fr 1.5fr 1fr 0.8fr 0.8fr; margin-top: 1.1em; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 0.5em 0; }
-.statbar > div { text-align: center; border-left: 1px solid var(--rule-soft); }
-.statbar > div:first-child { border-left: none; }
-.sb-n { font-size: 25px; font-weight: 600; color: var(--accent-deep); line-height: 1.2; }
-.sb-l { font-size: 15px; color: var(--ink-mute); margin-top: 2px; }
+/* ── 统一的克制样式：去掉卡片底色、胶囊、强调短线 ── */
+section h1 { font-size: 32px; font-weight: 600; letter-spacing: 0.01em; }
+section h1::after { display: none; }
+section.lead h1::after { display: block; }
+.kicker { font-size: 15px; font-weight: 500; letter-spacing: 0.04em; color: var(--ink-mute); }
+.card { background: transparent; border: none; border-top: 1px solid var(--ink-soft); padding: 0.45em 0 0; }
+.card.cross { border-top: 1px dashed var(--ink-soft); }
+.card h3 { font-size: 20px; }
+.tag { border: none; padding: 0; font-size: 15px; font-weight: 500; letter-spacing: 0; color: var(--ink-mute); border-radius: 0; }
+.tag::before { content: "— "; }
+.honor { border: none; border-radius: 0; padding: 0; font-size: 18px; font-weight: 500; letter-spacing: 0.04em; color: var(--accent-deep); }
+.punch { font-weight: 500; color: var(--ink-soft); font-size: 21px; }
+.quote-box { background: transparent; border: none; border-left: 2px solid var(--rule); padding: 0.2em 0 0.2em 1em; }
+.quote-box.hot { border-left-color: var(--accent); }
+.hl { background: transparent; color: var(--accent-deep); font-weight: 600; padding: 0; }
+.stat-label, .big-label { letter-spacing: 0.02em; }
+section footer { font-size: 13px; color: var(--ink-mute); left: 84px; bottom: 24px; }
 
-/* 方法与工具 */
-.skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1em; margin-top: 0.8em; }
-.skill { background: var(--card); border: 1px solid var(--rule-soft); border-top: 2px solid var(--accent); padding: 0.6em 0.9em 0.75em; }
-.skill .sk-t { font-size: 21px; font-weight: 600; color: var(--accent-deep); }
-.skill .sk-d { font-size: 17px; color: var(--ink-soft); margin-top: 6px; line-height: 1.55; }
+/* 个人经历：简历式表格 */
+table.cv { border-collapse: collapse; width: 100%; margin-top: 1.1em; font-size: 22px; }
+table.cv td { padding: 14px 0; border: none; border-bottom: 1px solid var(--rule-soft); vertical-align: top; background: transparent; }
+table.cv tr { background: transparent !important; }
+table.cv tr.grp td { border-top: 1px solid var(--rule); }
+table.cv td.c { width: 90px; color: var(--accent-deep); font-weight: 600; font-size: 18px; padding-top: 17px; }
+table.cv td.d { width: 170px; color: var(--ink-mute); font-size: 19px; padding-top: 16px; font-variant-numeric: tabular-nums; }
+table.cv td.o { width: 330px; font-weight: 600; }
+table.cv td.r { color: var(--ink-soft); }
+table.cv .s { font-size: 17px; color: var(--ink-mute); }
 
-/* 教学 */
-.teach { display: grid; grid-template-columns: 1fr 1.5fr; gap: 1.6em; margin-top: 0.6em; }
-.tgroup { margin-bottom: 0.7em; }
-.tgroup .tg-t { font-size: 15px; font-weight: 600; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 6px; }
-.course { display: inline-block; font-size: 18px; border: 1px solid var(--rule); background: var(--card); padding: 3px 12px; margin: 0 6px 8px 0; border-radius: 4px; }
-.course.key { border-color: var(--accent); color: var(--accent-deep); font-weight: 600; }
-.texp { font-size: 18px; line-height: 1.6; color: var(--ink-soft); padding: 0.5em 0; border-top: 1px dashed var(--rule); }
-.texp b { color: var(--ink); font-weight: 600; }
+/* 研究布局：分类矩阵 */
+table.matrix { border-collapse: collapse; width: 100%; margin-top: 0.7em; table-layout: fixed; }
+table.matrix tr { background: transparent !important; }
+table.matrix th, table.matrix td { border: none; background: transparent; }
+table.matrix thead th { font-size: 17px; font-weight: 600; color: var(--ink-soft); text-align: left; padding: 0 16px 8px; border-bottom: 1.5px solid var(--ink); }
+table.matrix th.ax { width: 120px; font-size: 17px; font-weight: 600; color: var(--accent-deep); text-align: left; vertical-align: top; padding: 14px 10px 0 0; }
+table.matrix thead th.ax { border-bottom: 1.5px solid var(--ink); }
+table.matrix td { vertical-align: top; padding: 10px 16px 12px; border-left: 1px solid var(--rule-soft); }
+table.matrix tbody tr + tr td, table.matrix tbody tr + tr th { border-top: 1px solid var(--rule); }
+table.matrix td.next { background: repeating-linear-gradient(135deg, transparent 0 9px, rgba(201,93,44,0.06) 9px 10px) !important; }
+.it { margin: 6px 0 12px; line-height: 1.4; }
+.it b { display: block; font-size: 18.5px; font-weight: 600; color: var(--ink); }
+.it span { display: block; font-size: 15px; color: var(--ink-soft); margin-top: 2px; }
+.it em { display: block; font-style: normal; font-size: 15px; color: var(--ink-mute); margin-top: 2px; }
+.it.key b { color: var(--accent-deep); }
+.it.key em { color: var(--accent-deep); }
+.foot-note { font-size: 16px; color: var(--ink-mute); margin-top: 0.9em; padding-top: 0.5em; border-top: 1px solid var(--rule-soft); }
 
-/* 备用页 */
-.pubs ol { font-size: 17px; line-height: 1.55; padding-left: 1.4em; margin-top: 0.2em; }
-.pubs li { margin: 0.32em 0; }
+/* 教学：三层课程表 */
+table.tt { border-collapse: collapse; width: 100%; margin-top: 0.9em; font-size: 20px; }
+table.tt tr { background: transparent !important; }
+table.tt th { text-align: left; font-size: 16px; font-weight: 600; color: var(--ink-soft); padding: 0 0 8px; border: none; border-bottom: 1.5px solid var(--ink); background: transparent; }
+table.tt td { padding: 13px 14px 13px 0; border: none; border-bottom: 1px solid var(--rule-soft); vertical-align: top; color: var(--ink-soft); background: transparent; }
+table.tt td.lv { width: 120px; color: var(--accent-deep); font-weight: 600; font-size: 18px; }
+table.tt td.cn { width: 380px; color: var(--ink); font-weight: 600; }
 
 @media print { section { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
-
-/* 内容页左下角淡色清华校徽 */
-section:not(.lead)::before {
-  content: ""; position: absolute; left: 44px; bottom: 20px; width: 24px; height: 24px;
-  background: url('figures/logos/thu-fig-logo.png') center / contain no-repeat; opacity: 0.45;
-}
-
-/* 线上投屏：放大第一部分的字号，填满版面 */
-.path { margin-top: 1.4em; }
-.path .arrow { padding-top: 80px; font-size: 30px; }
-.step { padding: 0.9em 1.1em 1em; }
-.step .when { font-size: 18px; }
-.step .org { font-size: 30px; }
-.step .what { font-size: 20px; }
-.step .detail { font-size: 18.5px; line-height: 1.6; }
-.step .side { font-size: 18.5px; line-height: 1.7; }
-.cat { font-size: 16px; }
-.skills { gap: 1.2em; margin-top: 1.4em; }
-.skill { padding: 0.9em 1.1em 1.1em; min-height: 170px; }
-.skill .sk-t { font-size: 25px; }
-.skill .sk-d { font-size: 20px; line-height: 1.6; margin-top: 10px; }
-.teach { margin-top: 1.1em; gap: 2.2em; }
-.texp { font-size: 21px; line-height: 1.7; padding: 0.8em 0; }
-.tgroup { margin-bottom: 1.2em; }
-.tgroup .tg-t { font-size: 17px; margin-bottom: 10px; }
-.course { font-size: 21px; padding: 5px 14px; margin: 0 8px 10px 0; }
-.statbar { padding: 0.7em 0; margin-top: 1.3em; }
-.sb-n { font-size: 30px; }
-.sb-l { font-size: 16px; }
+.it b { font-size: 20px; }
+.it span, .it em { font-size: 16px; }
+table.matrix thead th, table.matrix th.ax { font-size: 18px; }
