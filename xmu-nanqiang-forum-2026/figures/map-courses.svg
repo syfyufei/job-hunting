@@ -10,9 +10,8 @@
 <line x1="1010.625" y1="40" x2="1010.625" y2="540" stroke="#E3E8EF" stroke-width="1"/>
 <line x1="1136.875" y1="40" x2="1136.875" y2="540" stroke="#E3E8EF" stroke-width="1"/>
 <line x1="190" y1="500.0" x2="1200" y2="500.0" stroke="#E3E8EF" stroke-width="1"/>
-<line x1="190" y1="360.0" x2="1200" y2="360.0" stroke="#E3E8EF" stroke-width="1"/>
-<line x1="190" y1="230.0" x2="1200" y2="230.0" stroke="#E3E8EF" stroke-width="1"/>
-<line x1="190" y1="90.0" x2="1200" y2="90.0" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="330.0" x2="1200" y2="330.0" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="110.0" x2="1200" y2="110.0" stroke="#E3E8EF" stroke-width="1"/>
 <line x1="190" y1="540" x2="1214" y2="540" stroke="#4A5568" stroke-width="1.6"/>
 <path d="M1214 534 L1226 540 L1214 546z" fill="#4A5568"/>
 <line x1="190" y1="540" x2="190" y2="28" stroke="#4A5568" stroke-width="1.6"/>
@@ -34,14 +33,10 @@
 <rect x="1100.875" y="554" width="72" height="28" rx="14" fill="#0C62B0" stroke="#0C62B0" stroke-width="1.2"/>
 <text x="1136.875" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">大模型</text>
 <text x="695.0" y="616" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78">方法能力：从质性到计算 →</text>
-<text x="176" y="505.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">中国地方</text>
-<text x="176" y="355.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">央地</text>
-<text x="176" y="375.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">香港</text>
-<text x="176" y="225.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">东亚</text>
-<text x="176" y="245.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">日本</text>
-<text x="176" y="85.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">跨国</text>
-<text x="176" y="105.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">美国 / 西巴尔干</text>
-<text x="22" y="290.0" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 290.0)">研究范围：从中国到比较 →</text>
+<text x="176" y="505.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">地方治理</text>
+<text x="176" y="335.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">国家与央地</text>
+<text x="176" y="115.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">跨国比较</text>
+<text x="22" y="290.0" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 290.0)">研究范围：从地方到跨国 →</text>
 <g opacity="0.28">
 <circle cx="250.6" cy="510.0" r="11" fill="#0C62B0"/>
 <text x="270.6" y="508.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">条块发包与基层治理</text>
@@ -67,24 +62,26 @@
 <text x="877.0" y="310.0" text-anchor="end" font-size="15" fill="#4A5568">与东京大学伊藤亚圣合作 · 大规模文本</text>
 <circle cx="1038.4" cy="430.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
 <text x="1018.4000000000001" y="428.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">官话识别（Bureaucratese）</text>
-<text x="1018.4000000000001" y="450.0" text-anchor="end" font-size="15" fill="#4A5568">BERT 模型 · 开源工具</text>
+<text x="1018.4000000000001" y="450.0" text-anchor="end" font-size="15" fill="#4A5568">BERT 模型 · 已发布，持续开发</text>
 </g>
 <rect x="428.5" y="131.0" width="129" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
 <text x="493.0" y="156.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">比较政治学</text>
+<rect x="460.5999999999999" y="261.0" width="186" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
+<text x="553.5999999999999" y="286.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">定量政治分析方法</text>
 <rect x="865.8000000000001" y="211.0" width="224" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
 <text x="977.8000000000001" y="236.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">大模型与社会科学研究</text>
-<rect x="471.29999999999995" y="301.0" width="205" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
-<text x="573.8" y="326.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">因果推断与研究设计</text>
-<rect x="240.79999999999995" y="371.0" width="262" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
-<text x="371.79999999999995" y="396.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">港澳台政治与“一国两制”</text>
-<rect x="641.2" y="411.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
-<text x="715.2" y="436.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">政治话语分析</text>
-<rect x="742.2" y="321.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
-<text x="816.2" y="346.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">社会网络分析</text>
-<rect x="929.5999999999999" y="481.0" width="258" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
-<text x="1058.6" y="506.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">R / Python 社会科学编程</text>
-<rect x="338.2" y="471.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
-<text x="412.2" y="496.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">调查实验方法</text>
+<rect x="367.9" y="461.0" width="129" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="432.4" y="486.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">实验政治学</text>
+<rect x="238.39999999999998" y="371.0" width="186" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="331.4" y="396.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">中国政治实证研究</text>
+<rect x="630.5" y="401.0" width="129" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="695.0" y="426.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">话语与政治</text>
+<rect x="742.2" y="301.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="816.2" y="326.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">社会网络分析</text>
+<rect x="914.5" y="351.0" width="167" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="998.0" y="376.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">政务大数据分析</text>
+<rect x="866.5" y="481.0" width="263" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="998.0" y="506.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">R 语言与社会科学数据分析</text>
 <circle cx="210" cy="52" r="7" fill="#A8742C"/>
 <text x="224" y="57" font-size="13" fill="#4A5568">可开设课程（重点）</text>
 <circle cx="366" cy="52" r="7" fill="#FFFFFF" stroke="#A8742C" stroke-width="2.5"/>

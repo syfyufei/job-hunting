@@ -163,3 +163,11 @@ section:not(.lead)::before {
 /* 备用页发表清单 */
 .pubs ol { font-size: 17px; line-height: 1.55; padding-left: 1.4em; margin-top: 0.2em; }
 .pubs li { margin: 0.32em 0; }
+
+/* 线上投屏：小字整体放大一档 */
+.stat-label, .big-label { font-size: 16px; }
+.sb-l { font-size: 15px; }
+.mini, .note { font-size: 19px; }
+.timeline.t5 .tl-role { font-size: 16.5px; }
+.tag { font-size: 14px; }
+section.tight { font-size: 23px; }

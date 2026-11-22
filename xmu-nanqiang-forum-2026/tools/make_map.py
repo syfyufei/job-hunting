@@ -6,7 +6,7 @@ W, H = 1240, 640
 X0, X1, Y0, Y1 = 190, 1200, 40, 540   # plot area
 
 METHODS = ["案例访谈", "调查实验", "因果推断", "多层模型", "网络分析", "文本分析", "机器学习", "大模型"]
-SCOPES  = [("中国地方", 0.08), ("央地 · 香港", 0.36), ("东亚 · 日本", 0.62), ("跨国 · 美国 / 西巴尔干", 0.9)]
+SCOPES  = [("地方治理", 0.08), ("国家与央地", 0.42), ("跨国比较", 0.86)]
 
 def px(u): return X0 + u * (X1 - X0)
 def py(v): return Y1 - v * (Y1 - Y0)
@@ -20,7 +20,7 @@ RESEARCH = [
   (0.30, 0.93, "孔子学院关闭与国家形象", "CJIP 2022 · SSCI Q1 · 通讯作者", "pub", "start"),
   (0.80, 0.76, "西巴尔干五国：从“硬联通”到“心联通”", "《中国社会科学》拟录用 · 通讯作者", "top", "end"),
   (0.70, 0.50, "领导留言板：政府回应性", "与东京大学伊藤亚圣合作 · 大规模文本", "wip", "end"),
-  (0.84, 0.22, "官话识别（Bureaucratese）", "BERT 模型 · 开源工具", "wip", "end"),
+  (0.84, 0.22, "官话识别（Bureaucratese）", "BERT 模型 · 已发布，持续开发", "wip", "end"),
 ]
 
 COURSES = json.loads(pathlib.Path(__file__).with_name("courses.json").read_text()) if pathlib.Path(__file__).with_name("courses.json").exists() else []
@@ -53,7 +53,7 @@ def svg(layer):
         parts = s.split(" · ") if len(s) > 6 else [s]
         for k, p in enumerate(parts):
             o.append(f'<text x="{X0-14}" y="{py(v)+5+(k-(len(parts)-1)/2)*20}" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">{p}</text>')
-    o.append(f'<text x="22" y="{(Y0+Y1)/2}" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 {(Y0+Y1)/2})">研究范围：从中国到比较 →</text>')
+    o.append(f'<text x="22" y="{(Y0+Y1)/2}" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 {(Y0+Y1)/2})">研究范围：从地方到跨国 →</text>')
 
     fade = 0.28 if layer == "courses" else 1
     o.append(f'<g opacity="{fade}">')
@@ -82,7 +82,7 @@ def svg(layer):
             o.append(f'<text x="{x}" y="{y+6}" text-anchor="middle" font-size="18" font-weight="700" fill="{"#FFFFFF" if core else "#A8742C"}">{t}</text>')
         legend = [("#A8742C", "fill", "可开设课程（重点）"), ("#A8742C", "line", "可开设课程")]
     else:
-        legend = [("#0C62B0", "fill", "已发表 / 已录用"), ("#0C62B0", "line", "进行中 / 开源工具")]
+        legend = [("#0C62B0", "fill", "已发表 / 已录用"), ("#0C62B0", "line", "在研论文 / 开源工具")]
     lx = X0 + 20
     for col, kind, lab in legend:
         if kind == "fill": o.append(f'<circle cx="{lx}" cy="{Y0+12}" r="7" fill="{col}"/>')
