@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: warm
+theme: apple
 size: 16:9
 lang: zh-CN
 ---
@@ -55,7 +55,7 @@ lang: zh-CN
 <div class="fill"><table class="mx">
 <thead><tr><th class="ax"></th><th>调查实验</th><th>因果推断</th><th>文本与机器学习</th></tr></thead>
 <tbody>
-<tr><th class="ax">跨国</th><td></td>
+<tr><th class="ax">跨国</th><td class="empty"></td>
 <td><div class="w key"><b>西巴尔干五国</b><span>《中国社会科学》</span></div><div class="w key"><b>美国孔子学院</b><span>CJIP · SSCI</span></div></td>
 <td class="next"><div class="w"><b>研究议程</b></div></td></tr>
 <tr><th class="ax">中国</th>
@@ -150,8 +150,8 @@ lang: zh-CN
 <h1>帽子和票子都失灵了</h1>
 <div class="body">
 <table class="t open big" style="height:auto"><tbody>
-<tr style="height:110px"><td class="k" style="width:230px">帽子</td><td style="width:420px">人事任免</td><td class="m">香港：公务员体系自成一套</td></tr>
-<tr style="height:110px"><td class="k">票子</td><td>财政调拨</td><td class="m">香港：财政独立</td></tr>
+<tr style="height:120px"><td class="k" style="width:230px">帽子</td><td style="width:420px">人事任免</td><td class="m">香港：公务员体系自成一套</td></tr>
+<tr style="height:120px"><td class="k">票子</td><td>财政调拨</td><td class="m">香港：财政独立</td></tr>
 </tbody></table>
 <div class="ask bottom">话语为什么还会同构？</div>
 </div>
@@ -327,12 +327,12 @@ lang: zh-CN
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="on">论文 · 结论</span><span class="pg">14 / 16</span></div></div>
 <h1>结论</h1>
 <div class="body">
-<div class="turn tall">
+<div class="turn">
 <div><div class="lab">金耀基（1975）</div><div class="big">行政吸纳政治</div></div>
 <div class="ar">→</div>
 <div><div class="lab">本研究</div><div class="big on">话语同构行政</div></div>
 </div>
-<div class="three slim bottom">
+<div class="three slim">
 <div><div class="lab">央地关系</div><p>话语作为“认知基础设施”</p></div>
 <div><div class="lab">制度同构理论</div><p>规制 · 模仿 · 互动</p></div>
 <div><div class="lab">测量方法</div><p>形似—神似双重测量</p></div>
