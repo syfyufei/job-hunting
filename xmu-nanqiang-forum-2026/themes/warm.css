@@ -167,3 +167,48 @@ section.lead .logo img + img { height: 26px; }
 .two h3 { font-size: 22px; }
 .nums .n { font-size: 56px; }
 .nums > div { padding-top: 24px; padding-bottom: 22px; }
+
+/* ── 精简版：字少、字大 ── */
+section h1 { font-size: 40px; }
+.body { margin-top: 30px; }
+table.t.big td { font-size: 30px; }
+table.t.big td.d { font-size: 24px; }
+table.t.big td.k { font-size: 24px; }
+table.t.big td.m { font-size: 32px; }
+table.t.big thead th { font-size: 18px; }
+.sep { color: var(--rule); margin: 0 18px; font-weight: 300; }
+table.mx thead th { font-size: 21px; }
+table.mx tbody th.ax { font-size: 24px; padding-top: 22px; }
+table.mx td { padding: 20px 22px 6px; }
+.w { margin-bottom: 16px; }
+.w b { font-size: 27px; }
+.w span { font-size: 18px; color: var(--accent-deep); }
+.sum { font-size: 20px; margin-top: 18px; }
+.row { grid-template-columns: 92px 1fr; }
+.row .k { font-size: 22px; }
+.row .v { font-size: 29px; line-height: 1.45; color: var(--ink); }
+.split { grid-template-columns: 45fr 55fr; }
+figure.fig img { max-height: 430px; }
+figure.fig figcaption { font-size: 16px; }
+.wide { flex: 1; min-height: 0; display: flex; }
+.wide figure.fig { width: 100%; }
+.wide figure.fig img { max-height: 470px; }
+.two.mid { flex: 1; align-items: center; }
+.yr { font-size: 64px; }
+.qt { font-size: 38px; line-height: 1.6; }
+.ask { font-size: 38px; }
+.ask.bottom { margin-top: auto; margin-bottom: 26px; }
+.ask.plain { border-left: none; padding-left: 0; font-size: 30px; font-weight: 500; }
+.nums .n { font-size: 64px; }
+.nums .l { font-size: 20px; }
+.nums > div { padding-top: 34px; padding-bottom: 32px; }
+.turn.tall { padding: 46px 0; border-bottom: 1px solid var(--rule-soft); }
+.turn .lab { font-size: 19px; }
+.turn .big { font-size: 48px; }
+.turn .ar { font-size: 40px; }
+.three h3 { font-size: 34px; margin: 10px 0 18px; }
+.three .lab { font-size: 19px; }
+.three p { font-size: 25px; color: var(--soft); }
+.three.slim { flex: none; border-top: none; }
+.three.slim p { font-size: 25px; color: var(--ink); margin-top: 6px; }
+.three.slim.bottom { margin-top: auto; }

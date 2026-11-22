@@ -11,7 +11,6 @@ lang: zh-CN
 <h1>孙宇飞</h1>
 <div class="bar"></div>
 <div class="who">清华大学社会科学学院 · 政治学博士</div>
-<div class="toc"><div><i>一</i><span>经历、研究与教学</span><u>约 4 分钟</u></div><div><i>二</i><span>博士论文：国家话语的同构机制研究</span><u>约 10 分钟</u></div></div>
 <div class="logo"><img src="figures/logos/thu-fig-logo.png" alt=""><img src="figures/logos/thu-text-logo.png" alt="清华大学"></div>
 
 <!--
@@ -27,12 +26,12 @@ lang: zh-CN
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="on">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">02 / 16</span></div></div>
 <h1>个人经历</h1>
 <div class="body">
-<table class="t open"><tbody>
-<tr><td class="k" style="width:96px">工作</td><td class="d" style="width:190px">2026.07 至今</td><td class="m" style="width:370px">美团 Keeta</td><td>大模型算法工程师<span class="sub">2025.05–08 实习</span></td></tr>
-<tr><td class="k">访学</td><td class="d">2024–2025</td><td class="m">东京大学社会科学研究所</td><td>客员研究员</td></tr>
-<tr><td class="k">教学</td><td class="d">2021 至今</td><td class="m">清华大学 R Workshop</td><td>讲师<span class="sub">累计选课超千人</span></td></tr>
-<tr><td class="k">教育</td><td class="d">2020–2026</td><td class="m">清华大学</td><td>政治学 · 法学博士（大数据政治学方向）<span class="sub">专业排名 1/89 · 优秀博士学位论文 · 优秀博士毕业生</span></td></tr>
-<tr><td class="k"></td><td class="d">2016–2020</td><td class="m">山东大学</td><td>国际政治 · 法学学士<span class="sub">专业排名 1/23 · 山东省优秀毕业生</span></td></tr>
+<table class="t open big"><tbody>
+<tr><td class="d" style="width:200px">2026 至今</td><td class="m" style="width:420px">美团 Keeta</td><td>大模型算法工程师</td></tr>
+<tr><td class="d">2024–2025</td><td class="m">东京大学社会科学研究所</td><td>客员研究员</td></tr>
+<tr><td class="d">2021 至今</td><td class="m">清华大学 R Workshop</td><td>讲师</td></tr>
+<tr><td class="d">2020–2026</td><td class="m">清华大学</td><td>政治学博士 · <span class="num">优秀博士学位论文</span></td></tr>
+<tr><td class="d">2016–2020</td><td class="m">山东大学</td><td>国际政治学士</td></tr>
 </tbody></table>
 </div>
 
@@ -52,20 +51,19 @@ lang: zh-CN
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="on">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">03 / 16</span></div></div>
 <h1>研究布局</h1>
-<div class="lede">按研究方法（列）与研究对象（行）归类</div>
 <div class="body">
 <div class="fill"><table class="mx">
-<thead><tr><th class="ax"></th><th>调查实验</th><th>观察数据 · 因果推断</th><th>文本数据 · 机器学习</th></tr></thead>
+<thead><tr><th class="ax"></th><th>调查实验</th><th>因果推断</th><th>文本与机器学习</th></tr></thead>
 <tbody>
-<tr><th class="ax">跨国 · 国外</th><td></td>
-<td><div class="w key"><b>“一带一路”与西巴尔干五国</b><span>空间双重差分 · 6 万余篇新闻情感数据</span><span>《中国社会科学》拟录用 · 通讯作者</span></div><div class="w key"><b>美国孔子学院关闭</b><span>CJIP 2022 · SSCI · 通讯作者</span></div></td>
-<td class="next"><div class="w"><b>研究议程</b><span>将文本测量方法用于跨国比较</span></div></td></tr>
+<tr><th class="ax">跨国</th><td></td>
+<td><div class="w key"><b>西巴尔干五国</b><span>《中国社会科学》</span></div><div class="w key"><b>美国孔子学院</b><span>CJIP · SSCI</span></div></td>
+<td class="next"><div class="w"><b>研究议程</b></div></td></tr>
 <tr><th class="ax">中国</th>
-<td><div class="w"><b>公共服务动机激发</b><span>公共管理与政策评论 2025</span><span>学生一作</span></div><div class="w"><b>思想政治教育的社会化效果</b><span>政治与公共管理研究 2025</span></div></td>
-<td><div class="w"><b>地方治理的“能力空间”</b><span>广州大学学报 2023 · 第一作者</span></div><div class="w"><b>助推型政策</b><span>公共管理与政策评论 2021 · 通讯作者</span></div></td>
-<td><div class="w"><b>领导留言板与政府回应性</b><span>回复文本 · 因果推断 · 在研</span></div><div class="w"><b>官话识别 Bureaucratese</b><span>BERT 模型 · 工具已发布</span></div></td></tr>
+<td><div class="w"><b>公共服务动机</b></div><div class="w"><b>政治社会化</b></div></td>
+<td><div class="w"><b>地方治理能力</b></div><div class="w"><b>助推型政策</b></div></td>
+<td><div class="w"><b>政府回应性</b></div><div class="w"><b>官话识别</b></div></td></tr>
 </tbody></table></div>
-<div class="sum"><div>论文 <b>8 篇</b></div><div><b>《中国社会科学》</b>拟录用 1 篇</div><div><b>SSCI</b> 1 篇</div><div>其他 <b>CSSCI</b> 4 篇</div><div>开源工具 <b>4 个</b>：Bureaucratese、SurveyAgent、Triad、regioncode</div></div>
+<div class="sum"><div>论文 <b>8 篇</b></div><div><b>《中国社会科学》</b> 1 篇</div><div><b>SSCI</b> 1 篇</div><div><b>CSSCI</b> 4 篇</div></div>
 </div>
 
 <!--
@@ -83,16 +81,12 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="on">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">04 / 16</span></div></div>
-<h1>教学</h1>
-<div class="lede">可开设课程与已有基础</div>
+<h1>可开设课程</h1>
 <div class="body">
-<table class="t">
-<thead><tr><th style="width:130px">层次</th><th style="width:400px">课程</th><th>基础</th></tr></thead><tbody>
-<tr><td class="k">全校通识</td><td class="m">大模型与社会科学</td><td>东京大学英文工作坊《大模型与社会科学研究》<span class="sub">美团大模型算法工程师</span></td></tr>
-<tr><td class="k">本科</td><td class="m">比较政治学</td><td>西巴尔干、孔子学院等跨国研究<span class="sub">国际政治本科训练</span></td></tr>
-<tr><td class="k"></td><td class="m">社会科学数据分析（R / Python）</td><td>清华 R Workshop 讲师<span class="sub">2021 至今，累计选课超千人</span></td></tr>
-<tr><td class="k">研究生</td><td class="m">计算政治学：文本分析与大模型</td><td>博士论文的 BERT 同构指数；官话识别工具<span class="sub">R Workshop 自然语言处理课程</span></td></tr>
-<tr><td class="k"></td><td class="m">因果推断与实验政治学</td><td>双重差分、间断时间序列<span class="sub">两项调查实验</span></td></tr>
+<table class="t open big"><tbody>
+<tr><td class="k" style="width:230px">全校通识</td><td class="m">大模型与社会科学</td></tr>
+<tr><td class="k">本科</td><td class="m">比较政治学<span class="sep">/</span>社会科学数据分析</td></tr>
+<tr><td class="k">研究生</td><td class="m">计算政治学<span class="sep">/</span>因果推断与实验政治学</td></tr>
 </tbody></table>
 </div>
 
@@ -118,7 +112,6 @@ lang: zh-CN
 <h1 class="long">国家话语的同构机制研究</h1>
 <div class="bar"></div>
 <div class="who">清华大学优秀博士学位论文</div>
-<div class="en">A Study on the Isomorphic Mechanisms of State Discourse</div>
 
 <!--
 下面进入第二部分，汇报我的博士论文《国家话语的同构机制研究》。
@@ -130,13 +123,11 @@ lang: zh-CN
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="on">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">06 / 16</span></div></div>
 <h1>同一份施政报告，相隔 28 年</h1>
-<div class="lede">香港特别行政区行政长官施政报告开篇</div>
 <div class="body">
-<div class="two">
-<div><div class="yr">1997</div><div class="qt">香港回归祖国，<b>香港人</b>开始书写<b>自己的历史</b>……为我们自己，也为我们的后代，建设一个文明、富庶、安定、民主、充满新生命力的<b>香港</b>。</div><div class="qn">主语是香港，主轴是经济，国家战略词汇几乎缺席</div></div>
-<div><div class="yr on">2025</div><div class="qt">今年是<b>国家“十四五”规划</b>的收官之年，亦是<b>“十五五”规划</b>的谋篇布局之年……香港<b>主动对接国家发展战略</b>、实现突破新局面的策略部署。</div><div class="qn">以国家五年规划为时间轴，以对接国家战略为目标</div></div>
+<div class="two mid">
+<div><div class="yr">1997</div><div class="qt">“<b>香港人</b>开始书写<b>自己的历史</b>”</div></div>
+<div><div class="yr on">2025</div><div class="qt">“香港<b>主动对接国家发展战略</b>”</div></div>
 </div>
-<div class="closing bottom"><b>同一个位置、同一种文体，读起来像出自两套不同的政府。</b>这个变化是怎样发生的？</div>
 </div>
 
 <!--
@@ -156,16 +147,13 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="on">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">07 / 16</span></div></div>
-<h1>帽子和票子都失灵了，话语为什么还会同构？</h1>
-<div class="lede">央地整合的两条硬约束，在香港都不成立</div>
+<h1>帽子和票子都失灵了</h1>
 <div class="body">
-<table class="t" style="height:auto">
-<thead><tr><th style="width:230px">硬约束</th><th style="width:440px">内地</th><th>香港</th></tr></thead><tbody>
-<tr style="height:104px"><td class="k">帽子 · 人事任免</td><td>晋升激励让地方迎合上级</td><td class="m">公务员体系自成一套</td></tr>
-<tr style="height:104px"><td class="k">票子 · 财政调拨</td><td>转移支付把国家意志变成预算约束</td><td class="m">财政独立，不向中央缴税</td></tr>
+<table class="t open big" style="height:auto"><tbody>
+<tr style="height:110px"><td class="k" style="width:230px">帽子</td><td style="width:420px">人事任免</td><td class="m">香港：公务员体系自成一套</td></tr>
+<tr style="height:110px"><td class="k">票子</td><td>财政调拨</td><td class="m">香港：财政独立</td></tr>
 </tbody></table>
-<div class="ask" style="margin-top:48px">在硬约束缺失的地方，地方治理体系为何仍在话语层面与国家深度同构？</div>
-<div class="closing bottom"><b>最不可能案例</b>：如果在香港都能发生，话语同构就是独立于人事和财政之外的一条整合路径。</div>
+<div class="ask bottom">话语为什么还会同构？</div>
 </div>
 
 <!--
@@ -185,16 +173,14 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="on">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">08 / 16</span></div></div>
-<h1>改造经典同构理论：三个机制，三个层级</h1>
-<div class="lede">在 DiMaggio 与 Powell 的制度同构框架上做三处调整</div>
+<h1>三个机制，三个层级</h1>
 <div class="body">
-<div class="fill"><table class="t">
-<thead><tr><th style="width:150px">经典机制</th><th style="width:200px">本研究</th><th>调整理由</th><th style="width:150px">分析层级</th></tr></thead><tbody>
-<tr><td class="d">强制</td><td class="m" style="font-size:26px">规制</td><td>没有直接命令，中央改变的是规则环境；同构是行动者权衡后的选择</td><td class="k">管治团队</td></tr>
-<tr><td class="d">模仿</td><td class="m" style="font-size:26px">策略性模仿</td><td>科层的模仿分化为原样“复制”与本地化“转译”两条轨道</td><td class="k">科层部门</td></tr>
-<tr><td class="d">规范</td><td class="m" style="font-size:26px">互动</td><td>议员背景高度异质，规范基础不存在；转看府会问答中的话语校准</td><td class="k">立法会</td></tr>
-</tbody></table></div>
-<div class="closing">核心立场：同构不是中央单向强加，也不是地方自发，而是各方在各自制度位置上的理性互动。</div>
+<table class="t big">
+<thead><tr><th style="width:300px">经典同构理论</th><th style="width:480px">本研究</th><th>分析层级</th></tr></thead><tbody>
+<tr><td class="d">强制</td><td class="m">规制</td><td class="k">管治团队</td></tr>
+<tr><td class="d">模仿</td><td class="m">策略性模仿</td><td class="k">科层部门</td></tr>
+<tr><td class="d">规范</td><td class="m">互动</td><td class="k">立法会</td></tr>
+</tbody></table>
 </div>
 
 <!--
@@ -214,20 +200,15 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="on">论文 · 方法</span><span class="">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">09 / 16</span></div></div>
-<h1>37 万份文本，和一个能读“逻辑”的模型</h1>
-<div class="lede">自建语料库与“形似—神似”双重测量</div>
+<h1>数据与测量</h1>
 <div class="body">
 <div class="nums">
-<div><div class="n">37.3 万</div><div class="l">特区政府文本，1997–2025</div></div>
-<div><div class="n">49</div><div class="l">政府部门，另含立法会</div></div>
-<div><div class="n">1,058</div><div class="l">中央核心政治文献（参照系）</div></div>
-<div><div class="n">10</div><div class="l">香港公务员深度访谈</div></div>
+<div><div class="n">37.3 万</div><div class="l">特区政府文本</div></div>
+<div><div class="n">28 年</div><div class="l">1997–2025</div></div>
+<div><div class="n">1,058</div><div class="l">中央文献（参照系）</div></div>
+<div><div class="n">0.94</div><div class="l">BERT 模型 AUC</div></div>
 </div>
-<div class="two" style="margin-top:30px">
-<div><h3>形似 · 看词</h3><p>78 个核心政治词汇，TF-IDF 相似度。<br/>透明、可复现，但只能看到表面的同构。</p></div>
-<div><h3>神似 · 看逻辑</h3><p><b>StateDiscourseMLP</b>：基于 BERT 的分类模型。<br/>81 万训练样本，AUC = 0.94。</p></div>
-</div>
-<div class="closing bottom">输出：每份文本一个 0–1 的<b>国家话语同构指数（DA 指数）</b>，作为后续分析的因变量。</div>
+<div class="ask bottom plain">词汇相似（形似）+ 语义模型（神似）→ <span class="num">同构指数 0–1</span></div>
 </div>
 
 <!--
@@ -249,13 +230,9 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="on">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">10 / 16</span></div></div>
-<h1>一条近三十年的曲线</h1>
-<div class="lede">DA 指数的三个阶段</div>
+<h1>同构指数：近三十年的变化</h1>
 <div class="body">
-<div class="split w46">
-<div class="rows yrs"><div class="row"><div class="k">1997–2006</div><div class="v"><b>蜜月期与退场</b><span class="sub">回归初期高位，随后国家话语从日常公文中淡出</span></div></div><div class="row"><div class="k">2007–2019</div><div class="v"><b>缓慢爬升</b><span class="sub">渐进累积，增速温和</span></div></div><div class="row"><div class="k">2020 年后</div><div class="v"><b>结构性跃升</b><span class="sub">国安法实施、选举制度改革之后</span></div></div></div>
-<figure class="fig"><img src="figures/ch05_fig11_annual_trend_m.png" alt=""><figcaption>国家话语同构指数（DA 指数）年度均值，1997–2025。灰色区域为 95% 置信区间。</figcaption></figure>
-</div>
+<div class="wide"><figure class="fig"><img src="figures/ch05_fig11_annual_trend_m.png" alt=""><figcaption>国家话语同构指数年度均值，1997–2025</figcaption></figure></div>
 </div>
 
 <!--
@@ -271,12 +248,11 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="on">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">11 / 16</span></div></div>
-<h1>机制一 · 规制：从“配合”到“对接”</h1>
-<div class="lede">外部触发：规制提供宏观政治势能</div>
+<h1>机制一 · 规制</h1>
 <div class="body">
 <div class="split">
-<div class="rows"><div class="row"><div class="k">动机</div><div class="v">行政长官<b>“双重嵌入”</b>：对中央和特区双重负责，经述职、研修习得国家治理逻辑</div></div><div class="row"><div class="k">过程</div><div class="v">特首政策组（2022）承担“语义翻译”；538 条指定项目指标中 <span class="num">73 条</span>带国家话语属性</div></div><div class="row"><div class="k">效果</div><div class="v">间断时间序列：国安法、选举改革两个断点均显著跃升；双重差分：高规制部门 <span class="num">+0.073</span><span style="white-space:nowrap">（p &lt; 0.001）</span></div></div></div>
-<figure class="fig"><img src="figures/ch06_fig11_did_eventstudy_m.png" alt=""><figcaption>事件研究：高规制部门相对低规制部门的差异，基准年 2019。</figcaption></figure>
+<div class="rows "><div class="row"><div class="k">动机</div><div class="v">行政长官“双重嵌入”</div></div><div class="row"><div class="k">过程</div><div class="v">考核指标 <span class="num">73 / 538</span> 条带国家话语</div></div><div class="row"><div class="k">效果</div><div class="v">高规制部门 <span class="num">+0.073</span></div></div></div>
+<figure class="fig"><img src="figures/ch06_fig11_did_eventstudy_m.png" alt=""><figcaption>高规制与低规制部门的差异，基准年 2019</figcaption></figure>
 </div>
 </div>
 
@@ -297,12 +273,11 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="on">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">12 / 16</span></div></div>
-<h1>机制二 · 模仿：“不会说、不敢说”，于是复制，也转译</h1>
-<div class="lede">科层传导：外部势能转化为组织行为</div>
+<h1>机制二 · 模仿</h1>
 <div class="body">
 <div class="split">
-<div class="rows"><div class="row"><div class="k">动机</div><div class="v"><b>知识赤字</b>（“不会说”）与<b>安全赤字</b>（“不敢说”）叠加，模仿成为有限理性下的最优策略</div></div><div class="row"><div class="k">过程</div><div class="v"><b>复制</b>：原词照搬，2020 年前后 <span class="num">25.5% → 36.5%</span><br/><b>转译</b>：本地化改写，稳定在 <span class="num">约 14%</span></div></div><div class="row"><div class="k">效果</div><div class="v">部门话语网络密度：<span class="num">0</span>（2007–2015）→ <span class="num">约 0.6</span>（2020–2024）；最强连边是发展局与文体旅局（<span class="num">0.963</span>）</div></div></div>
-<figure class="fig"><img src="figures/ch07_fig01_discourse_network_topology_m.png" alt=""><figcaption>特区政府 17 个决策局的话语相似度网络。</figcaption></figure>
+<div class="rows "><div class="row"><div class="k">动机</div><div class="v">“不会说”“不敢说”</div></div><div class="row"><div class="k">过程</div><div class="v">复制 <span class="num">25.5% → 36.5%</span><br/>转译 <span class="num">约 14%</span></div></div><div class="row"><div class="k">效果</div><div class="v">网络密度 <span class="num">0 → 约 0.6</span></div></div></div>
+<figure class="fig"><img src="figures/ch07_fig01_discourse_network_topology_m.png" alt=""><figcaption>17 个决策局的话语相似度网络</figcaption></figure>
 </div>
 </div>
 
@@ -323,12 +298,11 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="on">论文 · 发现</span><span class="">论文 · 结论</span><span class="pg">13 / 16</span></div></div>
-<h1>机制三 · 互动：政治立场不再决定话语</h1>
-<div class="lede">社会再生产：府会问答中的话语校准</div>
+<h1>机制三 · 互动</h1>
 <div class="body">
 <div class="split">
-<div class="rows"><div class="row"><div class="k">发现</div><div class="v">建制派 <span class="num">0.759</span> 与非建制派 <span class="num">0.760</span> 无显著差异<span style="white-space:nowrap">（p = 0.858）</span>；<span class="num">91.8%</span> 的差异来自同一议员的不同质询</div></div><div class="row"><div class="k">情境</div><div class="v">口头质询高于书面质询；工商金融界别高于专业界别；非建制派借国家话语问责（<b>批判性同构</b>）</div></div><div class="row"><div class="k">校准</div><div class="v">政府答复对低同构质询向上拉，对高同构质询落到执行；国家话语成为各方通用的政治资源</div></div></div>
-<figure class="fig"><img src="figures/ch08_fig02_yearly_camp_trend_m.png" alt=""><figcaption>建制派与非建制派议员质询的 DA 指数年度均值，2012–2025。</figcaption></figure>
+<div class="rows "><div class="row"><div class="k">发现</div><div class="v">建制派 <span class="num">0.759</span><br/>非建制派 <span class="num">0.760</span></div></div><div class="row"><div class="k">来源</div><div class="v"><span class="num">91.8%</span> 的差异在同一议员内部</div></div><div class="row"><div class="k">含义</div><div class="v">立场标签 → 通用政治资源</div></div></div>
+<figure class="fig"><img src="figures/ch08_fig02_yearly_camp_trend_m.png" alt=""><figcaption>两派议员质询的同构指数，2012–2025</figcaption></figure>
 </div>
 </div>
 
@@ -351,19 +325,18 @@ lang: zh-CN
 ---
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="on">论文 · 结论</span><span class="pg">14 / 16</span></div></div>
-<h1>从“行政吸纳政治”到“话语同构行政”</h1>
-<div class="lede">结论与贡献</div>
+<h1>结论</h1>
 <div class="body">
-<div class="turn">
-<div><div class="lab">金耀基（1975）</div><div class="big">行政吸纳政治</div><div class="ex">行政体系消解政治</div></div>
+<div class="turn tall">
+<div><div class="lab">金耀基（1975）</div><div class="big">行政吸纳政治</div></div>
 <div class="ar">→</div>
-<div><div class="lab">本研究</div><div class="big on">话语同构行政</div><div class="ex">国家政治意志经由话语重塑行政体系</div></div>
+<div><div class="lab">本研究</div><div class="big on">话语同构行政</div></div>
 </div>
-<div class="fill"><table class="t open"><tbody>
-<tr><td class="k" style="width:190px">央地关系</td><td>在人事、财政之外，提出话语作为<b>“认知基础设施”</b>的整合机制</td></tr>
-<tr><td class="k">制度同构理论</td><td>面向政治场域的调整：规制、策略性模仿、互动</td></tr>
-<tr><td class="k">测量方法</td><td>“形似—神似”双重测量，结合时间序列、双重差分、多层模型与网络分析</td></tr>
-</tbody></table></div>
+<div class="three slim bottom">
+<div><div class="lab">央地关系</div><p>话语作为“认知基础设施”</p></div>
+<div><div class="lab">制度同构理论</div><p>规制 · 模仿 · 互动</p></div>
+<div><div class="lab">测量方法</div><p>形似—神似双重测量</p></div>
+</div>
 </div>
 
 <!--
@@ -386,14 +359,12 @@ lang: zh-CN
 
 <div class="nav"><div>孙宇飞 · 个人学术报告</div><div class="items"><span class="">个人经历</span><span class="">研究</span><span class="">教学</span><span class="">论文 · 问题</span><span class="">论文 · 方法</span><span class="">论文 · 发现</span><span class="on">论文 · 结论</span><span class="pg">15 / 16</span></div></div>
 <h1>接下来的研究</h1>
-<div class="lede">两条主线，一个交叉方向</div>
 <div class="body">
 <div class="three">
-<div><div class="lab">主线一</div><h3>计算政治学</h3><p>把同构指数发展为可复用的政治文本测量工具，结合大模型开源发布</p><p>基础：博士论文语料与模型、Bureaucratese</p></div>
-<div><div class="lab">主线二</div><h3>比较政治学</h3><p>跨国比较中的话语扩散与国家形象</p><p>基础：西巴尔干五国、美国孔子学院研究</p></div>
-<div><div class="lab">交叉方向</div><h3>比较地方治理</h3><p>用计算方法比较不同地区、不同国家的地方政府回应与治理绩效</p><p>基础：领导留言板、地方治理系列研究</p></div>
+<div><div class="lab">主线一</div><h3>计算政治学</h3><p>政治文本测量工具</p></div>
+<div><div class="lab">主线二</div><h3>比较政治学</h3><p>跨国比较中的话语扩散</p></div>
+<div><div class="lab">交叉方向</div><h3>比较地方治理</h3><p>地方政府回应与治理绩效</p></div>
 </div>
-<div class="closing">研究平台：37 万份语料与同构指数模型，可用于团队研究和计算社会科学教学。</div>
 </div>
 
 <!--
@@ -417,7 +388,6 @@ lang: zh-CN
 <h1 class="long">谢谢各位老师</h1>
 <div class="bar"></div>
 <div class="who">敬请批评指正</div>
-<div class="en">孙宇飞 · 清华大学社会科学学院政治学系</div>
 <div class="logo"><img src="figures/logos/thu-fig-logo.png" alt=""><img src="figures/logos/thu-text-logo.png" alt="清华大学"></div>
 
 <!--
