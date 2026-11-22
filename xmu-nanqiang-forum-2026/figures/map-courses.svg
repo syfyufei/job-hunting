@@ -43,38 +43,42 @@
 <text x="176" y="105.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">美国 / 西巴尔干</text>
 <text x="22" y="290.0" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 290.0)">研究范围：从中国到比较 →</text>
 <g opacity="0.28">
-<circle cx="260.7" cy="490.0" r="11" fill="#0C62B0"/>
-<text x="280.7" y="488.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">条块发包与基层治理</text>
-<text x="280.7" y="510.0" text-anchor="start" font-size="15" fill="#4A5568">公共行政评论 2020</text>
-<circle cx="392.0" cy="430.0" r="11" fill="#0C62B0"/>
-<text x="412.0" y="428.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">助推型政策</text>
-<text x="412.0" y="450.0" text-anchor="start" font-size="15" fill="#4A5568">公共管理与政策评论 2021</text>
-<circle cx="553.5999999999999" cy="510.0" r="11" fill="#0C62B0"/>
-<text x="573.5999999999999" y="508.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">地方治理的“能力空间”</text>
-<text x="573.5999999999999" y="530.0" text-anchor="start" font-size="15" fill="#4A5568">广州大学学报 2023</text>
+<circle cx="250.6" cy="510.0" r="11" fill="#0C62B0"/>
+<text x="270.6" y="508.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">条块发包与基层治理</text>
+<text x="270.6" y="530.0" text-anchor="start" font-size="15" fill="#4A5568">公共行政评论 2020</text>
+<circle cx="331.4" cy="440.0" r="11" fill="#0C62B0"/>
+<text x="351.4" y="438.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">助推型政策</text>
+<text x="351.4" y="460.0" text-anchor="start" font-size="15" fill="#4A5568">公共管理与政策评论 2021 · 通讯作者</text>
+<circle cx="392.0" cy="360.0" r="11" fill="#0C62B0"/>
+<text x="412.0" y="358.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">公共服务动机激发</text>
+<text x="412.0" y="380.0" text-anchor="start" font-size="15" fill="#4A5568">公共管理与政策评论 2025 · 学生一作</text>
+<circle cx="614.2" cy="510.0" r="11" fill="#0C62B0"/>
+<text x="634.2" y="508.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">地方治理的“能力空间”</text>
+<text x="634.2" y="530.0" text-anchor="start" font-size="15" fill="#4A5568">广州大学学报 2023 · 第一作者</text>
 <circle cx="493.0" cy="75.0" r="11" fill="#0C62B0"/>
 <text x="513.0" y="73.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">孔子学院关闭与国家形象</text>
-<text x="513.0" y="95.0" text-anchor="start" font-size="15" fill="#4A5568">CJIP 2022 · SSCI Q1</text>
-<circle cx="998.0" cy="160.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
-<text x="978.0" y="158.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">一带一路与西巴尔干五国媒体叙事</text>
-<text x="978.0" y="180.0" text-anchor="end" font-size="15" fill="#4A5568">跨国面板 + 媒体文本 · 审稿中</text>
+<text x="513.0" y="95.0" text-anchor="start" font-size="15" fill="#4A5568">CJIP 2022 · SSCI Q1 · 通讯作者</text>
+<circle cx="998.0" cy="160.0" r="17" fill="none" stroke="#A8742C" stroke-width="2.5"/>
+<circle cx="998.0" cy="160.0" r="11" fill="#0C62B0"/>
+<text x="972.0" y="158.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">西巴尔干五国：从“硬联通”到“心联通”</text>
+<text x="972.0" y="180.0" text-anchor="end" font-size="15" fill="#4A5568">《中国社会科学》拟录用 · 通讯作者</text>
 <circle cx="897.0" cy="290.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
 <text x="877.0" y="288.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">领导留言板：政府回应性</text>
 <text x="877.0" y="310.0" text-anchor="end" font-size="15" fill="#4A5568">与东京大学伊藤亚圣合作 · 大规模文本</text>
-<circle cx="664.7" cy="390.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
-<text x="684.7" y="388.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">官话研究</text>
-<text x="684.7" y="410.0" text-anchor="start" font-size="15" fill="#4A5568">眼动实验 + 大模型</text>
+<circle cx="1038.4" cy="430.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+<text x="1018.4000000000001" y="428.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">官话识别（Bureaucratese）</text>
+<text x="1018.4000000000001" y="450.0" text-anchor="end" font-size="15" fill="#4A5568">BERT 模型 · 开源工具</text>
 </g>
 <rect x="428.5" y="131.0" width="129" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
 <text x="493.0" y="156.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">比较政治学</text>
 <rect x="865.8000000000001" y="211.0" width="224" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
-<text x="977.8000000000001" y="236.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">大模型与政治文本分析</text>
+<text x="977.8000000000001" y="236.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">大模型与社会科学研究</text>
 <rect x="471.29999999999995" y="301.0" width="205" height="38" rx="19" fill="#A8742C" stroke="#A8742C" stroke-width="1.6"/>
 <text x="573.8" y="326.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">因果推断与研究设计</text>
 <rect x="240.79999999999995" y="371.0" width="262" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
 <text x="371.79999999999995" y="396.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">港澳台政治与“一国两制”</text>
-<rect x="782.6" y="411.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
-<text x="856.6" y="436.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">政治话语分析</text>
+<rect x="641.2" y="411.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
+<text x="715.2" y="436.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">政治话语分析</text>
 <rect x="742.2" y="321.0" width="148" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>
 <text x="816.2" y="346.0" text-anchor="middle" font-size="18" font-weight="700" fill="#A8742C">社会网络分析</text>
 <rect x="929.5999999999999" y="481.0" width="258" height="38" rx="19" fill="#FFFFFF" stroke="#A8742C" stroke-width="1.6"/>

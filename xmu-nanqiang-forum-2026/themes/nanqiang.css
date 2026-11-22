@@ -146,3 +146,20 @@ section:not(.lead)::before {
 .pillar h3 { font-size: 24px; margin: 0.1em 0 0.4em; }
 .pl-row { display: grid; grid-template-columns: 52px 1fr; gap: 10px; font-size: 18px; line-height: 1.6; padding: 8px 0; border-top: 1px dashed var(--rule); }
 .pl-k { font-size: 14px; font-weight: 700; color: var(--nq-gold-deep); letter-spacing: 0.1em; padding-top: 2px; }
+
+/* 五节点时间线 */
+.timeline.t5 { grid-template-columns: repeat(5, 1fr); margin-top: 0.6em; }
+.timeline.t5 .tl-org { font-size: 21px; }
+.timeline.t5 .tl-role { font-size: 15.5px; line-height: 1.55; }
+.timeline.t5 .tl-item { padding: 0 10px; }
+
+/* 成果数字条 */
+.statbar { display: grid; grid-template-columns: 0.7fr 1.5fr 1fr 0.8fr 0.8fr; gap: 0; margin-top: 1em; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 0.55em 0; }
+.statbar > div { text-align: center; border-left: 1px solid var(--rule); }
+.statbar > div:first-child { border-left: none; }
+.sb-n { font-size: 26px; font-weight: 800; color: var(--nq-blue); line-height: 1.2; }
+.sb-l { font-size: 13.5px; color: var(--ink-mute); letter-spacing: 0.06em; margin-top: 2px; }
+
+/* 备用页发表清单 */
+.pubs ol { font-size: 17px; line-height: 1.55; padding-left: 1.4em; margin-top: 0.2em; }
+.pubs li { margin: 0.32em 0; }

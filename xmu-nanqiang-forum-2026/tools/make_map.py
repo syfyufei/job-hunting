@@ -12,14 +12,15 @@ def px(u): return X0 + u * (X1 - X0)
 def py(v): return Y1 - v * (Y1 - Y0)
 
 RESEARCH = [
-  # u, v, title, sub, status(pub|wip|thesis), anchor
-  (0.07, 0.10, "条块发包与基层治理", "公共行政评论 2020", "pub", "start"),
-  (0.20, 0.22, "助推型政策", "公共管理与政策评论 2021", "pub", "start"),
-  (0.36, 0.06, "地方治理的“能力空间”", "广州大学学报 2023", "pub", "start"),
-  (0.30, 0.93, "孔子学院关闭与国家形象", "CJIP 2022 · SSCI Q1", "pub", "start"),
-  (0.80, 0.76, "一带一路与西巴尔干五国媒体叙事", "跨国面板 + 媒体文本 · 审稿中", "wip", "end"),
+  # u, v, title, sub, status(top|pub|wip), anchor
+  (0.06, 0.06, "条块发包与基层治理", "公共行政评论 2020", "pub", "start"),
+  (0.14, 0.20, "助推型政策", "公共管理与政策评论 2021 · 通讯作者", "pub", "start"),
+  (0.20, 0.36, "公共服务动机激发", "公共管理与政策评论 2025 · 学生一作", "pub", "start"),
+  (0.42, 0.06, "地方治理的“能力空间”", "广州大学学报 2023 · 第一作者", "pub", "start"),
+  (0.30, 0.93, "孔子学院关闭与国家形象", "CJIP 2022 · SSCI Q1 · 通讯作者", "pub", "start"),
+  (0.80, 0.76, "西巴尔干五国：从“硬联通”到“心联通”", "《中国社会科学》拟录用 · 通讯作者", "top", "end"),
   (0.70, 0.50, "领导留言板：政府回应性", "与东京大学伊藤亚圣合作 · 大规模文本", "wip", "end"),
-  (0.47, 0.30, "官话研究", "眼动实验 + 大模型", "wip", "start"),
+  (0.84, 0.22, "官话识别（Bureaucratese）", "BERT 模型 · 开源工具", "wip", "end"),
 ]
 
 COURSES = json.loads(pathlib.Path(__file__).with_name("courses.json").read_text()) if pathlib.Path(__file__).with_name("courses.json").exists() else []
@@ -58,13 +59,16 @@ def svg(layer):
     o.append(f'<g opacity="{fade}">')
     for u, v, t, sub, st, anc in RESEARCH:
         x, y = px(u), py(v)
-        if st == "pub":
+        if st == "top":
+            o.append(f'<circle cx="{x}" cy="{y}" r="17" fill="none" stroke="#A8742C" stroke-width="2.5"/>')
+            o.append(f'<circle cx="{x}" cy="{y}" r="11" fill="#0C62B0"/>')
+        elif st == "pub":
             o.append(f'<circle cx="{x}" cy="{y}" r="11" fill="#0C62B0"/>')
         elif st == "wip":
             o.append(f'<circle cx="{x}" cy="{y}" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>')
         else:
             o.append(f'<circle cx="{x}" cy="{y}" r="11" fill="none" stroke="#8A94A6" stroke-width="2" stroke-dasharray="4 3"/>')
-        dx = 20 if anc == "start" else -20
+        dx = (26 if st == "top" else 20) * (1 if anc == "start" else -1)
         col = "#8A94A6" if st == "thesis" else "#0A3F78"
         o.append(f'<text x="{x+dx}" y="{y-2}" text-anchor="{anc}" font-size="19" font-weight="700" fill="{col}">{t}</text>')
         o.append(f'<text x="{x+dx}" y="{y+20}" text-anchor="{anc}" font-size="15" fill="#4A5568">{sub}</text>')
@@ -78,7 +82,7 @@ def svg(layer):
             o.append(f'<text x="{x}" y="{y+6}" text-anchor="middle" font-size="18" font-weight="700" fill="{"#FFFFFF" if core else "#A8742C"}">{t}</text>')
         legend = [("#A8742C", "fill", "可开设课程（重点）"), ("#A8742C", "line", "可开设课程")]
     else:
-        legend = [("#0C62B0", "fill", "已发表"), ("#0C62B0", "line", "审稿中 / 进行中")]
+        legend = [("#0C62B0", "fill", "已发表 / 已录用"), ("#0C62B0", "line", "进行中 / 开源工具")]
     lx = X0 + 20
     for col, kind, lab in legend:
         if kind == "fill": o.append(f'<circle cx="{lx}" cy="{Y0+12}" r="7" fill="{col}"/>')

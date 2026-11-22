@@ -33,27 +33,34 @@ lang: zh-CN
 
 <div class="kicker">第一部分 · 个人经历</div>
 
-# 从国际政治，到计算政治学
+# 从国际政治，到大数据政治学
 
-<div class="timeline">
-<div class="tl-item"><div class="tl-year">2016–2020</div><div class="tl-dot"></div><div class="tl-org">山东大学</div><div class="tl-role">国际政治 · 学士</div></div>
-<div class="tl-item hot"><div class="tl-year">2020–2026</div><div class="tl-dot"></div><div class="tl-org">清华大学</div><div class="tl-role">政治学 · 法学博士（直博）<br/>导师 胡悦 · 学位课绩点 4.0<br/>国家奖学金 · <strong>优秀博士学位论文</strong></div></div>
-<div class="tl-item"><div class="tl-year">2024–2025</div><div class="tl-dot"></div><div class="tl-org">东京大学社会科学研究所</div><div class="tl-role">访问研究员<br/>讲授 R 与文本分析工作坊</div></div>
-<div class="tl-item"><div class="tl-year">2026 至今</div><div class="tl-dot"></div><div class="tl-org">美团</div><div class="tl-role">大模型算法工程师<br/>智能客服 Agent</div></div>
+<div class="timeline t5">
+<div class="tl-item"><div class="tl-year">2016–2020</div><div class="tl-dot"></div><div class="tl-org">山东大学</div><div class="tl-role">国际政治 · 法学学士<br/>专业排名 1/23<br/>山东省优秀毕业生</div></div>
+<div class="tl-item hot"><div class="tl-year">2020–2026</div><div class="tl-dot"></div><div class="tl-org">清华大学</div><div class="tl-role">政治学（大数据政治学方向）<br/>法学博士 · 专业排名 1/89<br/><strong>优秀博士学位论文</strong><br/>优秀博士毕业生</div></div>
+<div class="tl-item"><div class="tl-year">2021 至今</div><div class="tl-dot"></div><div class="tl-org">清华 R Workshop</div><div class="tl-role">讲师<br/>R 语言、自然语言处理<br/>累计选课超千人</div></div>
+<div class="tl-item"><div class="tl-year">2024–2025</div><div class="tl-dot"></div><div class="tl-org">东京大学<br/>社会科学研究所</div><div class="tl-role">客员研究员<br/>全英文主讲<br/>《大模型与社会科学研究》</div></div>
+<div class="tl-item"><div class="tl-year">2025 至今</div><div class="tl-dot"></div><div class="tl-org">美团 Keeta</div><div class="tl-role">大模型算法工程师<br/>智能客服 / 外呼<br/>Agent Harness</div></div>
 </div>
 
-<div class="punch" style="font-size: 21px;">一条主线：用计算方法研究政治，把比较视野带进中国研究</div>
+<div class="statbar">
+<div><div class="sb-n">8 篇</div><div class="sb-l">学术发表</div></div>
+<div><div class="sb-n">《中国社会科学》</div><div class="sb-l">拟录用 · 通讯作者</div></div>
+<div><div class="sb-n">SSCI Q1</div><div class="sb-l">CJIP · 通讯作者</div></div>
+<div><div class="sb-n">4 篇</div><div class="sb-l">其他 CSSCI</div></div>
+<div><div class="sb-n">3 次</div><div class="sb-l">国家奖学金</div></div>
+</div>
 
 <!--
 先简单介绍我的经历。
 
-【指第一个节点】我本科在山东大学读国际政治，【指第二个节点】2020 年直博进入清华大学政治学系，导师是胡悦老师。博士期间学位课绩点 4.0，获得过国家奖学金，博士论文获评清华大学优秀博士学位论文。
+【指第一个节点】我本科在山东大学读国际政治，专业排名第一，获评山东省优秀毕业生。【指第二个节点】2020 年直博进入清华大学政治学系，方向是大数据政治学，专业排名第一，博士论文获评清华大学优秀博士学位论文，本人也获评优秀博士毕业生。
 
-【指第三个节点】2024 到 2025 年，我在东京大学社会科学研究所做了半年访问研究员，期间为那里的学生讲授 R 和文本分析工作坊。
+【指第三、四个节点】教学上，我从 2021 年起担任清华 R Workshop 讲师，讲授 R 语言和自然语言处理，累计选课超过一千人；2024 年在东京大学社会科学研究所做客员研究员，用全英文主讲《大模型与社会科学研究》。
 
-【指第四个节点】毕业后，我在美团做大模型算法工程师，负责智能客服 Agent。这段经历让我有机会在真实场景里把大模型做到落地，也让我更清楚这些工具能为社会科学研究做什么、不能做什么。
+【指第五个节点】2025 年起，我在美团做大模型算法工程师，负责智能客服和智能外呼的 Agent Harness 系统。
 
-【指底部】这几段经历连起来，是一条主线：用计算方法研究政治，把比较视野带进中国研究。
+【指底部】发表方面，我共发表 8 篇论文，其中一篇作为通讯作者被《中国社会科学》拟录用，一篇 SSCI 一区，另有 4 篇 CSSCI。
 
 【翻页】
 -->
@@ -71,13 +78,13 @@ lang: zh-CN
 
 【指横轴】横轴是方法能力，从左边的案例访谈、调查实验，到因果推断、多层模型，再到右边的网络分析、文本分析、机器学习和大模型；【指纵轴】纵轴是研究范围，从中国地方，到央地和香港，再到东亚和跨国比较。
 
-【指左下】我的研究从地方治理和基层治理起步，发表在《公共行政评论》《公共管理与政策评论》等期刊。
+【指左下】我的研究从地方治理和基层治理起步，也做过公共服务动机和助推政策的调查实验，发表在《公共管理与政策评论》《公共行政评论》等期刊。
 
-【指上方】随后走向跨国比较：关于美国孔子学院关闭的研究，发表在 SSCI 一区期刊 CJIP；关于一带一路与西巴尔干五国媒体叙事的研究正在审稿。
+【指上方】随后走向跨国比较：关于美国孔子学院关闭的研究发表在 SSCI 一区期刊 CJIP；关于西巴尔干五国的研究，讨论基础设施合作如何从“硬联通”走向“心联通”，已被《中国社会科学》拟录用。
 
-【指右侧】方法上越来越偏向计算：和东京大学伊藤亚圣老师合作，用领导留言板的大规模文本研究政府回应性；〔可删〕官话研究则把眼动实验和大模型结合起来。
+【指右侧】方法上越来越偏向计算：和东京大学伊藤亚圣老师合作，用领导留言板的大规模文本研究政府回应性；还开发了基于 BERT 的官话识别工具。
 
-【指浅蓝区域】可以看到，我近几年的工作正在向右上角集中，也就是计算政治学和比较政治学的交叉地带。
+【指浅蓝区域】可以看到，我的工作正在向右上角集中，也就是计算政治学和比较政治学的交叉地带。
 
 【翻页】
 -->
@@ -93,18 +100,18 @@ lang: zh-CN
 
 ### 计算社会科学
 
-<div class="pl-row"><span class="pl-k">研究</span><span>37 万份政府文本 + BERT 同构指数 · 领导留言板大规模文本 · 西巴尔干媒体文本</span></div>
-<div class="pl-row"><span class="pl-k">开源</span><span><strong>Survey Agent</strong> · <strong>Harness</strong>（Agent 系统与公共组织的比较研究）· CRAN 包 regioncode / drhur · 社科研究大模型插件</span></div>
-<div class="pl-row"><span class="pl-k">产业</span><span>美团<strong>大模型算法工程师</strong>：智能客服 Agent 从设计到上线</span></div>
+<div class="pl-row"><span class="pl-k">研究</span><span>大数据政治学方向博士 · 37 万份政府文本 + BERT 同构指数 · 领导留言板大规模文本</span></div>
+<div class="pl-row"><span class="pl-k">开源</span><span><strong>Triad</strong>：社会科学理论驱动的 Agent Harness · <strong>SurveyAgent</strong>：大模型问卷实验仿真 · <strong>Bureaucratese</strong>：官话识别 · <strong>regioncode</strong>：CRAN，下载 1.7 万+</span></div>
+<div class="pl-row"><span class="pl-k">产业</span><span>美团<strong>大模型算法工程师</strong>：Agent Harness、自我改进闭环、后训练与评测 · NVIDIA 生成式 AI 认证</span></div>
 
 </div>
 <div class="pillar">
 
 ### 比较政治学
 
-<div class="pl-row"><span class="pl-k">训练</span><span>山东大学国际政治 · 东京大学社会科学研究所访问研究员</span></div>
-<div class="pl-row"><span class="pl-k">研究</span><span>美国孔子学院关闭（CJIP）· 一带一路与西巴尔干五国 · 香港“一国两制” · 数字治理中的政府回应性</span></div>
-<div class="pl-row"><span class="pl-k">教学</span><span>清华大学《政治话语分析》· 东京大学 R 与文本分析工作坊</span></div>
+<div class="pl-row"><span class="pl-k">训练</span><span>山东大学国际政治 · 东京大学社会科学研究所客员研究员</span></div>
+<div class="pl-row"><span class="pl-k">研究</span><span>西巴尔干五国（<strong>《中国社会科学》</strong>拟录用）· 美国孔子学院关闭（<strong>CJIP</strong>）· 香港“一国两制” · 数字治理中的政府回应性</span></div>
+<div class="pl-row"><span class="pl-k">教学</span><span>东京大学<strong>全英文</strong>《大模型与社会科学研究》· 清华 R Workshop 讲师，累计选课超千人</span></div>
 
 </div>
 </div>
@@ -112,9 +119,9 @@ lang: zh-CN
 <!--
 具体来说，我有两项核心能力。
 
-【指左栏】第一是计算社会科学。研究上，我处理过 37 万份政府文本，训练了基于 BERT 的同构指数模型，也做过大规模的留言板文本和跨国媒体文本。开源上，我做了 Survey Agent，也在做 Harness 研究——把大模型 Agent 系统当作一种组织形式，和公共组织做比较；〔可删〕此外还在 CRAN 上发布了两个 R 包。产业上，我现在是美团的大模型算法工程师，负责智能客服 Agent 从设计到上线。
+【指左栏】第一是计算社会科学。研究上，我的博士方向就是大数据政治学，处理过 37 万份政府文本，训练了基于 BERT 的同构指数模型。开源上，我独立开发了几个面向社会科学的工具：Triad 是一个由社会科学理论驱动的 Agent Harness 架构；SurveyAgent 用大模型 Agent 模拟问卷实验，可以用于舆情模拟和干预测试；还有官话识别工具 Bureaucratese，以及在 CRAN 上发布、下载量超过一万七千次的 regioncode。产业上，我现在是美团的大模型算法工程师，做 Agent Harness、自我改进闭环，也参与大模型的后训练和评测。
 
-【指右栏】第二是比较政治学。我本科读国际政治，又在东京大学做过访问研究。研究覆盖美国的孔子学院、西巴尔干五国、香港，以及数字治理中的政府回应性。教学上，我在清华讲过《政治话语分析》，在东京大学讲过 R 与文本分析工作坊。
+【指右栏】第二是比较政治学。我本科读国际政治，又在东京大学做过客员研究员。研究覆盖西巴尔干五国、美国的孔子学院、香港，以及数字治理中的政府回应性。教学上，我在东京大学用全英文讲过《大模型与社会科学研究》，在清华 R Workshop 讲课，累计选课超过一千人。
 
 【翻页】
 -->
@@ -130,11 +137,11 @@ lang: zh-CN
 <!--
 最后，回到同一张图，看看我能为系里开哪些课。金色标签是我能开设的课程。
 
-【指金色实心】我最想重点开设的是三门：一是比较政治学；二是因果推断与研究设计；三是大模型与政治文本分析。这三门课一门补比较视野，一门补研究设计，一门把大模型方法带进政治学教学。
+【指金色实心】我最想重点开设三门：一是比较政治学；二是因果推断与研究设计；三是大模型与社会科学研究，这门课我已经在东京大学用全英文讲过。三门课分别补比较视野、补研究设计、把大模型方法带进政治学教学。
 
-【指金色空心】此外，我还可以开设港澳台政治与“一国两制”、政治话语分析、社会网络分析、调查实验方法，以及面向社会科学的 R 和 Python 编程。
+【指金色空心】此外，我还可以开设港澳台政治与“一国两制”、政治话语分析、社会网络分析、调查实验方法，以及面向社会科学的 R 和 Python 编程，后者在清华已经有千人规模的教学经验。
 
-这些课程和系里已有的计算社会科学、政治传播、定量方法等课程可以衔接，形成从方法入门到专题研究的完整链条。
+这些课程可以和系里已有的计算社会科学、政治传播、定量方法等课程衔接，形成从方法入门到专题研究的完整链条。
 
 以上是我的个人介绍。
 
@@ -582,4 +589,29 @@ lang: zh-CN
 以上是我的汇报。谢谢各位老师，请批评指正。
 
 【微笑，停住，等待提问】
+-->
+
+---
+
+<!-- _paginate: false -->
+
+<div class="kicker">备用页 · 问答时使用</div>
+
+# 学术发表（8 篇）
+
+<div class="pubs">
+
+1. 杨雪冬, **孙宇飞（通讯作者）**, 靳乔. 从“硬联通”到“心联通”的转化机制——以西巴尔干五国为例. **《中国社会科学》**, 2027.〔CSSCI，拟录用〕
+2. Hu Y, **Sun Y（通讯作者）**, Lien D. The resistance and resilience of national image building: An empirical analysis of Confucius Institute closures in the USA. ***Chinese Journal of International Politics***, 2022, 15(2): 209-226.〔SSCI Q1〕
+3. 胡悦, **孙宇飞（学生一作）**, 陈子怡. 扣动公心之弦：公共服务动机激发机制适用性与稳定性研究. 《公共管理与政策评论》, 2025, 14(1): 54-71.〔CSSCI〕
+4. 胡悦, **孙宇飞**, 汤霓. 灌输·信号·说服——思想政治教育政治社会化效果的实验研究. 《政治与公共管理研究》, 2025(1): 123-141.
+5. **孙宇飞**, 杨雪冬. 地方治理的“能力空间”与疫情防控压力的传导变异. 《广州大学学报（社会科学版）》, 2023, 22(2): 71-81.〔CSSCI〕
+6. 李振, **孙宇飞（通讯作者）**. 为何需要助推型政策：理解居民健康意识和行为的不同步. 《公共管理与政策评论》, 2021, 10(1): 31-41.〔CSSCI〕
+7. 赵泽群, **孙宇飞**, 邱懿. 高职专业选择满意度影响因素、问题与展望. 《中国职业技术教育》, 2021(19): 82-86.〔北大核心〕
+8. 李振, 王浩瑜, **孙宇飞**, 等. “条块并举”发包制下的基层治理. 《公共行政评论》, 2020, 13(3): 102-117.〔CSSCI〕
+
+</div>
+
+<!--
+（备用页，不计入正式汇报时间。被问到发表情况时翻到这里，按需要逐条说明。）
 -->
