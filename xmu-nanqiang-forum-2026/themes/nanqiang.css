@@ -115,7 +115,7 @@ section.tight { font-size: 22px; }
 @media print { section { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
 
 /* 内容页顶部对齐（封面/致谢仍居中） */
-section:not(.lead) { justify-content: flex-start !important; padding-top: 48px !important; }
+section:not(.lead) { place-content: start !important; padding-top: 48px !important; }
 
 /* 校徽 */
 .logo-host { position: absolute; top: 40px; left: 96px; height: 58px; margin: 0; }
@@ -128,3 +128,21 @@ section:not(.lead)::before {
   content: ""; position: absolute; left: 44px; bottom: 20px; width: 26px; height: 26px;
   background: url('figures/logos/thu-fig-logo.png') center / contain no-repeat; opacity: 0.55;
 }
+
+/* 时间线 */
+.timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin-top: 1.2em; position: relative; }
+.timeline::before { content: ""; position: absolute; left: 4%; right: 4%; top: 52px; height: 2px; background: linear-gradient(90deg, #660874, #0C62B0, #A8742C); }
+.tl-item { padding: 0 14px; position: relative; }
+.tl-year { font-size: 16px; font-weight: 700; color: var(--ink-mute); letter-spacing: 0.04em; height: 34px; }
+.tl-dot { width: 18px; height: 18px; border-radius: 50%; background: #FFFFFF; border: 3px solid var(--nq-blue); margin: 0 0 16px 0; position: relative; z-index: 1; }
+.tl-item.hot .tl-dot { background: var(--th-purple); border-color: var(--nq-gold); }
+.tl-org { font-size: 24px; font-weight: 800; color: var(--nq-blue-deep); line-height: 1.3; }
+.tl-role { font-size: 18px; color: var(--ink-soft); line-height: 1.6; margin-top: 6px; }
+.tl-item.hot .tl-year { color: var(--th-purple); }
+
+/* 两项核心能力 */
+.pillars { margin-top: 0.4em; }
+.pillar { background: #FFFFFF; border: 1px solid var(--rule); border-top: 4px solid var(--nq-blue); border-radius: 6px; padding: 0.6em 1em 0.8em; }
+.pillar h3 { font-size: 24px; margin: 0.1em 0 0.4em; }
+.pl-row { display: grid; grid-template-columns: 52px 1fr; gap: 10px; font-size: 18px; line-height: 1.6; padding: 8px 0; border-top: 1px dashed var(--rule); }
+.pl-k { font-size: 14px; font-weight: 700; color: var(--nq-gold-deep); letter-spacing: 0.1em; padding-top: 2px; }

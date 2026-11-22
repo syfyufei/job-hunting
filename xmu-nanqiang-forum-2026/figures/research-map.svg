@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 620" width="1240" height="620" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10z" fill="#A8742C"/>
+    </marker>
+  </defs>
+
+  <!-- target quadrant: computational × comparative -->
+  <rect x="660" y="40" width="520" height="260" fill="#0C62B0" fill-opacity="0.07"/>
+  <text x="664" y="30" font-size="17" font-weight="700" fill="#0C62B0" fill-opacity="0.8">计算政治学 × 比较政治学</text>
+
+  <!-- grid -->
+  <g stroke="#D5DCE6" stroke-width="1">
+    <line x1="660" y1="40" x2="660" y2="560" stroke-dasharray="4 5"/>
+    <line x1="140" y1="300" x2="1180" y2="300" stroke-dasharray="4 5"/>
+  </g>
+  <!-- axes -->
+  <g stroke="#4A5568" stroke-width="1.5" fill="none">
+    <line x1="140" y1="560" x2="1190" y2="560" marker-end="url(#ax)"/>
+    <line x1="140" y1="560" x2="140" y2="30"/>
+  </g>
+  <path d="M1190 554 L1202 560 L1190 566z" fill="#4A5568"/>
+  <path d="M134 32 L140 20 L146 32z" fill="#4A5568"/>
+
+  <!-- axis ticks & labels -->
+  <g font-size="15" fill="#4A5568" text-anchor="middle">
+    <text x="300" y="586">案例 / 质性</text>
+    <text x="660" y="586">定量因果识别</text>
+    <text x="1040" y="586">计算 / 大模型</text>
+    <text x="660" y="612" font-size="16" font-weight="700" fill="#0A3F78">研究方法 →</text>
+  </g>
+  <g font-size="15" fill="#4A5568" text-anchor="end">
+    <text x="128" y="510">中国地方</text>
+    <text x="128" y="305">央地 · 港澳</text>
+    <text x="128" y="96">跨国比较</text>
+  </g>
+  <text x="34" y="300" font-size="16" font-weight="700" fill="#0A3F78" text-anchor="middle" transform="rotate(-90 34 300)">研究范围 →</text>
+
+  <!-- future agenda arrows -->
+  <g stroke="#A8742C" stroke-width="1.8" stroke-dasharray="6 5" fill="none" marker-end="url(#arr)">
+    <path d="M1050 240 C 1080 170 1100 120 1112 82"/>
+    <path d="M940 360 C 1020 330 1080 280 1120 214"/>
+  </g>
+  <g fill="none" stroke="#A8742C" stroke-width="1.8" stroke-dasharray="5 4">
+    <circle cx="1120" cy="68" r="14"/>
+    <circle cx="1128" cy="200" r="14"/>
+  </g>
+  <g font-size="15" fill="#A8742C" font-weight="700" text-anchor="end">
+    <text x="1096" y="58">研究议程：港澳台 · 日本话语比较</text>
+    <text x="1104" y="186">研究议程：大模型政治文本测量</text>
+  </g>
+
+  <!-- projects: filled = published / completed; outline = under review / in progress -->
+  <!-- A dissertation -->
+  <circle cx="1030" cy="272" r="30" fill="#0C62B0"/>
+  <text x="1030" y="278" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">优博</text>
+  <text x="992" y="262" text-anchor="end" font-size="16" font-weight="700" fill="#0A3F78">博士论文：香港话语同构</text>
+  <text x="992" y="284" text-anchor="end" font-size="13" fill="#4A5568">37 万文本 · BERT · ITS / DID / 网络分析</text>
+
+  <!-- B Western Balkans -->
+  <circle cx="880" cy="104" r="20" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+  <text x="852" y="98" text-anchor="end" font-size="16" font-weight="700" fill="#0A3F78">一带一路与西巴尔干五国媒体叙事</text>
+  <text x="852" y="120" text-anchor="end" font-size="13" fill="#4A5568">跨国面板 · 媒体文本 · 审稿中（已多轮修改）</text>
+
+  <!-- C Confucius Institutes -->
+  <circle cx="560" cy="160" r="20" fill="#0C62B0"/>
+  <text x="532" y="154" text-anchor="end" font-size="16" font-weight="700" fill="#0A3F78">孔子学院关闭与国家形象</text>
+  <text x="532" y="176" text-anchor="end" font-size="13" fill="#4A5568">CJIP 2022 · SSCI Q1</text>
+
+  <!-- D message board with UTokyo -->
+  <circle cx="912" cy="372" r="18" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+  <text x="884" y="366" text-anchor="end" font-size="16" font-weight="700" fill="#0A3F78">领导留言板：政府回应性</text>
+  <text x="884" y="388" text-anchor="end" font-size="13" fill="#4A5568">大规模文本 · 与东京大学伊藤亚圣合作</text>
+
+  <!-- E bureaucratese -->
+  <circle cx="800" cy="450" r="16" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+  <text x="824" y="456" font-size="16" font-weight="700" fill="#0A3F78">官话研究：眼动实验 + 大模型</text>
+
+  <!-- F local governance capacity -->
+  <circle cx="560" cy="490" r="16" fill="#0C62B0"/>
+  <text x="532" y="484" text-anchor="end" font-size="16" font-weight="700" fill="#0A3F78">地方治理的“能力空间”</text>
+  <text x="532" y="506" text-anchor="end" font-size="13" fill="#4A5568">广州大学学报 2023 · CSSCI</text>
+
+  <!-- G nudge / grassroots -->
+  <circle cx="330" cy="420" r="14" fill="#0C62B0"/>
+  <text x="352" y="426" font-size="16" font-weight="700" fill="#0A3F78">助推政策 · 基层治理</text>
+
+  <!-- tools strip -->
+  <rect x="980" y="508" width="20" height="20" fill="#A8742C"/>
+  <text x="1010" y="524" font-size="14" font-weight="700" fill="#A8742C">CRAN 工具包：regioncode · drhur</text>
+
+  <!-- legend -->
+  <g font-size="13" fill="#4A5568">
+    <circle cx="170" cy="56" r="7" fill="#0C62B0"/><text x="184" y="61">已发表 / 已完成</text>
+    <circle cx="300" cy="56" r="7" fill="#FFFFFF" stroke="#0C62B0" stroke-width="2.5"/><text x="314" y="61">审稿中 / 进行中</text>
+    <circle cx="430" cy="56" r="7" fill="none" stroke="#A8742C" stroke-width="2" stroke-dasharray="3 2"/><text x="444" y="61">研究议程</text>
+  </g>
+</svg>

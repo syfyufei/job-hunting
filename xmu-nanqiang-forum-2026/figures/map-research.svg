@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 640" width="1240" height="640" font-family="PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="695.0" y="40" width="505.0" height="250.0" rx="6" fill="#0C62B0" fill-opacity="0.07"/>
+<text x="1188" y="278.0" text-anchor="end" font-size="16" font-weight="700" fill="#0C62B0" fill-opacity="0.85">计算政治学 × 比较政治学</text>
+<line x1="253.125" y1="40" x2="253.125" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="379.375" y1="40" x2="379.375" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="505.625" y1="40" x2="505.625" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="631.875" y1="40" x2="631.875" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="758.125" y1="40" x2="758.125" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="884.375" y1="40" x2="884.375" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="1010.625" y1="40" x2="1010.625" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="1136.875" y1="40" x2="1136.875" y2="540" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="500.0" x2="1200" y2="500.0" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="360.0" x2="1200" y2="360.0" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="230.0" x2="1200" y2="230.0" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="90.0" x2="1200" y2="90.0" stroke="#E3E8EF" stroke-width="1"/>
+<line x1="190" y1="540" x2="1214" y2="540" stroke="#4A5568" stroke-width="1.6"/>
+<path d="M1214 534 L1226 540 L1214 546z" fill="#4A5568"/>
+<line x1="190" y1="540" x2="190" y2="28" stroke="#4A5568" stroke-width="1.6"/>
+<path d="M184 28 L190 16 L196 28z" fill="#4A5568"/>
+<rect x="208.125" y="554" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="253.125" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#0C62B0">案例访谈</text>
+<rect x="334.375" y="554" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="379.375" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#0C62B0">调查实验</text>
+<rect x="460.625" y="554" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="505.625" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#0C62B0">因果推断</text>
+<rect x="586.875" y="554" width="90" height="28" rx="14" fill="#FFFFFF" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="631.875" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#0C62B0">多层模型</text>
+<rect x="713.125" y="554" width="90" height="28" rx="14" fill="#0C62B0" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="758.125" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">网络分析</text>
+<rect x="839.375" y="554" width="90" height="28" rx="14" fill="#0C62B0" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="884.375" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">文本分析</text>
+<rect x="965.625" y="554" width="90" height="28" rx="14" fill="#0C62B0" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="1010.625" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">机器学习</text>
+<rect x="1100.875" y="554" width="72" height="28" rx="14" fill="#0C62B0" stroke="#0C62B0" stroke-width="1.2"/>
+<text x="1136.875" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">大模型</text>
+<text x="695.0" y="616" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78">方法能力：从质性到计算 →</text>
+<text x="176" y="505.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">中国地方</text>
+<text x="176" y="355.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">央地</text>
+<text x="176" y="375.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">香港</text>
+<text x="176" y="225.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">东亚</text>
+<text x="176" y="245.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">日本</text>
+<text x="176" y="85.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">跨国</text>
+<text x="176" y="105.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">美国 / 西巴尔干</text>
+<text x="22" y="290.0" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 290.0)">研究范围：从中国到比较 →</text>
+<g opacity="1">
+<circle cx="260.7" cy="490.0" r="11" fill="#0C62B0"/>
+<text x="280.7" y="488.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">条块发包与基层治理</text>
+<text x="280.7" y="510.0" text-anchor="start" font-size="15" fill="#4A5568">公共行政评论 2020</text>
+<circle cx="392.0" cy="430.0" r="11" fill="#0C62B0"/>
+<text x="412.0" y="428.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">助推型政策</text>
+<text x="412.0" y="450.0" text-anchor="start" font-size="15" fill="#4A5568">公共管理与政策评论 2021</text>
+<circle cx="553.5999999999999" cy="510.0" r="11" fill="#0C62B0"/>
+<text x="573.5999999999999" y="508.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">地方治理的“能力空间”</text>
+<text x="573.5999999999999" y="530.0" text-anchor="start" font-size="15" fill="#4A5568">广州大学学报 2023</text>
+<circle cx="493.0" cy="75.0" r="11" fill="#0C62B0"/>
+<text x="513.0" y="73.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">孔子学院关闭与国家形象</text>
+<text x="513.0" y="95.0" text-anchor="start" font-size="15" fill="#4A5568">CJIP 2022 · SSCI Q1</text>
+<circle cx="998.0" cy="160.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+<text x="978.0" y="158.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">一带一路与西巴尔干五国媒体叙事</text>
+<text x="978.0" y="180.0" text-anchor="end" font-size="15" fill="#4A5568">跨国面板 + 媒体文本 · 审稿中</text>
+<circle cx="897.0" cy="290.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+<text x="877.0" y="288.0" text-anchor="end" font-size="19" font-weight="700" fill="#0A3F78">领导留言板：政府回应性</text>
+<text x="877.0" y="310.0" text-anchor="end" font-size="15" fill="#4A5568">与东京大学伊藤亚圣合作 · 大规模文本</text>
+<circle cx="664.7" cy="390.0" r="11" fill="#FFFFFF" stroke="#0C62B0" stroke-width="3"/>
+<text x="684.7" y="388.0" text-anchor="start" font-size="19" font-weight="700" fill="#0A3F78">官话研究</text>
+<text x="684.7" y="410.0" text-anchor="start" font-size="15" fill="#4A5568">眼动实验 + 大模型</text>
+</g>
+<circle cx="210" cy="52" r="7" fill="#0C62B0"/>
+<text x="224" y="57" font-size="13" fill="#4A5568">已发表</text>
+<circle cx="282" cy="52" r="7" fill="#FFFFFF" stroke="#0C62B0" stroke-width="2.5"/>
+<text x="296" y="57" font-size="13" fill="#4A5568">审稿中 / 进行中</text>
+</svg>

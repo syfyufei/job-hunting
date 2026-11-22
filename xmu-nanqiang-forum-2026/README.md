@@ -1,4 +1,7 @@
-# 厦门大学助理教授面试 · 10 分钟博士论文汇报
+# 厦门大学助理教授面试 · 15 分钟应聘报告
+
+结构：第一部分自我介绍（第 1–5 页，约 5 分钟）+ 第二部分博士论文（第 6–17 页，约 9.5 分钟）。
+能力地图由 `tools/make_map.py` 生成，课程层数据在 `tools/courses.json`；厦大政治学系分析见 `xmu-department-analysis.md`。
 
 来源：`~/Documents/GitHub/DoctorDesertation/slides/`（答辩版 31 页 / 30 分钟 + speaker_notes.md）
 
