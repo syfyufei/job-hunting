@@ -15,8 +15,6 @@ lang: zh-CN
 
 <h2>清华大学社会科学学院 · 政治学博士</h2>
 
-<div style="margin-top: 1.2em;"><span class="honor">清华大学优秀博士学位论文</span></div>
-
 <div class="affil"><img src="figures/logos/thu-fig-logo.png" alt=""><img class="thu-word" src="figures/logos/thu-text-logo.png" alt="清华大学"></div>
 
 <!--
@@ -628,8 +626,6 @@ Hu Y, **Sun Y（通讯作者）**, Lien D. The resistance and resilience of nati
 <!-- _paginate: false -->
 
 # 谢谢各位老师
-
-<span class="honor">清华大学优秀博士学位论文</span>
 
 <div class="affil"><img src="figures/logos/thu-fig-logo.png" alt=""><img class="thu-word" src="figures/logos/thu-text-logo.png" alt="清华大学"><span>孙宇飞 · 社会科学学院政治学系</span></div>
 
