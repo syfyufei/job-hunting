@@ -1,0 +1,422 @@
+/* @theme anthropic */
+/* Marp theme tuned for a Chinese-language doctoral defense.
+   Aesthetic reference: claude.ai / anthropic.com — warm, editorial, restrained. */
+
+@import 'default';
+
+:root {
+  /* Palette */
+  --bg:           #F4EDE0;   /* warm cream, slightly desaturated */
+  --bg-soft:      #EFE6D4;   /* a half-tone deeper, for accent panels */
+  --ink:          #1F1A14;   /* near-black with warm undertone */
+  --ink-soft:     #4A4035;   /* secondary text */
+  --ink-mute:     #877867;   /* meta, page numbers */
+  --rule:         #C9B898;   /* hairline rules */
+  --rule-soft:    #DCCFB5;
+  --accent:       #C95D2C;   /* coral / burnt orange — Anthropic-leaning */
+  --accent-soft:  #E8C8B4;
+  --accent-deep:  #8E3A14;
+
+  /* Typography — aligned with docs/defense-slides goldenBlack theme
+     (Chinese: STHeiti / Microsoft YaHei / SimHei — all 黑体 family, no serif distinction;
+      Latin: Lato body, League Gothic display) */
+  --serif-zh:  "STHeiti", "Microsoft YaHei", "SimHei", "PingFang SC", sans-serif;
+  --sans-zh:   "STHeiti", "Microsoft YaHei", "SimHei", "PingFang SC", sans-serif;
+  --display:   "League Gothic", "STHeiti", "Microsoft YaHei", "SimHei", sans-serif;
+  --body-lat:  "Lato", -apple-system, BlinkMacSystemFont, sans-serif;
+  --mono:      "Source Code Pro", "Menlo", "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* ─────────────────────────────────────────────
+   Section (single slide) — frame, ground, type
+   ───────────────────────────────────────────── */
+
+section {
+  /* Marp default canvas is 1280×720 (16:9). Keep generous gutters. */
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans-zh);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  padding: 64px 88px 72px;
+  position: relative;
+}
+
+/* Subtle vertical rhythm — keep typesetting tight, not breathy. */
+section > * + * { margin-top: 0.65em; }
+
+/* ─────────────────────────────────────────────
+   Headings
+   ───────────────────────────────────────────── */
+
+section h1,
+section h2,
+section h3,
+section h4 {
+  font-family: var(--serif-zh);
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: 0.005em;
+  line-height: 1.25;
+}
+
+section h1 {
+  font-size: 32px;
+  margin: 0 0 0.45em 0;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--rule);
+  position: relative;
+}
+
+/* The coral hairline beneath the title — a single editorial accent. */
+section h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 56px;
+  height: 2px;
+  background: var(--accent);
+}
+
+section h2 { font-size: 30px; margin-top: 0.6em; }
+section h3 {
+  font-size: 22px;
+  color: var(--accent-deep);
+  font-family: var(--sans-zh);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.4em;
+}
+section h4 {
+  font-size: 18px;
+  color: var(--ink-soft);
+  font-family: var(--sans-zh);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
+
+/* ─────────────────────────────────────────────
+   Body text, lists, blockquote
+   ───────────────────────────────────────────── */
+
+section p {
+  margin: 0.4em 0;
+  color: var(--ink);
+}
+
+section strong {
+  font-weight: 600;
+  color: var(--accent-deep);
+}
+
+section em {
+  font-style: normal;
+  color: var(--ink-soft);
+  border-bottom: 1px dashed var(--rule);
+  padding-bottom: 1px;
+}
+
+section ul,
+section ol {
+  margin: 0.4em 0 0.4em 0;
+  padding-left: 1.2em;
+}
+
+section li {
+  margin: 0.25em 0;
+  color: var(--ink);
+}
+
+section ul > li::marker { color: var(--accent); }
+section ol > li::marker { color: var(--accent); font-weight: 600; }
+
+section a {
+  color: var(--accent-deep);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Blockquote — the editorial "pull quote" used throughout the deck. */
+section blockquote {
+  margin: 0.5em 0;
+  padding: 0.55em 1em 0.55em 1.1em;
+  border-left: 3px solid var(--accent);
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--serif-zh);
+  font-size: 0.98em;
+  line-height: 1.6;
+  quotes: none;
+}
+section blockquote p { margin: 0.2em 0; }
+section blockquote strong { color: var(--accent-deep); }
+
+/* ─────────────────────────────────────────────
+   Code & inline
+   ───────────────────────────────────────────── */
+
+section code {
+  font-family: var(--mono);
+  background: var(--bg-soft);
+  color: var(--accent-deep);
+  padding: 0.05em 0.35em;
+  border-radius: 2px;
+  font-size: 0.88em;
+}
+
+section pre {
+  background: var(--bg-soft);
+  border-left: 2px solid var(--rule);
+  padding: 0.8em 1em;
+  border-radius: 0;
+  overflow: auto;
+}
+section pre code {
+  background: transparent;
+  padding: 0;
+  color: var(--ink);
+}
+
+/* ─────────────────────────────────────────────
+   Tables — only used for narrow data matrices.
+   Editorial style: hairlines, no zebra, generous whitespace.
+   ───────────────────────────────────────────── */
+
+section table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+  font-size: 0.92em;
+  width: auto;
+}
+section th, section td {
+  padding: 0.45em 1.1em 0.45em 0;
+  border: none;
+  border-bottom: 1px solid var(--rule-soft);
+  text-align: left;
+}
+section th {
+  color: var(--accent-deep);
+  font-weight: 600;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans-zh);
+}
+
+/* ─────────────────────────────────────────────
+   Images
+   ───────────────────────────────────────────── */
+
+section img {
+  display: block;
+  margin: 0.3em auto;
+  max-height: 540px;
+  object-fit: contain;
+}
+
+/* When an image is the only content of a paragraph, give it air. */
+section p:has(> img:only-child) {
+  text-align: center;
+  margin: 0.4em 0;
+}
+
+/* ─────────────────────────────────────────────
+   Pagination — bottom-right, low contrast
+   ───────────────────────────────────────────── */
+
+section::after {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+  letter-spacing: 0.08em;
+  bottom: 28px;
+  right: 48px;
+}
+
+/* ─────────────────────────────────────────────
+   Lead / divider slide style (cover, chapter)
+   ───────────────────────────────────────────── */
+
+section.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 96px;
+  text-align: left;
+}
+
+section.lead h1 {
+  font-size: 64px;
+  border-bottom: none;
+  margin-bottom: 0.35em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+section.lead h1::after {
+  width: 80px;
+  height: 3px;
+  bottom: -8px;
+}
+
+section.lead h2 {
+  font-size: 22px;
+  font-family: var(--sans-zh);
+  color: var(--ink-soft);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  border: none;
+  margin-top: 1.6em;
+}
+
+section.lead p,
+section.lead blockquote {
+  font-size: 22px;
+  color: var(--ink-soft);
+  margin-top: 0.4em;
+}
+
+section.lead blockquote {
+  font-family: var(--serif-zh);
+  font-size: 24px;
+  line-height: 1.6;
+  padding-left: 1.2em;
+  border-left-width: 3px;
+  max-width: 720px;
+}
+
+/* The chapter number eyebrow ("一 · 规制") rendered as h4 above h1. */
+section.lead h4 {
+  font-size: 16px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  margin: 0 0 1em 0;
+}
+
+/* ─────────────────────────────────────────────
+   Utility classes (used inline in slides.md)
+   ───────────────────────────────────────────── */
+
+.kicker {
+  display: inline-block;
+  font-family: var(--sans-zh);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  margin-bottom: 0.4em;
+  text-transform: none;
+}
+
+.lede {
+  font-family: var(--serif-zh);
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0.3em 0 0.6em;
+}
+
+.meta {
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--ink-mute);
+  letter-spacing: 0.05em;
+}
+
+.cols-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.2em;
+  align-items: start;
+}
+.cols-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6em;
+  align-items: start;
+}
+.cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2em;
+}
+
+.divider {
+  height: 1px;
+  background: var(--rule);
+  margin: 0.8em 0;
+  border: none;
+}
+
+.flow {
+  text-align: center;
+  color: var(--accent);
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  margin: 0.3em 0;
+}
+
+.tag {
+  display: inline-block;
+  font-family: var(--sans-zh);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 2px 10px;
+  border-radius: 999px;
+  margin-right: 6px;
+}
+
+.stat {
+  font-family: var(--serif-zh);
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--accent-deep);
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+.stat-label {
+  font-family: var(--sans-zh);
+  font-size: 13px;
+  color: var(--ink-mute);
+  letter-spacing: 0.1em;
+  margin-top: 6px;
+}
+
+.card {
+  background: var(--bg-soft);
+  border-left: 2px solid var(--accent);
+  padding: 0.7em 1em;
+  font-size: 0.92em;
+}
+
+.note {
+  color: var(--ink-mute);
+  font-size: 0.82em;
+  font-family: var(--mono);
+  letter-spacing: 0.03em;
+}
+
+/* small caps for English inline labels */
+.sc {
+  font-family: var(--sans-zh);
+  font-size: 0.8em;
+  letter-spacing: 0.18em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+}
+
+/* ─────────────────────────────────────────────
+   Print refinements (Marp pdf export)
+   ───────────────────────────────────────────── */
+
+@media print {
+  section { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
