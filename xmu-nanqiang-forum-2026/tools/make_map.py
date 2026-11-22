@@ -6,7 +6,7 @@ W, H = 1240, 640
 X0, X1, Y0, Y1 = 190, 1200, 40, 540   # plot area
 
 METHODS = ["案例访谈", "调查实验", "因果推断", "多层模型", "网络分析", "文本分析", "机器学习", "大模型"]
-SCOPES  = [("地方治理", 0.08), ("国家与央地", 0.42), ("跨国比较", 0.86)]
+SCOPES  = [("地方", 0.08), ("国家", 0.42), ("跨国", 0.86)]
 
 def px(u): return X0 + u * (X1 - X0)
 def py(v): return Y1 - v * (Y1 - Y0)
@@ -77,10 +77,12 @@ def svg(layer):
     if layer == "courses":
         for c in COURSES:
             x, y = px(c["u"]), py(c["v"]); t = c["title"]; w = sum(10 if ord(ch) < 128 else 19 for ch in t) + 34
-            core = c.get("core", False)
-            o.append(f'<rect x="{x-w/2}" y="{y-19}" width="{w}" height="38" rx="19" fill="{"#A8742C" if core else "#FFFFFF"}" stroke="#A8742C" stroke-width="1.6"/>')
-            o.append(f'<text x="{x}" y="{y+6}" text-anchor="middle" font-size="18" font-weight="700" fill="{"#FFFFFF" if core else "#A8742C"}">{t}</text>')
-        legend = [("#A8742C", "fill", "可开设课程（重点）"), ("#A8742C", "line", "可开设课程")]
+            tier = c.get("tier", "other")
+            fill, stroke, txt = {"general": ("#0C62B0", "#EDC68F", "#FFFFFF"), "core": ("#A8742C", "#A8742C", "#FFFFFF"), "other": ("#FFFFFF", "#A8742C", "#A8742C")}[tier]
+            sw = 3 if tier == "general" else 1.6
+            o.append(f'<rect x="{x-w/2}" y="{y-19}" width="{w}" height="38" rx="19" fill="{fill}" stroke="{stroke}" stroke-width="{sw}"/>')
+            o.append(f'<text x="{x}" y="{y+6}" text-anchor="middle" font-size="18" font-weight="700" fill="{txt}">{t}</text>')
+        legend = [("#0C62B0", "fill", "全校通选课"), ("#A8742C", "fill", "专业重点课"), ("#A8742C", "line", "可开设课程")]
     else:
         legend = [("#0C62B0", "fill", "已发表 / 已录用"), ("#0C62B0", "line", "在研论文 / 开源工具")]
     lx = X0 + 20

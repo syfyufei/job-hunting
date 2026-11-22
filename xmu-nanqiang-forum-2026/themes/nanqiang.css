@@ -171,3 +171,7 @@ section:not(.lead)::before {
 .timeline.t5 .tl-role { font-size: 16.5px; }
 .tag { font-size: 14px; }
 section.tight { font-size: 23px; }
+
+/* 研究议程：交叉方向卡片 */
+.card.cross { border-top: 3px dashed var(--nq-gold-deep); background: #FFFDF8; }
+.card.cross h3 { color: var(--nq-gold-deep); }

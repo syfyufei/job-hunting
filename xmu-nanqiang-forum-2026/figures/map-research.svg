@@ -33,9 +33,9 @@
 <rect x="1100.875" y="554" width="72" height="28" rx="14" fill="#0C62B0" stroke="#0C62B0" stroke-width="1.2"/>
 <text x="1136.875" y="573" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">大模型</text>
 <text x="695.0" y="616" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78">方法能力：从质性到计算 →</text>
-<text x="176" y="505.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">地方治理</text>
-<text x="176" y="335.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">国家与央地</text>
-<text x="176" y="115.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">跨国比较</text>
+<text x="176" y="505.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">地方</text>
+<text x="176" y="335.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">国家</text>
+<text x="176" y="115.0" text-anchor="end" font-size="17" font-weight="600" fill="#4A5568">跨国</text>
 <text x="22" y="290.0" text-anchor="middle" font-size="16" font-weight="700" fill="#0A3F78" transform="rotate(-90 22 290.0)">研究范围：从地方到跨国 →</text>
 <g opacity="1">
 <circle cx="250.6" cy="510.0" r="11" fill="#0C62B0"/>
