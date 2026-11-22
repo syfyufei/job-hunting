@@ -1,5 +1,5 @@
 # 用法: make html / make pdf / make png / make all
-M := marp slides.md --theme-set themes --html --allow-local-files
+M := marp slides.md --theme-set themes/warm.css --html --allow-local-files
 html:
 	$(M) -o slides.html < /dev/null
 pdf:

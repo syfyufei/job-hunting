@@ -1,7 +1,7 @@
 # 厦门大学助理教授面试 · 15 分钟应聘报告
 
 结构：第一部分自我介绍（第 1–5 页，约 5 分钟）+ 第二部分博士论文（第 6–17 页，约 9.5 分钟）。
-能力地图由 `tools/make_map.py` 生成，课程层数据在 `tools/courses.json`；厦大政治学系分析见 `xmu-department-analysis.md`。
+厦大政治学系分析见 `xmu-department-analysis.md`。
 
 来源：`~/Documents/GitHub/DoctorDesertation/slides/`（答辩版 31 页 / 30 分钟 + speaker_notes.md）
 
@@ -11,20 +11,17 @@
 |---|---|
 | `slides.md` | 12 页 Marp 源文件，逐字稿写在每页备注里（HTML 演讲者视图可见） |
 | `script.md` | 逐字稿单独版，含每页用时 |
-| `themes/nanqiang.css` | 主视觉主题 |
-| `figures/kv-cover.svg` / `kv-paper.svg` | 封面主视觉 / 内容页底图 |
+| `themes/warm.css` | 主题样式 |
 | `slides.html` | 可直接演示（按 P 进演讲者视图） |
 | `preview/` | 每页 PNG 预览 |
 
 构建：`make html` / `make pdf` / `make pptx` / `make png`
 
-## 主视觉
+## 视觉
 
-- 主色取自 2026 南强青年学者论坛主视觉：南强蓝 `#0C62B0`、香槟金 `#EDC68F`
-- 清华紫 `#660874` 只用于“清华大学优秀博士学位论文”徽章，以及顶部色带的起点（紫→蓝→金，寓意从清华到厦大）
-- 封面线描：嘉庚建筑式样的中楼与两翼、海浪、凤凰花，全部为自绘 SVG，没有使用厦大官方插画
-- 校徽：封面和致谢页左上角放厦大校徽（白色版，取自 xmu.edu.cn）；个人信息行放清华校徽和“清华大学”字标（白色版，由 thuthesis 模板的 PDF 转成）；内容页左下角放一枚淡色的清华校徽
-- 校徽文件在 `figures/logos/`
+- 沿用答辩版的米色底 `#F4EDE0` + 珊瑚色 `#C95D2C`（`themes/warm.css`），不用阴影和渐变。
+- 不使用厦门大学校徽或厦大建筑元素；只在封面、致谢页和内容页角落放清华校徽。
+- 第一部分：封面 → 个人经历 → 学术发表 → 研究领域（两圆交叉图 `figures/venn-fields.svg`）→ 研究方法与工具 → 教学经历与可开设课程。
 
 ## 从 31 页 / 30 分钟压缩到 12 页 / 约 9.5 分钟
 
