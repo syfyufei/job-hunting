@@ -1,5 +1,5 @@
-/* 点击动画（学术发表页）：第一次点击，成果从列表飞到“年份 × 研究取向”图上；
-   第二次点击，依次凸显比较政治学、计算社会科学两侧。→ / 空格 / 单击前进，← 退回。 */
+/* 点击动画（学术发表页）：论文从列表移到左列，连线汇聚到两个研究方向，标题由“学术发表”变为“研究方向”。
+   → / 空格 / 单击前进，← 退回。 */
 (function () {
   function activeSection() { return document.querySelector('svg.bespoke-marp-active section'); }
   function gotoNext() {
@@ -7,78 +7,84 @@
     if (b) b.click();
   }
   function all(root, sel) { return Array.prototype.slice.call(root.querySelectorAll(sel)); }
+  function swapTitle(el, text) {
+    if (!el) return;
+    el.style.transition = 'opacity .3s';
+    el.style.opacity = '0';
+    setTimeout(function () { el.textContent = text; el.style.opacity = '1'; }, 300);
+  }
   function setupPubMap(sec) {
     var list = sec.querySelector('.pub-list');
     var map = sec.querySelector('.pub-map');
     if (!list || !map) return;
-    var frame = map.querySelector('.pm-frame');
-    var pts = all(map, '[data-chip]');
-    var hls = all(map, '.pm-hl');
+    var title = sec.querySelector('.pm-title');
+    var t0 = title ? title.textContent : '', t1 = title ? title.getAttribute('data-alt') : '';
+    var chips = all(map, '[data-chip]'), lines = all(map, '.pm-line'), nodes = all(map, '.pm-node');
     var state = 0, busy = false;
     function scale() { return sec.getBoundingClientRect().width / 1280 || 1; }
-    function place() {
+    sec._advance = function () {
+      if (busy) return true;
+      if (state === 1) return false;
       busy = true;
       var k = scale();
       map.style.transition = 'none';
       map.style.opacity = '1';
       map.style.visibility = 'visible';
-      frame.style.transition = 'none';
-      frame.style.opacity = '0';
-      hls.forEach(function (h) { h.style.transition = 'none'; h.style.opacity = '0'; });
-      pts.forEach(function (p) {
-        p.style.transition = 'none';
-        p.style.transform = 'none';
-        var src = list.querySelector('[data-pub="' + p.getAttribute('data-chip') + '"]');
+      chips.forEach(function (c) {
+        c.style.transition = 'none';
+        c.style.transform = 'none';
+        var src = list.querySelector('[data-pub="' + c.getAttribute('data-chip') + '"]');
         if (src) {
-          var a = src.getBoundingClientRect(), b = p.getBoundingClientRect();
-          p.style.transform = 'translate(' + (a.left - b.left) / k + 'px,' + (a.top - b.top) / k + 'px)';
+          var a = src.getBoundingClientRect(), b = c.getBoundingClientRect();
+          c.style.transform = 'translate(' + (a.left - b.left) / k + 'px,' + (a.top - b.top) / k + 'px)';
         } else {
-          p.style.transform = 'scale(0.4)';
+          c.style.transform = 'scale(0.6)';
         }
-        p.style.opacity = '0';
-        p._fromList = !!src;
+        c.style.opacity = '0';
+        c._fromList = !!src;
       });
-      void map.offsetHeight;
-      list.style.transition = 'opacity .4s';
-      list.style.opacity = '0';
-      frame.style.transition = 'opacity .6s .2s';
-      frame.style.opacity = '1';
-      pts.forEach(function (p, i) {
-        var d = (p._fromList ? 150 : 1000) + i * 60;
-        p.style.transition = 'transform .9s cubic-bezier(.4,0,.2,1) ' + d + 'ms, opacity .3s ' + d + 'ms';
-        p.style.transform = 'none';
+      lines.forEach(function (p) {
+        var len = p.getTotalLength();
+        p.style.transition = 'none';
+        p.style.strokeDasharray = len;
+        p.style.strokeDashoffset = len;
         p.style.opacity = '1';
       });
-      state = 1;
-      setTimeout(function () { busy = false; }, 1900);
-    }
-    function highlight() {
-      busy = true;
-      hls.forEach(function (h) {
-        var step = +h.getAttribute('data-step');
-        h.style.transition = 'opacity .6s ' + (step * 1000) + 'ms';
-        h.style.opacity = '1';
+      nodes.forEach(function (n) { n.style.transition = 'none'; n.style.opacity = '0'; });
+      void map.offsetHeight;
+      list.style.transition = 'opacity .35s';
+      list.style.opacity = '0';
+      swapTitle(title, t1);
+      chips.forEach(function (c, i) {
+        var d = (c._fromList ? 150 : 800) + i * 50;
+        c.style.transition = 'transform .8s cubic-bezier(.4,0,.2,1) ' + d + 'ms, opacity .25s ' + d + 'ms';
+        c.style.transform = 'none';
+        c.style.opacity = '1';
       });
-      state = 2;
-      setTimeout(function () { busy = false; }, 1600);
-    }
-    sec._advance = function () {
-      if (busy) return true;
-      if (state === 0) { place(); return true; }
-      if (state === 1) { highlight(); return true; }
-      return false;
+      lines.forEach(function (p, i) {
+        var d = 1300 + i * 70;
+        p.style.transition = 'stroke-dashoffset .7s ease-out ' + d + 'ms';
+        p.style.strokeDashoffset = '0';
+        /* 画完后恢复虚线样式（第二方向的连线） */
+        setTimeout(function () {
+          var dash = p.getAttribute('stroke-dasharray');
+          p.style.transition = 'none';
+          p.style.strokeDasharray = dash ? dash : 'none';
+          p.style.strokeDashoffset = '0';
+        }, d + 750);
+      });
+      nodes.forEach(function (n) { n.style.transition = 'opacity .5s 1.8s'; n.style.opacity = '1'; });
+      state = 1;
+      setTimeout(function () { busy = false; }, 2800);
+      return true;
     };
     sec._retreat = function () {
       if (busy) return true;
       if (state === 0) return false;
-      if (state === 2) {
-        hls.forEach(function (h) { h.style.transition = 'opacity .3s'; h.style.opacity = '0'; });
-        state = 1;
-        return true;
-      }
       busy = true;
       map.style.transition = 'opacity .35s';
       map.style.opacity = '0';
+      swapTitle(title, t0);
       setTimeout(function () {
         map.style.visibility = 'hidden';
         list.style.transition = 'opacity .35s';

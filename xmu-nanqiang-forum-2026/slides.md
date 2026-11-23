@@ -73,7 +73,7 @@ lang: zh-CN
 
 ---
 
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
+<div class="pm-title" data-alt="研究方向" style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
 <div class="pub-list" style="width:1120px; margin:2.2em auto 0; text-align:left;">
 <div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
 <div style="padding:0.24em 0;">
@@ -110,44 +110,20 @@ lang: zh-CN
 <div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，王浩瑜，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，等　《公共行政评论》，2020，13(3)：102–117<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
 </div>
 </div>
-<div class="pub-map" style="position:absolute; left:96px; top:118px; width:1088px; height:560px; visibility:hidden; text-align:left;">
-<div class="pm-hl" data-step="0" style="position:absolute; left:150px; top:30px; width:410px; height:440px; background:linear-gradient(90deg, rgba(102,8,116,0.16), rgba(102,8,116,0.02)); opacity:0;"></div>
-<div class="pm-hl" data-step="1" style="position:absolute; left:560px; top:30px; width:410px; height:440px; background:linear-gradient(270deg, rgba(31,26,20,0.13), rgba(31,26,20,0.02)); opacity:0;"></div>
-<div class="pm-hl" data-step="0" style="position:absolute; left:164px; top:0px; font-family:var(--sans-zh); font-size:22px; font-weight:700; color:var(--accent); letter-spacing:0.1em; opacity:0;">比较政治学</div>
-<div class="pm-hl" data-step="1" style="position:absolute; right:132px; top:0px; font-family:var(--sans-zh); font-size:22px; font-weight:700; color:var(--ink); letter-spacing:0.1em; opacity:0;">计算社会科学</div>
-<svg class="pm-frame" width="1088" height="560" viewBox="0 0 1088 560" style="position:absolute; left:0; top:0; overflow:visible; opacity:0;">
-<line x1="150" y1="447" x2="970" y2="447" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="451" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2020</text>
-<line x1="150" y1="391" x2="970" y2="391" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="395" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2021</text>
-<line x1="150" y1="335" x2="970" y2="335" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="339" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2022</text>
-<line x1="150" y1="278" x2="970" y2="278" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="282" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2023</text>
-<line x1="150" y1="222" x2="970" y2="222" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="226" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2024</text>
-<line x1="150" y1="165" x2="970" y2="165" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="169" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2025</text>
-<line x1="150" y1="109" x2="970" y2="109" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="113" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2026</text>
-<line x1="150" y1="53" x2="970" y2="53" stroke="#DCCFB5" stroke-width="1"/>
-<text x="136" y="57" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2027</text>
-<line x1="150" y1="470" x2="970" y2="470" stroke="#3F3F3F" stroke-width="1.5"/>
-<line x1="560" y1="30" x2="560" y2="470" stroke="#C9B898" stroke-dasharray="4 4"/>
-<text x="150" y="496" text-anchor="start" style="font-family:var(--sans-zh); font-size:15px; font-weight:700; fill:#660874; letter-spacing:0.08em;">← 比较政治学</text>
-<text x="970" y="496" text-anchor="end" style="font-family:var(--sans-zh); font-size:15px; font-weight:700; fill:#1F1A14; letter-spacing:0.08em;">计算社会科学 →</text>
-<text x="560" y="496" text-anchor="middle" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#877867; letter-spacing:0.08em;">研究取向</text>
-</svg>
-<div data-chip="tk" style="position:absolute; top:439px; left:322px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">“条块并举”发包制</span></div>
-<div data-chip="nudge" style="position:absolute; top:383px; right:389px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">助推型政策</span></div>
-<div data-chip="gz" style="position:absolute; top:375px; left:765px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">高职专业选择</span></div>
-<div data-chip="cjip" style="position:absolute; top:327px; left:240px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">美国孔子学院的关闭</span></div>
-<div data-chip="ldz" style="position:absolute; top:270px; left:486px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">地方治理的“能力空间”</span></div>
-<div data-chip="psm" style="position:absolute; top:143px; right:372px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">公共服务动机</span></div>
-<div data-chip="szh" style="position:absolute; top:169px; left:765px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">思政教育</span></div>
-<div data-chip="bur" style="position:absolute; top:140px; right:151px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">Bureaucratese</span></div>
-<div data-chip="diss" style="position:absolute; top:101px; left:618px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">博士论文</span></div>
-<div data-chip="xbg" style="position:absolute; top:45px; left:437px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">从“硬联通”到“心联通”</span></div>
+<div class="pub-map" style="position:absolute; left:96px; top:112px; width:1088px; height:560px; visibility:hidden; text-align:left;">
+<svg width="1088" height="560" viewBox="0 0 1088 560" style="position:absolute; left:0; top:0; overflow:visible;"><path class="pm-line" d="M600,25.0 C660,25.0 640,112.0 694,112.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,83.0 C660,83.0 640,112.0 694,112.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,83.0 C660,83.0 640,395.0 694,395.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.45" stroke-dasharray="5 4" style="opacity:0;"/><path class="pm-line" d="M600,141.0 C660,141.0 640,112.0 694,112.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,199.0 C660,199.0 640,112.0 694,112.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,279.0 C660,279.0 640,395.0 694,395.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,279.0 C660,279.0 640,112.0 694,112.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.45" stroke-dasharray="5 4" style="opacity:0;"/><path class="pm-line" d="M600,337.0 C660,337.0 640,395.0 694,395.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,395.0 C660,395.0 640,395.0 694,395.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,453.0 C660,453.0 640,395.0 694,395.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/><path class="pm-line" d="M600,511.0 C660,511.0 640,395.0 694,395.0" fill="none" stroke="#660874" stroke-width="1.6" stroke-opacity="0.8" style="opacity:0;"/></svg>
+<div class="pm-node" style="position:absolute; left:700px; top:112px; width:388px; transform:translateY(-50%); opacity:0; text-align:left; border-left:5px solid var(--accent); padding:6px 0 6px 20px;"><div style="font-family:var(--serif-zh); font-size:36px; font-weight:600; color:var(--ink); letter-spacing:0.04em; line-height:1.2;">比较政治学</div><div style="font-size:16px; color:var(--ink-soft); margin-top:8px; line-height:1.5;">国家形象建构与政治传播的跨国比较</div></div>
+<div class="pm-node" style="position:absolute; left:700px; top:395px; width:388px; transform:translateY(-50%); opacity:0; text-align:left; border-left:5px solid var(--accent); padding:6px 0 6px 20px;"><div style="font-family:var(--serif-zh); font-size:36px; font-weight:600; color:var(--ink); letter-spacing:0.04em; line-height:1.2;">计算社会科学</div><div style="font-size:16px; color:var(--ink-soft); margin-top:8px; line-height:1.5;">用深度学习、大模型与实验方法<br>测量政治话语和行为</div></div>
+<div class="pm-node" style="position:absolute; left:0; top:548px; font-size:11.5px; color:var(--ink-mute); letter-spacing:0.04em; opacity:0;">虚线框为期刊论文以外的成果；虚线连线表示同时涉及另一方向</div>
+<div data-chip="cjip" style="position:absolute; left:0px; top:0px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:3px solid var(--accent); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">The Resistance and Resilience of National Image Building: An Empirical Analysis of Confucius Institute Closures in the USA</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;"><i>The Chinese Journal of International Politics</i>, 2022 · SSCI Q1</div></div>
+<div data-chip="xbg" style="position:absolute; left:0px; top:58px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:3px solid var(--accent); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">从“硬联通”到“心联通”的转化机制——以西巴尔干五国为例</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《中国社会科学》，2027 · 拟录用</div></div>
+<div data-chip="ldz" style="position:absolute; left:0px; top:116px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">地方治理的“能力空间”与疫情防控压力的传导变异——基于 2021 年春节期间地方疫情防控政策的实证研究</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《广州大学学报（社会科学版）》，2023</div></div>
+<div data-chip="tk" style="position:absolute; left:0px; top:174px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">“条块并举”发包制下的基层治理——以 T 区乡镇政府的精准扶贫工作为例</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《公共行政评论》，2020</div></div>
+<div data-chip="diss" style="position:absolute; left:0px; top:254px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px dashed var(--ink-mute); border-left:1px dashed var(--ink-mute); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">国家话语的同构机制研究</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">博士学位论文，2026 · 清华大学优秀博士学位论文</div></div>
+<div data-chip="bur" style="position:absolute; left:0px; top:312px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px dashed var(--ink-mute); border-left:1px dashed var(--ink-mute); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">Bureaucratese：基于 BERT 的官方话语风格识别与提取工具</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">开源项目，2025</div></div>
+<div data-chip="psm" style="position:absolute; left:0px; top:370px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">扣动公心之弦：公共服务动机激发机制适用性与稳定性研究</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《公共管理与政策评论》，2025</div></div>
+<div data-chip="szh" style="position:absolute; left:0px; top:428px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">灌输·信号·说服——思想政治教育政治社会化效果的实验研究</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《政治与公共管理研究》，2025</div></div>
+<div data-chip="nudge" style="position:absolute; left:0px; top:486px; width:600px; height:50px; box-sizing:border-box; padding:3px 10px 2px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left; overflow:hidden;"><div style="font-size:12.5px; font-weight:600; color:var(--ink); line-height:1.28; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">为何需要助推型政策：理解居民健康意识和行为的不同步</div><div style="font-size:11px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《公共管理与政策评论》，2021</div></div>
 </div>
 
 <!--
@@ -157,44 +133,11 @@ lang: zh-CN
 
 【指中文论文】中文论文 7 篇，其中《中国社会科学》1 篇已拟录用，我也是通讯作者；其余 CSSCI 期刊 4 篇。
 
-【点击，成果落到图上】把这些成果按时间和研究取向放到图上：纵轴是年份，横轴从比较政治学到计算社会科学。
+【点击，论文汇聚到两个研究方向，标题变为“研究方向”】我的研究围绕一个问题：国家怎样通过话语来实现治理和整合。这些成果汇聚到两个方向。
 
-【再点击，凸显两个方向】所有成果都落在这两个方向之间：偏左的是**比较政治学**，如孔子学院和国家治理研究；偏右的是**计算社会科学**，如官话识别模型和几项调查实验。近两年的博士论文和西巴尔干研究靠近中间，把两个方向结合了起来。
+【指比较政治学】一是**比较政治学**，关注国家形象建构与政治传播，代表研究是孔子学院和西巴尔干两篇，以及两篇国家治理研究。
 
-【翻页】
--->
-
----
-
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">研究方向</div>
-<div style="width:1000px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0;">
-<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">比较政治学</div>
-<div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">国家形象建构与政治传播</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">“一带一路”与西巴尔干五国的媒体态度<span style="color:var(--ink-mute); margin-left:0.8em;">《中国社会科学》拟录用</span></div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">美国孔子学院的关闭<span style="color:var(--ink-mute); margin-left:0.8em;">CJIP · SSCI Q1</span></div>
-</div>
-</div>
-<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">计算政治学</div>
-<div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">用深度学习与大模型测量政治话语</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">国家话语同构指数<span style="color:var(--ink-mute); margin-left:0.8em;">博士论文</span></div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">官话识别模型 Bureaucratese<span style="color:var(--ink-mute); margin-left:0.8em;">已开源</span></div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">领导留言板与政府回应性<span style="color:var(--ink-mute); margin-left:0.8em;">在研</span></div>
-</div>
-</div>
-</div>
-
-<!--
-我的研究围绕一个问题：国家怎样通过话语来实现治理和整合。我从两个方向来做。
-
-【指第一条】一是**比较政治学**，关注国家形象建构与政治传播。代表研究包括“一带一路”项目对西巴尔干五国媒体态度的影响，以及美国孔子学院的关闭。
-
-【指第二条】二是**计算政治学**，用深度学习和大模型测量政治话语。博士论文构建了国家话语同构指数，在此基础上发布了官话识别模型，目前在做领导留言板与政府回应性的研究。
-
-〔可删〕方法上，我也做调查实验，相关成果发表在公共管理类期刊上。
+【指计算社会科学】二是**计算社会科学**，用深度学习、大模型和实验方法测量政治话语和行为。博士论文构建了国家话语同构指数，在此基础上发布了官话识别模型；另有两篇调查实验和一篇行为政策研究。西巴尔干和博士论文同时连到两个方向，是两者的结合。
 
 【翻页】
 -->
