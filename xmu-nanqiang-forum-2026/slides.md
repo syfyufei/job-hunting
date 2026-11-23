@@ -73,6 +73,86 @@ lang: zh-CN
 
 ---
 
+<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
+<div class="pub-list" style="width:1120px; margin:2.2em auto 0; text-align:left;">
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
+<div style="padding:0.24em 0;">
+<div data-pub="cjip" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">The Resistance and Resilience of National Image Building: An Empirical Analysis of Confucius Institute Closures in the USA</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">Hu Yue, <b style="color:var(--ink); font-weight:600;">Sun Yufei (corresponding author)</b>, Lien Donald　<i>The Chinese Journal of International Politics</i>, 2022, 15(2): 209–226<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">SSCI Q1</span></div>
+</div>
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">中文论文</div>
+<div style="padding:0.24em 0;">
+<div data-pub="xbg" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">从“硬联通”到“心联通”的转化机制——以西巴尔干五国为例</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">杨雪冬，<b style="color:var(--ink); font-weight:600;">孙宇飞（通讯作者）</b>，靳乔　《中国社会科学》，2027<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI · 拟录用</span></div>
+</div>
+<div style="padding:0.24em 0;">
+<div data-pub="psm" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">扣动公心之弦：公共服务动机激发机制适用性与稳定性研究</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">胡悦，<b style="color:var(--ink); font-weight:600;">孙宇飞（学生一作）</b>，陈子怡　《公共管理与政策评论》，2025，14(1)：54–71<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
+</div>
+<div style="padding:0.24em 0;">
+<div data-pub="szh" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">灌输·信号·说服——思想政治教育政治社会化效果的实验研究</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">胡悦，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，汤霓　《政治与公共管理研究》，2025(1)：123–141</div>
+</div>
+<div style="padding:0.24em 0;">
+<div data-pub="ldz" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">地方治理的“能力空间”与疫情防控压力的传导变异——基于 2021 年春节期间地方疫情防控政策的实证研究</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;"><b style="color:var(--ink); font-weight:600;">孙宇飞</b>，杨雪冬　《广州大学学报（社会科学版）》，2023，22(2)：71–81<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
+</div>
+<div style="padding:0.24em 0;">
+<div data-pub="nudge" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">为何需要助推型政策：理解居民健康意识和行为的不同步</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，<b style="color:var(--ink); font-weight:600;">孙宇飞（通讯作者）</b>　《公共管理与政策评论》，2021，10(1)：31–41<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
+</div>
+<div style="padding:0.24em 0;">
+<div data-pub="gz" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">高职专业选择满意度影响因素、问题与展望——学生个体视角</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">赵泽群，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，邱懿　《中国职业技术教育》，2021(19)：82–86<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">北大核心</span></div>
+</div>
+<div style="padding:0.24em 0;">
+<div data-pub="tk" style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">“条块并举”发包制下的基层治理——以 T 区乡镇政府的精准扶贫工作为例</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，王浩瑜，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，等　《公共行政评论》，2020，13(3)：102–117<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
+</div>
+</div>
+<div class="pub-map" style="position:absolute; left:96px; top:150px; width:1088px; height:500px; visibility:hidden; text-align:left;">
+<div class="pm-frame" style="position:absolute; inset:0; opacity:0;">
+<div style="position:absolute; left:120px; top:0; width:968px; height:230px; background:rgba(102,8,116,0.05);"></div>
+<div style="position:absolute; left:765px; top:0; width:322px; height:460px; background:rgba(102,8,116,0.05);"></div>
+<div style="position:absolute; left:132px; top:8px; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--accent);">比较政治学</div>
+<div style="position:absolute; left:765px; top:8px; width:310px; text-align:right; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--accent);">计算政治学</div>
+<div style="position:absolute; left:120px; top:0; width:1.5px; height:460px; background:var(--ink-soft);"></div>
+<div style="position:absolute; left:120px; top:460px; width:968px; height:1.5px; background:var(--ink-soft);"></div>
+<div style="position:absolute; left:120px; top:230px; width:968px; border-top:1px dashed var(--rule);"></div>
+<div style="position:absolute; left:442px; top:0; height:460px; border-left:1px dashed var(--rule);"></div>
+<div style="position:absolute; left:765px; top:0; height:460px; border-left:1px dashed var(--rule);"></div>
+<div style="position:absolute; left:0; top:105px; width:104px; text-align:right; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--ink);">国际与比较</div>
+<div style="position:absolute; left:0; top:335px; width:104px; text-align:right; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--ink);">国内治理</div>
+<div style="position:absolute; left:0; top:-26px; width:104px; text-align:right; font-size:12px; color:var(--ink-mute); letter-spacing:0.1em;">研究对象</div>
+<div style="position:absolute; left:120px; top:472px; width:322px; text-align:center; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--ink);">案例研究</div>
+<div style="position:absolute; left:442px; top:472px; width:322px; text-align:center; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--ink);">调查与实验</div>
+<div style="position:absolute; left:765px; top:472px; width:322px; text-align:center; font-family:var(--sans-zh); font-size:14px; font-weight:600; letter-spacing:0.12em; color:var(--ink);">统计与文本计算</div>
+<div style="position:absolute; right:0; top:500px; font-size:12px; color:var(--ink-mute); letter-spacing:0.1em;">研究方法</div>
+</div>
+<div data-chip="cjip" style="position:absolute; left:791px; top:40px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:3px solid var(--accent); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">美国孔子学院的关闭</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">CJIP · SSCI Q1</div></div>
+<div data-chip="xbg" style="position:absolute; left:791px; top:110px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:3px solid var(--accent); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">从“硬联通”到“心联通”</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《中国社会科学》拟录用</div></div>
+<div data-chip="ldz" style="position:absolute; left:791px; top:315px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">地方治理的“能力空间”</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《广州大学学报》</div></div>
+<div data-chip="psm" style="position:absolute; left:469px; top:245px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">公共服务动机激发机制</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《公共管理与政策评论》</div></div>
+<div data-chip="szh" style="position:absolute; left:469px; top:298px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">思政教育的政治社会化效果</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《政治与公共管理研究》</div></div>
+<div data-chip="nudge" style="position:absolute; left:469px; top:351px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">为何需要助推型政策</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《公共管理与政策评论》</div></div>
+<div data-chip="gz" style="position:absolute; left:469px; top:404px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">高职专业选择满意度</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《中国职业技术教育》</div></div>
+<div data-chip="tk" style="position:absolute; left:146px; top:315px; width:270px; padding:5px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform;"><div style="font-size:15px; font-weight:600; color:var(--ink); line-height:1.3;">“条块并举”发包制下的基层治理</div><div style="font-size:12px; color:var(--ink-mute); line-height:1.3; margin-top:1px;">《公共行政评论》</div></div>
+</div>
+
+<!--
+我已发表和拟录用论文 8 篇。
+
+【指英文论文】英文论文发表在 SSCI 一区期刊 **The Chinese Journal of International Politics**，我是通讯作者。
+
+【指中文论文】中文论文 7 篇，其中《中国社会科学》1 篇已拟录用，我也是通讯作者；其余 CSSCI 期刊 4 篇。
+
+【点击，论文移到坐标图上】按研究对象和研究方法来看，这些论文分成两块：右上方是国际与比较议题、用统计和文本计算方法的研究；下方是国内治理议题，以调查实验为主。这也对应我接下来要讲的两个研究方向。
+
+【翻页】
+-->
+
+---
+
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">研究方向</div>
 <div style="width:1000px; margin:0.6em auto 0; text-align:left;">
 <div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0;">
@@ -102,56 +182,6 @@ lang: zh-CN
 【指第二条】二是**计算政治学**，用深度学习和大模型测量政治话语。博士论文构建了国家话语同构指数，在此基础上发布了官话识别模型，目前在做领导留言板与政府回应性的研究。
 
 〔可删〕方法上，我也做调查实验，相关成果发表在公共管理类期刊上。
-
-【翻页】
--->
-
----
-
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
-<div style="width:1120px; margin:2.2em auto 0; text-align:left;">
-<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">The Resistance and Resilience of National Image Building: An Empirical Analysis of Confucius Institute Closures in the USA</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">Hu Yue, <b style="color:var(--ink); font-weight:600;">Sun Yufei (corresponding author)</b>, Lien Donald　<i>The Chinese Journal of International Politics</i>, 2022, 15(2): 209–226<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">SSCI Q1</span></div>
-</div>
-<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">中文论文</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">从“硬联通”到“心联通”的转化机制——以西巴尔干五国为例</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">杨雪冬，<b style="color:var(--ink); font-weight:600;">孙宇飞（通讯作者）</b>，靳乔　《中国社会科学》，2027<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI · 拟录用</span></div>
-</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">扣动公心之弦：公共服务动机激发机制适用性与稳定性研究</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">胡悦，<b style="color:var(--ink); font-weight:600;">孙宇飞（学生一作）</b>，陈子怡　《公共管理与政策评论》，2025，14(1)：54–71<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
-</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">灌输·信号·说服——思想政治教育政治社会化效果的实验研究</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">胡悦，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，汤霓　《政治与公共管理研究》，2025(1)：123–141</div>
-</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">地方治理的“能力空间”与疫情防控压力的传导变异——基于 2021 年春节期间地方疫情防控政策的实证研究</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;"><b style="color:var(--ink); font-weight:600;">孙宇飞</b>，杨雪冬　《广州大学学报（社会科学版）》，2023，22(2)：71–81<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
-</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">为何需要助推型政策：理解居民健康意识和行为的不同步</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，<b style="color:var(--ink); font-weight:600;">孙宇飞（通讯作者）</b>　《公共管理与政策评论》，2021，10(1)：31–41<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
-</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">高职专业选择满意度影响因素、问题与展望——学生个体视角</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">赵泽群，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，邱懿　《中国职业技术教育》，2021(19)：82–86<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">北大核心</span></div>
-</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">“条块并举”发包制下的基层治理——以 T 区乡镇政府的精准扶贫工作为例</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，王浩瑜，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，等　《公共行政评论》，2020，13(3)：102–117<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
-</div>
-</div>
-
-<!--
-我已发表和拟录用论文 8 篇。
-
-【指英文论文】英文论文发表在 SSCI 一区期刊 **The Chinese Journal of International Politics**，我是通讯作者。
-
-【指中文论文】中文论文 7 篇，其中《中国社会科学》1 篇已拟录用，我也是通讯作者；其余 CSSCI 期刊 4 篇。
 
 【翻页】
 -->
