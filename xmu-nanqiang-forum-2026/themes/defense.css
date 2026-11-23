@@ -421,3 +421,14 @@ section.lead h4 {
 @media print {
   section { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
+
+/* 每页左下角标：南强青年学者论坛 */
+section footer {
+  left: 96px; right: auto; bottom: 24px;
+  font-family: var(--sans-zh); font-size: 12px; font-weight: 600;
+  color: var(--accent); letter-spacing: 0.18em;
+  display: flex; align-items: center; gap: 10px;
+}
+section footer::before {
+  content: ""; display: block; width: 22px; height: 2px; background: var(--accent);
+}
