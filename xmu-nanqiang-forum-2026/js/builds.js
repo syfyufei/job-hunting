@@ -1,4 +1,4 @@
-/* 点击动画：学术发表页的论文从列表移到坐标图。→ / 空格 / 单击前进，← 退回。 */
+/* 点击动画：学术发表页的论文从列表移到雷达图。→ / 空格 / 单击前进，← 退回。 */
 (function () {
   function activeSection() {
     return document.querySelector('svg.bespoke-marp-active section');
@@ -13,6 +13,7 @@
     if (!list || !map) return;
     var frame = map.querySelector('.pm-frame');
     var chips = Array.prototype.slice.call(map.querySelectorAll('[data-chip]'));
+    var polys = Array.prototype.slice.call(map.querySelectorAll('.pm-poly'));
     var state = 0, busy = false;
     function scale() { return sec.getBoundingClientRect().width / 1280 || 1; }
     sec._advance = function () {
@@ -29,23 +30,36 @@
         c.style.transition = 'none';
         c.style.transform = 'none';
         var src = list.querySelector('[data-pub="' + c.getAttribute('data-chip') + '"]');
-        var a = src.getBoundingClientRect(), b = c.getBoundingClientRect();
-        c.style.transform = 'translate(' + (a.left - b.left) / k + 'px,' + (a.top - b.top) / k + 'px)';
+        if (src) {
+          var a = src.getBoundingClientRect(), b = c.getBoundingClientRect();
+          c.style.transform = 'translate(' + (a.left - b.left) / k + 'px,' + (a.top - b.top) / k + 'px)';
+        } else {
+          c.style.transform = 'scale(0.6)';  /* 列表里没有的成果：原地淡入 */
+        }
         c.style.opacity = '0';
       });
       void map.offsetHeight;
       list.style.transition = 'opacity .35s';
       list.style.opacity = '0';
       chips.forEach(function (c, i) {
-        var d = 150 + i * 70;
+        var d = (list.querySelector('[data-pub="' + c.getAttribute('data-chip') + '"]') ? 150 : 900) + i * 60;
         c.style.transition = 'transform .9s cubic-bezier(.4,0,.2,1) ' + d + 'ms, opacity .25s ' + d + 'ms';
         c.style.transform = 'none';
         c.style.opacity = '1';
       });
-      frame.style.transition = 'opacity .6s .6s';
+      frame.style.transition = 'opacity .6s .4s';
       frame.style.opacity = '1';
+      polys.forEach(function (p) {
+        p.style.transition = 'none';
+        p.style.transform = 'scale(0)';
+      });
+      void map.offsetHeight;
+      polys.forEach(function (p) {
+        p.style.transition = 'transform .8s cubic-bezier(.3,1.3,.5,1) 1.2s';
+        p.style.transform = 'scale(1)';
+      });
       state = 1;
-      setTimeout(function () { busy = false; }, 1700);
+      setTimeout(function () { busy = false; }, 2100);
       return true;
     };
     sec._retreat = function () {
