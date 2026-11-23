@@ -75,6 +75,11 @@ lang: zh-CN
 
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
 <div style="width:1120px; margin:2.2em auto 0; text-align:left;">
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">The Resistance and Resilience of National Image Building: An Empirical Analysis of Confucius Institute Closures in the USA</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">Hu Yue, <b style="color:var(--ink); font-weight:600;">Sun Yufei (corresponding author)</b>, Lien Donald　<i>The Chinese Journal of International Politics</i>, 2022, 15(2): 209–226<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">SSCI Q1</span></div>
+</div>
 <div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">中文论文</div>
 <div style="padding:0.24em 0;">
 <div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">从“硬联通”到“心联通”的转化机制——以西巴尔干五国为例</div>
@@ -104,19 +109,14 @@ lang: zh-CN
 <div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">“条块并举”发包制下的基层治理——以 T 区乡镇政府的精准扶贫工作为例</div>
 <div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，王浩瑜，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，等　《公共行政评论》，2020，13(3)：102–117<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
 </div>
-<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
-<div style="padding:0.24em 0;">
-<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">The Resistance and Resilience of National Image Building: An Empirical Analysis of Confucius Institute Closures in the USA</div>
-<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">Hu Yue, <b style="color:var(--ink); font-weight:600;">Sun Yufei (corresponding author)</b>, Lien Donald　<i>The Chinese Journal of International Politics</i>, 2022, 15(2): 209–226<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">SSCI Q1</span></div>
-</div>
 </div>
 
 <!--
-我已发表和拟录用论文 8 篇，中文 7 篇、英文 1 篇，研究集中在**比较政治学**和**计算政治学**两个领域。
+我已发表和拟录用论文 8 篇，英文 1 篇、中文 7 篇，研究集中在**比较政治学**和**计算政治学**两个领域。
 
-【指中文第一条】代表作之一，研究“一带一路”项目如何影响西巴尔干五国的媒体态度，已被**《中国社会科学》**拟录用，我是通讯作者。
+【指英文论文】代表作之一研究美国孔子学院的关闭，发表在 **The Chinese Journal of International Politics**，是 SSCI 一区期刊，我是通讯作者。
 
-【指英文论文】另一篇研究美国孔子学院的关闭，发表在 **The Chinese Journal of International Politics**，是 SSCI 一区期刊，我也是通讯作者。
+【指中文第一条】另一篇研究“一带一路”项目如何影响西巴尔干五国的媒体态度，已被**《中国社会科学》**拟录用，我也是通讯作者。
 
 【指中文其余各条】其余几篇涉及地方治理、公共服务动机和调查实验，其中 CSSCI 期刊 4 篇。〔可删〕方法上，这些研究用到了空间双重差分、文本分析和调查实验。
 
