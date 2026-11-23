@@ -199,119 +199,56 @@ lang: zh-CN
 
 ---
 
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">获奖与荣誉</div>
-<div style="width:640px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2026</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学优秀博士学位论文</div>
+<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">开源项目与技术</div>
+<div style="width:1000px; margin:1.2em auto 0; text-align:left;">
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.9em 0 0.2em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">开源项目</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">Triad</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">社会科学理论驱动的 Agent Harness 架构</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;">2026</div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2026</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学优秀博士毕业生</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">Inkwave</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">本地优先的 AI 语音输入工具</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;">2026</div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2023</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学综合二等奖学金</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">SurveyAgent</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">基于 LLM Agent 的问卷实验仿真工具箱</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;">2026</div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2022</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学综合一等奖学金</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">Bureaucratese</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">基于 BERT 的官方话语风格识别工具</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;">2025</div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2021</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">国家奖学金</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">Regioncode</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">中国地级行政区名称与区划代码转换工具</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;">2021 · 下载量 17k+</div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2021</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学国际学生工作奖</div>
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.9em 0 0.2em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">技术</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">技能认证</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">NVIDIA 生成式 AI 大语言模型认证（NCA-GENL）；Google AI Essentials 认证</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;"></div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2020</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">山东省优秀毕业生</div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">外语</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">英语（IELTS 7），具备独立英文授课经验</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;"></div>
 </div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2017 — 2019</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">山东大学一等奖学金（3 次）</div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.36em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2017、2018</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">国家奖学金（2 次）</div>
-</div>
-</div>
-
-<!--
-获奖方面，我的博士论文获评清华大学**优秀博士学位论文**，我本人获评优秀博士毕业生；本科和博士阶段共三次获得国家奖学金。
-
-【翻页】
--->
-
----
-
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">开源项目</div>
-<div style="width:1000px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:190px 1fr auto; align-items:baseline; padding:0.60em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">Triad</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">社会科学理论驱动的 Agent Harness 架构</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">2026</span></div>
-</div>
-<div style="display:grid; grid-template-columns:190px 1fr auto; align-items:baseline; padding:0.60em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">Inkwave</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">本地优先的 AI 语音输入工具</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">2026</span></div>
-</div>
-<div style="display:grid; grid-template-columns:190px 1fr auto; align-items:baseline; padding:0.60em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">SurveyAgent</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">基于 LLM Agent 的问卷实验仿真工具箱</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">2026</span></div>
-</div>
-<div style="display:grid; grid-template-columns:190px 1fr auto; align-items:baseline; padding:0.60em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">Bureaucratese</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">基于 BERT 的官方话语风格识别工具</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">2025</span></div>
-</div>
-<div style="display:grid; grid-template-columns:190px 1fr auto; align-items:baseline; padding:0.60em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">Regioncode</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">中国地级行政区名称与区划代码转换工具</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">2021 · 下载量 17k+</span></div>
+<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">编程与工具</div>
+<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">R、Python、SQL；Git、LaTeX、Quarto</div>
+<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;"></div>
 </div>
 </div>
 
 <!--
-我还维护着几个开源项目，和研究直接相关的有三个。
+我还维护着几个开源项目，和研究直接相关的有三个：**Bureaucratese** 是基于 BERT 的官话识别工具；**SurveyAgent** 用大模型做问卷实验仿真；**Regioncode** 做行政区划代码的跨年份转换，下载量超过一万七千次。
 
-**Bureaucratese** 是基于 BERT 的官话识别工具；**SurveyAgent** 用大模型做问卷实验仿真；**Regioncode** 做行政区划代码的跨年份转换，下载量超过一万七千次。
-
-【翻页】
--->
-
----
-
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">语言与技术</div>
-<div style="width:820px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.60em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">技能认证</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">NVIDIA 生成式 AI 大语言模型认证（NCA-GENL）</div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.60em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;"></div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">Google AI Essentials 认证</div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.60em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;"></div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">GitHub 校园专家</div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.60em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">外语</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">英语（IELTS 7），具备独立英文授课经验</div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.60em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">编程与工具</div>
-<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">R、Python、SQL；Git、LaTeX、Quarto</div>
-</div>
-</div>
-
-<!--
-语言和技术方面，我可以用英文独立授课，日常使用 R 和 Python，并持有 NVIDIA 的大语言模型认证。
+技术方面，我日常使用 R 和 Python，持有 NVIDIA 的大语言模型认证，也可以用英文独立授课。
 
 【翻页】
 -->
