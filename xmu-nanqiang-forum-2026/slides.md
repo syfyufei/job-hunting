@@ -68,8 +68,6 @@ lang: zh-CN
 
 【指第三条】2025 年 5 月到 8 月，我在**美团 Keeta** 实习，今年 7 月正式入职，担任大模型算法工程师，负责智能客服和智能外呼 Agent 的算法研发，也参与自研大模型的微调和评测。
 
-〔可删〕读博期间，我还在东京大学社会科学研究所做过客员研究员，并长期担任清华 R Workshop 的讲师。
-
 【翻页】
 -->
 
@@ -121,6 +119,37 @@ lang: zh-CN
 【指英文论文】另一篇研究美国孔子学院的关闭，发表在 **The Chinese Journal of International Politics**，是 SSCI 一区期刊，我也是通讯作者。
 
 【指中文其余各条】其余几篇涉及地方治理、公共服务动机和调查实验，其中 CSSCI 期刊 4 篇。〔可删〕方法上，这些研究用到了空间双重差分、文本分析和调查实验。
+
+【翻页】
+-->
+
+---
+
+<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术兼职</div>
+<div style="width:1000px; margin:0.6em auto 0; text-align:left;">
+<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0;">
+<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">2021 至今</div>
+<div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 R Workshop · 讲师</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">主讲《R 语言基础》《R 语言进阶》《自然语言处理》等课程</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">多次获清华大学教改项目支持，累计选课超千人</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">2024 — 2025</div>
+<div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">东京大学社会科学研究所 · 客员研究员</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">主讲《大模型与社会科学研究》，全英文授课</div>
+</div>
+</div>
+</div>
+
+<!--
+学术兼职方面。
+
+【指第一条】从 2021 年起，我一直担任清华 **R Workshop** 的讲师，主讲 R 语言和自然语言处理等课程，累计选课超过一千人。
+
+【指第二条】2024 到 2025 年，我在**东京大学**社会科学研究所做客员研究员，用英文主讲《大模型与社会科学研究》。
 
 【翻页】
 -->
