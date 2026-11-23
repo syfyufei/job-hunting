@@ -1,4 +1,5 @@
-/* 点击动画：学术发表页的成果从列表移到左列，连线汇聚到研究方向；再点一次落到坐标图上。→ / 空格 / 单击前进，← 退回。 */
+/* 点击动画（学术发表页）：第一次点击，成果从列表飞到“方法 × 对象”坐标上；
+   第二次点击，依次凸显比较政治学、计算社会科学两个区域。→ / 空格 / 单击前进，← 退回。 */
 (function () {
   function activeSection() { return document.querySelector('svg.bespoke-marp-active section'); }
   function gotoNext() {
@@ -10,97 +11,72 @@
     var list = sec.querySelector('.pub-list');
     var map = sec.querySelector('.pub-map');
     if (!list || !map) return;
-    var chips = all(map, '[data-chip]'), lines = all(map, '.pm-line'), nodes = all(map, '.pm-node');
-    var map2 = sec.querySelector('.pub-map2');
-    var dots = map2 ? all(map2, '.pm2-dot') : [], frame2 = map2 ? map2.querySelector('.pm2-frame') : null;
-    function toScatter() {
-      busy = true;
-      map.style.transition = 'opacity .4s';
-      map.style.opacity = '0';
-      map2.style.transition = 'none';
-      map2.style.opacity = '1';
-      map2.style.visibility = 'visible';
-      frame2.style.transition = 'none';
-      frame2.style.opacity = '0';
-      dots.forEach(function (d) { d.style.transition = 'none'; d.style.opacity = '0'; d.style.transform = 'scale(0.3)'; });
-      void map2.offsetHeight;
-      frame2.style.transition = 'opacity .5s .3s';
-      frame2.style.opacity = '1';
-      dots.forEach(function (d, i) {
-        var t = 700 + i * 140;
-        d.style.transition = 'opacity .35s ' + t + 'ms, transform .45s cubic-bezier(.3,1.4,.5,1) ' + t + 'ms';
-        d.style.opacity = '1';
-        d.style.transform = 'scale(1)';
-      });
-      var t2 = 700 + dots.length * 140 + 200;
-      setTimeout(function () { map.style.visibility = 'hidden'; }, 400);
-      state = 2;
-      setTimeout(function () { busy = false; }, t2);
-    }
+    var frame = map.querySelector('.pm-frame');
+    var pts = all(map, '[data-chip]');
+    var hls = all(map, '.pm-hl');
     var state = 0, busy = false;
     function scale() { return sec.getBoundingClientRect().width / 1280 || 1; }
-    sec._advance = function () {
-      if (busy) return true;
-      if (state === 2) return false;
-      if (state === 1) { if (!map2) return false; toScatter(); return true; }
+    function place() {
       busy = true;
       var k = scale();
       map.style.transition = 'none';
       map.style.opacity = '1';
       map.style.visibility = 'visible';
-      chips.forEach(function (c) {
-        c.style.transition = 'none';
-        c.style.transform = 'none';
-        var src = list.querySelector('[data-pub="' + c.getAttribute('data-chip') + '"]');
-        if (src) {
-          var a = src.getBoundingClientRect(), b = c.getBoundingClientRect();
-          c.style.transform = 'translate(' + (a.left - b.left) / k + 'px,' + (a.top - b.top) / k + 'px)';
-        } else {
-          c.style.transform = 'scale(0.6)';
-        }
-        c.style.opacity = '0';
-        c._fromList = !!src;
-      });
-      lines.forEach(function (p) {
-        var len = p.getTotalLength();
+      frame.style.transition = 'none';
+      frame.style.opacity = '0';
+      hls.forEach(function (h) { h.style.transition = 'none'; h.style.opacity = '0'; });
+      pts.forEach(function (p) {
         p.style.transition = 'none';
-        p.style.strokeDasharray = len;
-        p.style.strokeDashoffset = len;
+        p.style.transform = 'none';
+        var src = list.querySelector('[data-pub="' + p.getAttribute('data-chip') + '"]');
+        if (src) {
+          var a = src.getBoundingClientRect(), b = p.getBoundingClientRect();
+          p.style.transform = 'translate(' + (a.left - b.left) / k + 'px,' + (a.top - b.top) / k + 'px)';
+        } else {
+          p.style.transform = 'scale(0.4)';
+        }
+        p.style.opacity = '0';
+        p._fromList = !!src;
+      });
+      void map.offsetHeight;
+      list.style.transition = 'opacity .4s';
+      list.style.opacity = '0';
+      frame.style.transition = 'opacity .6s .2s';
+      frame.style.opacity = '1';
+      pts.forEach(function (p, i) {
+        var d = (p._fromList ? 150 : 1000) + i * 60;
+        p.style.transition = 'transform .9s cubic-bezier(.4,0,.2,1) ' + d + 'ms, opacity .3s ' + d + 'ms';
+        p.style.transform = 'none';
         p.style.opacity = '1';
       });
-      nodes.forEach(function (n) { n.style.transition = 'none'; n.style.opacity = '0'; });
-      void map.offsetHeight;
-      list.style.transition = 'opacity .35s';
-      list.style.opacity = '0';
-      chips.forEach(function (c, i) {
-        var d = (c._fromList ? 150 : 700) + i * 50;
-        c.style.transition = 'transform .8s cubic-bezier(.4,0,.2,1) ' + d + 'ms, opacity .25s ' + d + 'ms';
-        c.style.transform = 'none';
-        c.style.opacity = '1';
-      });
-      lines.forEach(function (p, i) {
-        p.style.transition = 'stroke-dashoffset .7s ease-out ' + (1300 + i * 80) + 'ms';
-        p.style.strokeDashoffset = '0';
-      });
-      nodes.forEach(function (n) { n.style.transition = 'opacity .5s 1.9s'; n.style.opacity = '1'; });
       state = 1;
-      setTimeout(function () { busy = false; }, 2600);
-      return true;
+      setTimeout(function () { busy = false; }, 1900);
+    }
+    function highlight() {
+      busy = true;
+      hls.forEach(function (h) {
+        var step = +h.getAttribute('data-step');
+        h.style.transition = 'opacity .6s ' + (step * 1000) + 'ms';
+        h.style.opacity = '1';
+      });
+      state = 2;
+      setTimeout(function () { busy = false; }, 1600);
+    }
+    sec._advance = function () {
+      if (busy) return true;
+      if (state === 0) { place(); return true; }
+      if (state === 1) { highlight(); return true; }
+      return false;
     };
     sec._retreat = function () {
       if (busy) return true;
       if (state === 0) return false;
-      busy = true;
       if (state === 2) {
-        map2.style.transition = 'opacity .35s';
-        map2.style.opacity = '0';
-        map.style.visibility = 'visible';
-        map.style.transition = 'opacity .35s';
-        map.style.opacity = '1';
-        setTimeout(function () { map2.style.visibility = 'hidden'; busy = false; }, 350);
+        hls.forEach(function (h) { h.style.transition = 'opacity .3s'; h.style.opacity = '0'; });
         state = 1;
         return true;
       }
+      busy = true;
       map.style.transition = 'opacity .35s';
       map.style.opacity = '0';
       setTimeout(function () {
