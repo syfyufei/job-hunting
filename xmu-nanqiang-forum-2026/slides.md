@@ -157,7 +157,8 @@ lang: zh-CN
 <div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
 <div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">2021 — 2026</div>
 <div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">GitHub 校园专家</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">GitHub Campus Expert</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">GitHub 官方认证的校园技术社区负责人，中国内地仅 2 人</div>
 <div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">开设 Workshop，介绍 GitHub 的使用方法</div>
 </div>
 </div>
@@ -176,7 +177,7 @@ lang: zh-CN
 
 【指第一条】2021 到 2026 年，我一直担任清华 **R Workshop** 的讲师，主讲 R 语言基础、进阶和自然语言处理等课程，连续五年获得清华大学教改项目支持，累计选课超过**一千人**。
 
-【指第二条】〔可删〕作为 GitHub 校园专家，我还开设过 Workshop，介绍 GitHub 的使用方法。
+【指第二条】我也是 **GitHub Campus Expert**，这是 GitHub 官方认证的校园技术社区负责人，中国内地只有两人；我在清华开设 Workshop，介绍 GitHub 的使用方法。
 
 【指第三条】在**东京大学**访学期间，我用英文主讲《大模型与社会科学研究》，也为研究所的学生讲授 R 和文本分析。
 
