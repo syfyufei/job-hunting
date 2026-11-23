@@ -14,4 +14,5 @@ script:
 	pandoc script.md -o script.docx
 	pandoc script.md -o script.pdf --pdf-engine=xelatex -V CJKmainfont="Songti SC" -V geometry:margin=2.2cm
 	python3 script_html.py
+	python3 script_html.py script-v1.md script-v1.html
 all: html pdf pptx script
