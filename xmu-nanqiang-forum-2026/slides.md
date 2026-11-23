@@ -73,6 +73,41 @@ lang: zh-CN
 
 ---
 
+<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">研究方向</div>
+<div style="width:1000px; margin:0.6em auto 0; text-align:left;">
+<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0;">
+<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">比较政治学</div>
+<div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">国家形象建构与政治传播</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">“一带一路”与西巴尔干五国的媒体态度<span style="color:var(--ink-mute); margin-left:0.8em;">《中国社会科学》拟录用</span></div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">美国孔子学院的关闭<span style="color:var(--ink-mute); margin-left:0.8em;">CJIP · SSCI Q1</span></div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">计算政治学</div>
+<div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">用深度学习与大模型测量政治话语</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">国家话语同构指数<span style="color:var(--ink-mute); margin-left:0.8em;">博士论文</span></div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">官话识别模型 Bureaucratese<span style="color:var(--ink-mute); margin-left:0.8em;">已开源</span></div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">领导留言板与政府回应性<span style="color:var(--ink-mute); margin-left:0.8em;">在研</span></div>
+</div>
+</div>
+</div>
+
+<!--
+我的研究方向有两个。
+
+【指第一条】一是**比较政治学**，关注国家形象建构与政治传播。代表研究包括“一带一路”项目对西巴尔干五国媒体态度的影响，以及美国孔子学院的关闭。
+
+【指第二条】二是**计算政治学**，用深度学习和大模型测量政治话语。博士论文构建了国家话语同构指数，在此基础上发布了官话识别模型，目前在做领导留言板与政府回应性的研究。
+
+〔可删〕方法上，我也做调查实验，相关成果发表在公共管理类期刊上。
+
+【翻页】
+-->
+
+---
+
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
 <div style="width:1120px; margin:2.2em auto 0; text-align:left;">
 <div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
@@ -112,13 +147,11 @@ lang: zh-CN
 </div>
 
 <!--
-我已发表和拟录用论文 8 篇，英文 1 篇、中文 7 篇，研究集中在**比较政治学**和**计算政治学**两个领域。
+我已发表和拟录用论文 8 篇。
 
-【指英文论文】代表作之一研究美国孔子学院的关闭，发表在 **The Chinese Journal of International Politics**，是 SSCI 一区期刊，我是通讯作者。
+【指英文论文】英文论文发表在 SSCI 一区期刊 **The Chinese Journal of International Politics**，我是通讯作者。
 
-【指中文第一条】另一篇研究“一带一路”项目如何影响西巴尔干五国的媒体态度，已被**《中国社会科学》**拟录用，我也是通讯作者。
-
-【指中文其余各条】其余几篇涉及地方治理、公共服务动机和调查实验，其中 CSSCI 期刊 4 篇。〔可删〕方法上，这些研究用到了空间双重差分、文本分析和调查实验。
+【指中文论文】中文论文 7 篇，其中《中国社会科学》1 篇已拟录用，我也是通讯作者；其余 CSSCI 期刊 4 篇。
 
 【翻页】
 -->
