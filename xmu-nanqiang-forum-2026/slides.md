@@ -237,47 +237,7 @@ footer: 南强青年学者论坛 · 2026
 <!--
 我还维护着几个开源项目，和研究直接相关的有三个：**Bureaucratese** 是基于 BERT 的官话识别工具；**SurveyAgent** 用大模型做问卷实验仿真；**Regioncode** 做行政区划代码的跨年份转换，下载量超过一万七千次。
 
-技术方面，我日常使用 R 和 Python，持有 NVIDIA 的大语言模型认证，也可以用英文独立授课。
-
-【翻页】
--->
-
----
-
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">可开设课程</div>
-<div style="width:640px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">全校通识</div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">大模型与社会科学</div>
-</div>
-<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">本科</div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">比较政治学</div>
-</div>
-<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
-<div></div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">社会科学数据分析</div>
-</div>
-<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">研究生</div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">计算政治学</div>
-</div>
-<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
-<div></div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">因果推断与实验政治学</div>
-</div>
-</div>
-
-<!--
-教学方面，我可以开五门课。
-
-【指第一条】面向全校，开通识课**《大模型与社会科学》**，这门课我在东京大学讲过。
-
-【指本科两条】本科阶段，讲**比较政治学**和社会科学数据分析。
-
-【指研究生两条】研究生阶段，讲**计算政治学**和因果推断与实验政治学。
-
-〔可删〕这些课可以和系里已有的计算社会科学、社会统计学等课程衔接。以上是我的个人介绍。
+技术方面，我日常使用 R 和 Python，持有 NVIDIA 的大语言模型认证，也可以用英文独立授课。以上是我的个人介绍。
 
 【翻页】
 -->
