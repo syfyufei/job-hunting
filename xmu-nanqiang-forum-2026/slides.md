@@ -125,14 +125,21 @@ lang: zh-CN
 
 ---
 
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术兼职</div>
+<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">教学经历</div>
 <div style="width:1000px; margin:0.6em auto 0; text-align:left;">
 <div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0;">
 <div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">2021 至今</div>
 <div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 R Workshop · 讲师</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 R Workshop · 创办人、讲师</div>
 <div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">主讲《R 语言基础》《R 语言进阶》《自然语言处理》等课程</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">多次获清华大学教改项目支持，累计选课超千人</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">连续 5 年获清华大学教改项目支持，累计选课超千人</div>
+</div>
+</div>
+<div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">2021 至今</div>
+<div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">GitHub 校园专家</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">建立 GitHub 清华开发者社群（中国内地仅两名校园专家）</div>
 </div>
 </div>
 <div style="display:grid; grid-template-columns:190px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
@@ -140,16 +147,19 @@ lang: zh-CN
 <div>
 <div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">东京大学社会科学研究所 · 客员研究员</div>
 <div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">主讲《大模型与社会科学研究》，全英文授课</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">为研究所学生讲授 R Workshop 与文本分析课程</div>
 </div>
 </div>
 </div>
 
 <!--
-学术兼职方面。
+教学方面，我有五年多的课程经验。
 
-【指第一条】从 2021 年起，我一直担任清华 **R Workshop** 的讲师，主讲 R 语言和自然语言处理等课程，累计选课超过一千人。
+【指第一条】读博期间，我创办了清华 **R Workshop** 并担任讲师，主讲 R 语言基础、进阶和自然语言处理等课程，连续五年获得清华大学教改项目支持，累计选课超过**一千人**。
 
-【指第二条】2024 到 2025 年，我在**东京大学**社会科学研究所做客员研究员，用英文主讲《大模型与社会科学研究》。
+【指第二条】〔可删〕作为 GitHub 校园专家，我还在清华建立了开发者社群。
+
+【指第三条】在**东京大学**访学期间，我用英文主讲《大模型与社会科学研究》，也为研究所的学生讲授 R 和文本分析。
 
 【翻页】
 -->
