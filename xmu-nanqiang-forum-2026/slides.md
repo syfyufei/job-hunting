@@ -53,8 +53,8 @@ lang: zh-CN
 <div style="font-family:var(--sans-zh); font-size:19px; color:var(--accent); font-weight:600; letter-spacing:0.06em;">2025 至今</div>
 <div>
 <div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">美团 Keeta · 大模型算法工程师</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">负责智能客服、智能外呼 Agent Harness 系统与自我改进闭环（RSI）的算法研发</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">参与自研大模型后训练（监督微调，SFT）和评估评测等开发任务</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">负责 Keeta Agent Harness 系统与 RSI 的算法研发</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">参与自研大模型后训练和评估评测等开发任务</div>
 </div>
 </div>
 </div>
