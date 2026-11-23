@@ -13,7 +13,7 @@ lang: zh-CN
 
 <img src="figures/logos/thu-fig-logo.png" style="position:absolute; top:40px; right:48px; height:64px; margin:0;" />
 <div style="width:100%; text-align:center;">
-<div style="font-family: var(--serif-zh); font-size: 64px; font-weight: 500; color: var(--ink); letter-spacing: 0.08em; line-height: 1.2; margin-bottom: 2.4em;">个人陈述</div>
+<div style="font-family: var(--serif-zh); font-size: 60px; font-weight: 600; color: var(--accent); letter-spacing: 0.06em; line-height: 1.2; margin-bottom: 2.4em;">“南强论坛”个人陈述</div>
 <div style="display:flex; flex-direction:column; align-items:center; gap:0.9em; font-family: var(--serif-zh); font-size: 20px; color: #555555; letter-spacing: 0.08em; line-height: 1;">
 <div style="font-size:26px; color:var(--ink);">孙宇飞</div>
 <div>清华大学政治学系</div>
