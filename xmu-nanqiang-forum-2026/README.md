@@ -32,7 +32,7 @@
 | 文件 | 说明 |
 |---|---|
 | `slides.md` | Marp 源文件，逐字稿写在每页备注里（HTML 演讲者视图可见） |
-| `script.md` / `.docx` / `.pdf` | 逐字稿单独版，含每页用时 |
+| `script.md` / `.html` / `.docx` / `.pdf` | 逐字稿单独版，含每页用时（`make script` 重新生成） |
 | `themes/defense.css` | 主题样式（答辩版主题 + 答辩终稿的字体设置） |
 | `slides.html` | 可直接演示（按 P 进演讲者视图） |
 | `preview/` | 每页 PNG 预览 |

@@ -1,0 +1,17 @@
+:root{--bg:#F4EDE0;--ink:#1F1A14;--soft:#4A4035;--mute:#877867;--rule:#DCCFB5;--accent:#660874}
+html{background:var(--bg)}
+body{max-width:760px;margin:0 auto;padding:40px 20px 80px;color:var(--ink);background:var(--bg);
+ font-family:"Songti SC","STSong",serif;font-size:18px;line-height:1.9}
+header h1.title{font-size:30px;color:var(--accent);margin:0 0 4px}
+header p.subtitle{color:var(--soft);margin:0}header p.author{color:var(--mute);margin:0 0 24px}
+h1{font-family:"PingFang SC",sans-serif;font-size:19px;color:var(--accent);margin:2.2em 0 .6em;padding-top:.8em;border-top:1px solid var(--rule)}
+hr{display:none}
+strong{color:var(--accent)}
+p{margin:.55em 0}
+ul{padding-left:1.2em}li{margin:.2em 0}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:.8em 0}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left}
+th{color:var(--soft)}
+.cue{font-family:"PingFang SC",sans-serif;font-size:13px;color:var(--mute);background:rgba(102,8,116,.06);padding:1px 6px;border-radius:3px;margin-right:4px}
+.cut{font-family:"PingFang SC",sans-serif;font-size:12px;color:#fff;background:var(--mute);padding:0 5px;border-radius:3px;margin-right:4px}
+@media (max-width:600px){body{font-size:16px}}

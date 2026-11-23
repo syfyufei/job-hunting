@@ -10,4 +10,8 @@ pptx:
 	$(M) --pptx -o slides.pptx < /dev/null
 png:
 	mkdir -p preview && $(M) --images png -o preview/slide.png < /dev/null
-all: html pdf pptx
+script:
+	pandoc script.md -o script.docx
+	pandoc script.md -o script.pdf --pdf-engine=xelatex -V CJKmainfont="Songti SC" -V geometry:margin=2.2cm
+	python3 script_html.py
+all: html pdf pptx script
