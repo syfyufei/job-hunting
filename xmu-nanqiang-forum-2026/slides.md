@@ -128,7 +128,6 @@ lang: zh-CN
 </div>
 <div class="pub-map2" style="position:absolute; left:96px; top:118px; width:1088px; height:560px; visibility:hidden; text-align:left;">
 <svg width="1088" height="560" viewBox="0 0 1088 560" style="position:absolute; left:0; top:0; overflow:visible;">
-<defs><marker id="pm2arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#660874"/></marker></defs>
 <g class="pm2-frame" style="opacity:0;">
 <rect x="150" y="20" width="820" height="230" fill="rgba(102,8,116,0.045)"/>
 <rect x="560" y="20" width="410" height="460" fill="rgba(102,8,116,0.045)"/>
@@ -155,7 +154,6 @@ lang: zh-CN
 <text x="754" y="520" text-anchor="end" style="font-family:var(--sans-zh); font-size:12px; font-weight:500; fill:#877867; letter-spacing:0;">2020</text>
 <text x="926" y="520" text-anchor="start" style="font-family:var(--sans-zh); font-size:12px; font-weight:500; fill:#877867; letter-spacing:0;">2027</text>
 </g>
-<path class="pm2-arrow" d="M248,406 Q563,320 757,94" fill="none" stroke="#660874" stroke-width="2" stroke-dasharray="6 6" stroke-opacity="0.55" marker-end="url(#pm2arrow)" style="opacity:0;"/>
 <g class="pm2-dot" data-year="2020" style="opacity:0; transform-origin:199px 434px;">
 <circle cx="199" cy="434" r="8" fill="#C9B0CD" stroke="#F4EDE0" stroke-width="2"/>
 <text x="211" y="439" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">“条块并举”发包制<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2020</tspan></text>
@@ -168,9 +166,9 @@ lang: zh-CN
 <circle cx="445" cy="402" r="8" fill="#BB98C0" stroke="#F4EDE0" stroke-width="2"/>
 <text x="457" y="407" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">助推型政策<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2021</tspan></text>
 </g>
-<g class="pm2-dot" data-year="2022" style="opacity:0; transform-origin:494px 140px;">
-<circle cx="494" cy="140" r="8" fill="#AD80B4" stroke="#F4EDE0" stroke-width="2"/>
-<text x="506" y="145" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">美国孔子学院的关闭<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2022</tspan></text>
+<g class="pm2-dot" data-year="2022" style="opacity:0; transform-origin:314px 121px;">
+<circle cx="314" cy="121" r="8" fill="#AD80B4" stroke="#F4EDE0" stroke-width="2"/>
+<text x="326" y="126" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">美国孔子学院的关闭<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2022</tspan></text>
 </g>
 <g class="pm2-dot" data-year="2023" style="opacity:0; transform-origin:609px 282px;">
 <circle cx="609" cy="282" r="8" fill="#9F68A7" stroke="#F4EDE0" stroke-width="2"/>
@@ -208,7 +206,7 @@ lang: zh-CN
 
 【点击，成果汇聚到两个方向】这些成果最终收敛到两个方向。一是**比较政治学**，包括两篇代表作和两篇国家治理研究；二是**计算社会科学**，包括我的博士论文、开源的官话识别模型，以及四篇调查与实验研究。
 
-【再点击，成果落到坐标上】如果按研究方法和研究对象把这些成果放到坐标上，再看时间，我的研究从早期的国内案例和调查研究，逐步走向右上方，也就是计算方法与跨国比较的交叉处。
+【再点击，成果落到坐标上】如果按研究方法和研究对象把这些成果放到坐标上：上半部分是比较政治学，右半部分是计算社会科学；颜色越深越新，近两年的成果集中在右侧和右上方，也就是计算方法与跨国比较的交叉处。
 
 【翻页】
 -->

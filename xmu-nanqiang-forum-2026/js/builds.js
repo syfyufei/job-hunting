@@ -13,7 +13,6 @@
     var chips = all(map, '[data-chip]'), lines = all(map, '.pm-line'), nodes = all(map, '.pm-node');
     var map2 = sec.querySelector('.pub-map2');
     var dots = map2 ? all(map2, '.pm2-dot') : [], frame2 = map2 ? map2.querySelector('.pm2-frame') : null;
-    var arrow = map2 ? map2.querySelector('.pm2-arrow') : null;
     function toScatter() {
       busy = true;
       map.style.transition = 'opacity .4s';
@@ -24,9 +23,6 @@
       frame2.style.transition = 'none';
       frame2.style.opacity = '0';
       dots.forEach(function (d) { d.style.transition = 'none'; d.style.opacity = '0'; d.style.transform = 'scale(0.3)'; });
-      var len = arrow.getTotalLength();
-      arrow.style.transition = 'none';
-      arrow.style.opacity = '0';
       void map2.offsetHeight;
       frame2.style.transition = 'opacity .5s .3s';
       frame2.style.opacity = '1';
@@ -38,13 +34,8 @@
       });
       var t2 = 700 + dots.length * 140 + 200;
       setTimeout(function () { map.style.visibility = 'hidden'; }, 400);
-      setTimeout(function () {
-        arrow.style.strokeDasharray = 'none';
-        arrow.style.transition = 'opacity .8s';
-        arrow.style.opacity = '1';
-      }, t2);
       state = 2;
-      setTimeout(function () { busy = false; }, t2 + 600);
+      setTimeout(function () { busy = false; }, t2);
     }
     var state = 0, busy = false;
     function scale() { return sec.getBoundingClientRect().width / 1280 || 1; }
