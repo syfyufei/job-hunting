@@ -36,16 +36,16 @@ lang: zh-CN
 <div style="display:grid; grid-template-columns:200px 1fr; align-items:baseline; padding:0.9em 0;">
 <div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2020.09 — 2026.06</div>
 <div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 · 法学博士（政治学）</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">社会科学学院政治学专业，大数据政治学方向，专业排名 1/89</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 · 法学博士（政治学专业）</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">清华大学政治学系，大数据政治学方向，专业排名 1/89</div>
 <div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">博士论文《国家话语的同构机制研究》，清华大学优秀博士学位论文</div>
 </div>
 </div>
 <div style="display:grid; grid-template-columns:200px 1fr; align-items:baseline; padding:0.9em 0; border-top:1px solid var(--rule-soft);">
 <div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2016.09 — 2020.06</div>
 <div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">山东大学 · 法学学士（国际政治）</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">政治学与公共管理学院国际政治专业，专业排名 1/23</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">山东大学 · 法学学士（国际政治专业）</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">政治学与公共管理学院，专业排名 1/23</div>
 <div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">山东省优秀毕业生</div>
 </div>
 </div>
@@ -53,8 +53,8 @@ lang: zh-CN
 <div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2025.05 至今</div>
 <div>
 <div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">美团 Keeta · 大模型算法工程师</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">智能客服、智能外呼 Agent 系统的算法研发</div>
-<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">自研大模型的后训练（监督微调）与评估评测</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">负责智能客服、智能外呼 Agent Harness 系统与自我改进闭环（RSI）的算法研发</div>
+<div style="font-size:17px; color:var(--ink-soft); line-height:1.6; margin-top:0.3em;">参与自研大模型后训练（监督微调，SFT）和评估评测等开发任务</div>
 </div>
 </div>
 </div>
