@@ -14,9 +14,9 @@
   --ink-mute:     #877867;   /* meta, page numbers */
   --rule:         #C9B898;   /* hairline rules */
   --rule-soft:    #DCCFB5;
-  --accent:       #C95D2C;   /* coral / burnt orange — Anthropic-leaning */
-  --accent-soft:  #E8C8B4;
-  --accent-deep:  #8E3A14;
+  --accent:       #660874;   /* 清华紫 */
+  --accent-soft:  #D9C3DD;
+  --accent-deep:  #4A0655;
 
   /* Typography — aligned with docs/defense-slides goldenBlack theme
      (Chinese: STHeiti / Microsoft YaHei / SimHei — all 黑体 family, no serif distinction;
