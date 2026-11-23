@@ -882,36 +882,6 @@ DiMaggio &amp; Powell <span style="margin:0 0.2em;">·</span> <span style="color
 
 ---
 
-<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">研究计划</div>
-<div style="width:760px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.8em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">计算政治学</div>
-<div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">可复用的政治文本测量工具</div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4; margin-top:0.35em;">用组织理论设计大模型系统</div>
-</div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.8em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">比较政治学</div>
-<div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">话语扩散与国家形象的跨国比较</div>
-<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4; margin-top:0.35em;">地方治理与政府回应的比较研究</div>
-</div>
-</div>
-</div>
-
-<!--
-接下来，我会沿两条主线推进。
-
-【指第一条】第一条是计算政治学。一是把同构指数发展成可复用的政治文本测量工具，结合大模型开源发布；二是把政治学带进大模型：多个模型组成的系统本身就是一种组织，我用组织理论来设计它，也用它来检验组织理论。
-
-【指第二条】第二条是比较政治学。在西巴尔干和孔子学院研究的基础上，继续做话语扩散与国家形象的跨国比较，并用计算方法做地方治理的比较研究。
-
-【翻页】
--->
-
----
-
 <style scoped>section { justify-content:center !important; padding:64px 96px !important; } section { text-align:center !important; }</style>
 
 <div style="width:100%; text-align:center;">
