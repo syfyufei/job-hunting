@@ -297,12 +297,11 @@ lang: zh-CN
 
 <style scoped>section { justify-content:center !important; padding:64px 96px !important; }</style>
 
-<div style="width:100%; text-align:center;">
-<div style="font-family: var(--serif-zh); font-size: 64px; font-weight: 500; color: var(--ink); letter-spacing: 0.02em; line-height: 1.2; margin-bottom: 2.4em;">国家话语的同构机制研究</div>
-<div style="display:flex; flex-direction:column; align-items:center; gap:0.9em; font-family: var(--serif-zh); font-size: 20px; color: #555555; letter-spacing: 0.08em; line-height: 1;">
-<div>博士学位论文</div>
-<div>清华大学优秀博士学位论文</div>
-</div>
+<div style="width:100%; text-align:left; padding-left:40px;">
+<div style="font-family:var(--sans-zh); font-size:16px; color:var(--accent); font-weight:600; letter-spacing:0.3em;">第二部分</div>
+<div style="font-family:var(--serif-zh); font-size:44px; font-weight:600; color:var(--ink); letter-spacing:0.04em; margin-top:0.4em; padding-bottom:0.45em; border-bottom:2px solid var(--accent); display:inline-block;">博士论文</div>
+<div style="font-family:var(--serif-zh); font-size:26px; color:var(--ink); margin-top:1.1em; letter-spacing:0.02em;">国家话语的同构机制研究</div>
+<div style="font-size:16px; color:var(--ink-mute); margin-top:0.7em; letter-spacing:0.06em;">清华大学优秀博士学位论文</div>
 </div>
 
 <!--
