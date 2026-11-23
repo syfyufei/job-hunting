@@ -111,42 +111,43 @@ lang: zh-CN
 </div>
 </div>
 <div class="pub-map" style="position:absolute; left:96px; top:118px; width:1088px; height:560px; visibility:hidden; text-align:left;">
-<div class="pm-hl" data-step="0" style="position:absolute; left:150px; top:20px; width:820px; height:230px; background:rgba(102,8,116,0.09); border-top:3px solid var(--accent); opacity:0;"></div>
-<div class="pm-hl" data-step="1" style="position:absolute; left:560px; top:20px; width:410px; height:460px; background:rgba(102,8,116,0.09); border-right:3px solid var(--accent); opacity:0;"></div>
-<div class="pm-hl" data-step="0" style="position:absolute; left:164px; top:32px; font-family:var(--sans-zh); font-size:22px; font-weight:700; color:var(--accent); letter-spacing:0.1em; opacity:0;">比较政治学</div>
-<div class="pm-hl" data-step="1" style="position:absolute; right:132px; top:440px; font-family:var(--sans-zh); font-size:22px; font-weight:700; color:var(--accent); letter-spacing:0.1em; opacity:0;">计算社会科学</div>
+<div class="pm-hl" data-step="0" style="position:absolute; left:150px; top:30px; width:410px; height:440px; background:linear-gradient(90deg, rgba(102,8,116,0.16), rgba(102,8,116,0.02)); opacity:0;"></div>
+<div class="pm-hl" data-step="1" style="position:absolute; left:560px; top:30px; width:410px; height:440px; background:linear-gradient(270deg, rgba(31,26,20,0.13), rgba(31,26,20,0.02)); opacity:0;"></div>
+<div class="pm-hl" data-step="0" style="position:absolute; left:164px; top:0px; font-family:var(--sans-zh); font-size:22px; font-weight:700; color:var(--accent); letter-spacing:0.1em; opacity:0;">比较政治学</div>
+<div class="pm-hl" data-step="1" style="position:absolute; right:132px; top:0px; font-family:var(--sans-zh); font-size:22px; font-weight:700; color:var(--ink); letter-spacing:0.1em; opacity:0;">计算社会科学</div>
 <svg class="pm-frame" width="1088" height="560" viewBox="0 0 1088 560" style="position:absolute; left:0; top:0; overflow:visible; opacity:0;">
-<line x1="150" y1="480" x2="970" y2="480" stroke="#3F3F3F" stroke-width="1.5"/>
-<line x1="150" y1="20" x2="150" y2="480" stroke="#3F3F3F" stroke-width="1.5"/>
-<line x1="150" y1="250" x2="970" y2="250" stroke="#C9B898" stroke-dasharray="4 4"/>
-<line x1="560" y1="20" x2="560" y2="480" stroke="#C9B898" stroke-dasharray="4 4"/>
-<text x="150" y="504" text-anchor="start" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">案例与定性</text>
-<text x="970" y="504" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">文本计算与深度学习</text>
-<text x="560" y="526" text-anchor="middle" style="font-family:var(--sans-zh); font-size:14px; font-weight:700; fill:#2B2B2B; letter-spacing:0.12em;">研究方法 →</text>
-<text x="136" y="480" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">国内</text>
-<text x="136" y="32" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">跨国比较</text>
-<text x="100" y="250" text-anchor="middle" transform="rotate(-90 100 250)" style="font-family:var(--sans-zh); font-size:14px; font-weight:700; fill:#2B2B2B; letter-spacing:0.12em;">研究对象 →</text>
-<rect x="760" y="512" width="20" height="8" fill="#C9B0CD"/>
-<rect x="780" y="512" width="20" height="8" fill="#BB98C0"/>
-<rect x="800" y="512" width="20" height="8" fill="#AD80B4"/>
-<rect x="820" y="512" width="20" height="8" fill="#9F68A7"/>
-<rect x="840" y="512" width="20" height="8" fill="#90509A"/>
-<rect x="860" y="512" width="20" height="8" fill="#82388D"/>
-<rect x="880" y="512" width="20" height="8" fill="#742081"/>
-<rect x="900" y="512" width="20" height="8" fill="#660874"/>
-<text x="754" y="520" text-anchor="end" style="font-family:var(--sans-zh); font-size:12px; font-weight:500; fill:#877867; letter-spacing:0;">2020</text>
-<text x="926" y="520" text-anchor="start" style="font-family:var(--sans-zh); font-size:12px; font-weight:500; fill:#877867; letter-spacing:0;">2027</text>
+<line x1="150" y1="447" x2="970" y2="447" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="451" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2020</text>
+<line x1="150" y1="391" x2="970" y2="391" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="395" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2021</text>
+<line x1="150" y1="335" x2="970" y2="335" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="339" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2022</text>
+<line x1="150" y1="278" x2="970" y2="278" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="282" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2023</text>
+<line x1="150" y1="222" x2="970" y2="222" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="226" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2024</text>
+<line x1="150" y1="165" x2="970" y2="165" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="169" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2025</text>
+<line x1="150" y1="109" x2="970" y2="109" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="113" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2026</text>
+<line x1="150" y1="53" x2="970" y2="53" stroke="#DCCFB5" stroke-width="1"/>
+<text x="136" y="57" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0;">2027</text>
+<line x1="150" y1="470" x2="970" y2="470" stroke="#3F3F3F" stroke-width="1.5"/>
+<line x1="560" y1="30" x2="560" y2="470" stroke="#C9B898" stroke-dasharray="4 4"/>
+<text x="150" y="496" text-anchor="start" style="font-family:var(--sans-zh); font-size:15px; font-weight:700; fill:#660874; letter-spacing:0.08em;">← 比较政治学</text>
+<text x="970" y="496" text-anchor="end" style="font-family:var(--sans-zh); font-size:15px; font-weight:700; fill:#1F1A14; letter-spacing:0.08em;">计算社会科学 →</text>
+<text x="560" y="496" text-anchor="middle" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#877867; letter-spacing:0.08em;">研究取向</text>
 </svg>
-<div data-chip="tk" data-year="2020" style="position:absolute; top:425px; left:190px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#C9B0CD; border:2px solid var(--bg); box-shadow:0 0 0 1px #C9B0CD;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">“条块并举”发包制<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2020</span></span></div>
-<div data-chip="gz" data-year="2021" style="position:absolute; top:453px; left:371px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#BB98C0; border:2px solid var(--bg); box-shadow:0 0 0 1px #BB98C0;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">高职专业选择<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2021</span></span></div>
-<div data-chip="nudge" data-year="2021" style="position:absolute; top:393px; left:436px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#BB98C0; border:2px solid var(--bg); box-shadow:0 0 0 1px #BB98C0;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">助推型政策<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2021</span></span></div>
-<div data-chip="psm" data-year="2025" style="position:absolute; top:351px; left:526px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#82388D; border:2px solid var(--bg); box-shadow:0 0 0 1px #82388D;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">公共服务动机<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2025</span></span></div>
-<div data-chip="szh" data-year="2025" style="position:absolute; top:319px; right:683px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#82388D; border:2px solid var(--bg); box-shadow:0 0 0 1px #82388D;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">思政教育<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2025</span></span></div>
-<div data-chip="ldz" data-year="2023" style="position:absolute; top:273px; left:600px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#9F68A7; border:2px solid var(--bg); box-shadow:0 0 0 1px #9F68A7;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">地方治理的“能力空间”<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2023</span></span></div>
-<div data-chip="bur" data-year="2025" style="position:absolute; top:342px; right:224px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#82388D; border:2px solid var(--bg); box-shadow:0 0 0 1px #82388D;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">Bureaucratese<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2025</span></span></div>
-<div data-chip="diss" data-year="2026" style="position:absolute; top:204px; right:175px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#742081; border:2px solid var(--bg); box-shadow:0 0 0 1px #742081;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">博士论文<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2026</span></span></div>
-<div data-chip="cjip" data-year="2022" style="position:absolute; top:112px; left:305px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#AD80B4; border:2px solid var(--bg); box-shadow:0 0 0 1px #AD80B4;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">美国孔子学院的关闭<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2022</span></span></div>
-<div data-chip="xbg" data-year="2027" style="position:absolute; top:57px; right:240px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:14px; height:14px; border-radius:50%; background:#660874; border:2px solid var(--bg); box-shadow:0 0 0 1px #660874;"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">从“硬联通”到“心联通”<span style="font-size:11px; font-weight:500; color:var(--ink-mute); margin-left:5px;">2027</span></span></div>
+<div data-chip="tk" style="position:absolute; top:439px; left:322px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">“条块并举”发包制</span></div>
+<div data-chip="nudge" style="position:absolute; top:383px; right:389px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">助推型政策</span></div>
+<div data-chip="gz" style="position:absolute; top:375px; left:765px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">高职专业选择</span></div>
+<div data-chip="cjip" style="position:absolute; top:327px; left:240px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">美国孔子学院的关闭</span></div>
+<div data-chip="ldz" style="position:absolute; top:270px; left:486px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">地方治理的“能力空间”</span></div>
+<div data-chip="psm" style="position:absolute; top:143px; right:372px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">公共服务动机</span></div>
+<div data-chip="szh" style="position:absolute; top:169px; left:765px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">思政教育</span></div>
+<div data-chip="bur" style="position:absolute; top:140px; right:151px; display:flex; flex-direction:row-reverse; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">Bureaucratese</span></div>
+<div data-chip="diss" style="position:absolute; top:101px; left:618px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">博士论文</span></div>
+<div data-chip="xbg" style="position:absolute; top:45px; left:437px; display:flex; flex-direction:row; align-items:center; gap:8px; white-space:nowrap; opacity:0; will-change:transform;"><span style="display:block; width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid var(--bg); box-shadow:0 0 0 1px var(--accent);"></span><span style="font-family:var(--sans-zh); font-size:14px; font-weight:600; color:var(--ink);">从“硬联通”到“心联通”</span></div>
 </div>
 
 <!--
@@ -156,9 +157,9 @@ lang: zh-CN
 
 【指中文论文】中文论文 7 篇，其中《中国社会科学》1 篇已拟录用，我也是通讯作者；其余 CSSCI 期刊 4 篇。
 
-【点击，成果落到坐标上】按研究方法和研究对象，把这些成果放到坐标上：横轴从案例与定性到文本计算，纵轴从国内到跨国比较，颜色越深越新。
+【点击，成果落到图上】把这些成果按时间和研究取向放到图上：纵轴是年份，横轴从比较政治学到计算社会科学。
 
-【再点击，凸显两个方向】上半部分是**比较政治学**，包括两篇代表作和博士论文；右半部分是**计算社会科学**，包括博士论文、官话识别模型和地方治理研究。近两年的成果集中在右侧和右上方，也就是两者的交叉处。
+【再点击，凸显两个方向】所有成果都落在这两个方向之间：偏左的是**比较政治学**，如孔子学院和国家治理研究；偏右的是**计算社会科学**，如官话识别模型和几项调查实验。近两年的博士论文和西巴尔干研究靠近中间，把两个方向结合了起来。
 
 【翻页】
 -->

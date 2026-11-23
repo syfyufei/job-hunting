@@ -1,5 +1,5 @@
-/* 点击动画（学术发表页）：第一次点击，成果从列表飞到“方法 × 对象”坐标上；
-   第二次点击，依次凸显比较政治学、计算社会科学两个区域。→ / 空格 / 单击前进，← 退回。 */
+/* 点击动画（学术发表页）：第一次点击，成果从列表飞到“年份 × 研究取向”图上；
+   第二次点击，依次凸显比较政治学、计算社会科学两侧。→ / 空格 / 单击前进，← 退回。 */
 (function () {
   function activeSection() { return document.querySelector('svg.bespoke-marp-active section'); }
   function gotoNext() {
