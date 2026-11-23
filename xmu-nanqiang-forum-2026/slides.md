@@ -76,57 +76,51 @@ lang: zh-CN
 ---
 
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">学术发表</div>
-<div style="width:1040px; margin:0.6em auto 0; text-align:left;">
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0;">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2027</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">从“硬联通”到“心联通”的转化机制</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《中国社会科学》拟录用 · 通讯作者</span></div>
+<div style="width:1120px; margin:2.2em auto 0; text-align:left;">
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">中文论文</div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">从“硬联通”到“心联通”的转化机制——以西巴尔干五国为例</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">杨雪冬，<b style="color:var(--ink); font-weight:600;">孙宇飞（通讯作者）</b>，靳乔　《中国社会科学》，2027<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI · 拟录用</span></div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2025</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">公共服务动机激发机制的适用性与稳定性</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《公共管理与政策评论》CSSCI · 学生一作</span></div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">扣动公心之弦：公共服务动机激发机制适用性与稳定性研究</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">胡悦，<b style="color:var(--ink); font-weight:600;">孙宇飞（学生一作）</b>，陈子怡　《公共管理与政策评论》，2025，14(1)：54–71<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2025</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">思想政治教育政治社会化效果的实验研究</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《政治与公共管理研究》</span></div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">灌输·信号·说服——思想政治教育政治社会化效果的实验研究</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">胡悦，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，汤霓　《政治与公共管理研究》，2025(1)：123–141</div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2023</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">地方治理的“能力空间”与防控压力的传导变异</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《广州大学学报》CSSCI · 第一作者</span></div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">地方治理的“能力空间”与疫情防控压力的传导变异——基于 2021 年春节期间地方疫情防控政策的实证研究</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;"><b style="color:var(--ink); font-weight:600;">孙宇飞</b>，杨雪冬　《广州大学学报（社会科学版）》，2023，22(2)：71–81<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2022</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">美国孔子学院关闭的实证分析</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">CJIP · SSCI Q1 · 通讯作者</span></div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">为何需要助推型政策：理解居民健康意识和行为的不同步</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，<b style="color:var(--ink); font-weight:600;">孙宇飞（通讯作者）</b>　《公共管理与政策评论》，2021，10(1)：31–41<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2021</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">为何需要助推型政策</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《公共管理与政策评论》CSSCI · 通讯作者</span></div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">高职专业选择满意度影响因素、问题与展望——学生个体视角</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">赵泽群，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，邱懿　《中国职业技术教育》，2021(19)：82–86<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">北大核心</span></div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2021</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">高职专业选择满意度的影响因素</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《中国职业技术教育》北大核心</span></div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">“条块并举”发包制下的基层治理——以 T 区乡镇政府的精准扶贫工作为例</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">李振，王浩瑜，<b style="color:var(--ink); font-weight:600;">孙宇飞</b>，等　《公共行政评论》，2020，13(3)：102–117<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">CSSCI</span></div>
 </div>
-<div style="display:grid; grid-template-columns:80px 1fr auto; align-items:baseline; padding:0.42em 0; border-top:1px solid var(--rule-soft);">
-<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.12em;">2020</div>
-<div style="font-size:20px; font-weight:600; color:var(--ink); line-height:1.4;">“条块并举”发包制下的基层治理</div>
-<div style="text-align:right; padding-left:1.5em;"><span style="font-size:16px; font-weight:400; color:var(--ink-mute); letter-spacing:0.04em;">《公共行政评论》CSSCI</span></div>
+<div style="font-family:var(--sans-zh); font-size:15px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin:0.5em 0 0.15em; padding-bottom:0.25em; border-bottom:1px solid var(--rule);">英文论文</div>
+<div style="padding:0.24em 0;">
+<div style="font-size:16.5px; font-weight:600; color:var(--ink); line-height:1.35;">The Resistance and Resilience of National Image Building: An Empirical Analysis of Confucius Institute Closures in the USA</div>
+<div style="font-size:13.5px; color:var(--ink-soft); line-height:1.4; margin-top:0.1em;">Hu Yue, <b style="color:var(--ink); font-weight:600;">Sun Yufei (corresponding author)</b>, Lien Donald　<i>The Chinese Journal of International Politics</i>, 2022, 15(2): 209–226<span style="color:var(--accent); font-weight:600; margin-left:0.8em;">SSCI Q1</span></div>
 </div>
 </div>
 
 <!--
-我已发表和拟录用论文 8 篇，研究集中在**比较政治学**和**计算政治学**两个领域。
+我已发表和拟录用论文 8 篇，中文 7 篇、英文 1 篇，研究集中在**比较政治学**和**计算政治学**两个领域。
 
-【指第一条】代表作之一，研究“一带一路”项目如何影响西巴尔干五国的媒体态度，已被**《中国社会科学》**拟录用，我是通讯作者。
+【指中文第一条】代表作之一，研究“一带一路”项目如何影响西巴尔干五国的媒体态度，已被**《中国社会科学》**拟录用，我是通讯作者。
 
-【指第五条】另一篇研究美国孔子学院的关闭，发表在 **CJIP**，是 SSCI 一区期刊，我也是通讯作者。
+【指英文论文】另一篇研究美国孔子学院的关闭，发表在 **The Chinese Journal of International Politics**，是 SSCI 一区期刊，我也是通讯作者。
 
-【指其余各条】其余几篇涉及地方治理、公共服务动机和调查实验，其中 CSSCI 期刊 4 篇。〔可删〕方法上，这些研究用到了空间双重差分、文本分析和调查实验。
+【指中文其余各条】其余几篇涉及地方治理、公共服务动机和调查实验，其中 CSSCI 期刊 4 篇。〔可删〕方法上，这些研究用到了空间双重差分、文本分析和调查实验。
 
 【翻页】
 -->
