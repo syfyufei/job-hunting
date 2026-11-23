@@ -31,46 +31,35 @@ lang: zh-CN
 ---
 
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">个人经历</div>
-<div class="cols-2" style="margin-top:1.2em; gap:4em;">
-<div>
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--ink-mute); font-weight:600; letter-spacing:0.2em; margin-bottom:1.4em;">教育</div>
-<div style="margin-bottom:1.5em;">
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin-bottom:0.3em;">2020 — 2026</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); line-height:1.4;">清华大学 · 政治学博士</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">清华大学优秀博士学位论文</div>
+<div style="width:860px; margin:0.6em auto 0; text-align:left;">
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0;">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">2016 — 2020</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">山东大学 · 国际政治学士</div>
 </div>
-<div>
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin-bottom:0.3em;">2016 — 2020</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); line-height:1.4;">山东大学 · 国际政治学士</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">&nbsp;</div>
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">2020 — 2026</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 · 政治学博士<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">清华大学优秀博士学位论文</span></div>
 </div>
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">2021 至今</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">清华大学 R Workshop · 讲师</div>
 </div>
-<div>
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--ink-mute); font-weight:600; letter-spacing:0.2em; margin-bottom:1.4em;">工作与访学</div>
-<div style="margin-bottom:1.5em;">
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin-bottom:0.3em;">2026 至今</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); line-height:1.4;">美团 Keeta</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">大模型算法工程师</div>
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">2024 — 2025</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">东京大学社会科学研究所 · 客员研究员</div>
 </div>
-<div style="margin-bottom:1.5em;">
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin-bottom:0.3em;">2024 — 2025</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); line-height:1.4;">东京大学社会科学研究所</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">客员研究员</div>
-</div>
-<div>
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em; margin-bottom:0.3em;">2021 至今</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); line-height:1.4;">清华大学 R Workshop</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">讲师</div>
-</div>
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">2026 至今</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">美团 Keeta · 大模型算法工程师</div>
 </div>
 </div>
 
 <!--
 先介绍我的经历。
 
-【鼠标指向左栏】我本科在**山东大学**读国际政治，2020 年直博进入**清华大学**政治学系，方向是大数据政治学，博士论文获评清华大学**优秀博士学位论文**。
+我本科在**山东大学**读国际政治，2020 年直博进入**清华大学**政治学系，方向是大数据政治学，博士论文获评清华大学**优秀博士学位论文**。
 
-【鼠标指向右栏】读博期间，我从 2021 年起担任清华 **R Workshop** 的讲师；2024 年到东京大学社会科学研究所做客员研究员。
+读博期间，我从 2021 年起担任清华 **R Workshop** 的讲师；2024 年到东京大学社会科学研究所做客员研究员。
 
 2025 年我在美团实习，2026 年 7 月正式入职，担任**大模型算法工程师**。所以我同时有政治学的学术训练和大模型的一线工程经验。
 
@@ -80,51 +69,42 @@ lang: zh-CN
 ---
 
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">研究领域与发表</div>
-<div class="cols-2" style="margin-top:1.4em; gap:3em;">
-<div>
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--ink-mute); font-weight:600; letter-spacing:0.2em; margin-bottom:0.4em;">比较政治学</div>
-<ul style="list-style:none; padding-left:1.2em; margin:0;">
-<li style="position:relative; margin:0.75em 0; padding-left:0.2em; font-size:20px; line-height:1.45;"><span style="position:absolute; left:-0.9em; color:var(--accent); font-weight:700;">•</span>“一带一路”与西巴尔干五国<div style="font-size:15px; color:var(--ink-mute); margin-top:0.15em; letter-spacing:0.04em;">《中国社会科学》拟录用 · 通讯作者</div></li>
-<li style="position:relative; margin:0.75em 0; padding-left:0.2em; font-size:20px; line-height:1.45;"><span style="position:absolute; left:-0.9em; color:var(--accent); font-weight:700;">•</span>美国孔子学院的关闭<div style="font-size:15px; color:var(--ink-mute); margin-top:0.15em; letter-spacing:0.04em;">Chinese Journal of International Politics · SSCI · 通讯作者</div></li>
-<li style="position:relative; margin:0.75em 0; padding-left:0.2em; font-size:20px; line-height:1.45;"><span style="position:absolute; left:-0.9em; color:var(--accent); font-weight:700;">•</span>地方治理的“能力空间”<div style="font-size:15px; color:var(--ink-mute); margin-top:0.15em; letter-spacing:0.04em;">《广州大学学报》 · 第一作者</div></li>
-</ul>
+<div style="width:900px; margin:0.6em auto 0; text-align:left;">
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0;">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">比较政治学</div>
+<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">“一带一路”与西巴尔干五国<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">《中国社会科学》拟录用</span></div>
 </div>
-<div>
-<div style="font-family:var(--sans-zh); font-size:13px; color:var(--ink-mute); font-weight:600; letter-spacing:0.2em; margin-bottom:0.4em;">计算政治学</div>
-<ul style="list-style:none; padding-left:1.2em; margin:0;">
-<li style="position:relative; margin:0.75em 0; padding-left:0.2em; font-size:20px; line-height:1.45;"><span style="position:absolute; left:-0.9em; color:var(--accent); font-weight:700;">•</span>国家话语同构指数<div style="font-size:15px; color:var(--ink-mute); margin-top:0.15em; letter-spacing:0.04em;">博士论文 · BERT 模型 · 37 万份政府文本</div></li>
-<li style="position:relative; margin:0.75em 0; padding-left:0.2em; font-size:20px; line-height:1.45;"><span style="position:absolute; left:-0.9em; color:var(--accent); font-weight:700;">•</span>官话识别模型 Bureaucratese<div style="font-size:15px; color:var(--ink-mute); margin-top:0.15em; letter-spacing:0.04em;">已开源发布</div></li>
-<li style="position:relative; margin:0.75em 0; padding-left:0.2em; font-size:20px; line-height:1.45;"><span style="position:absolute; left:-0.9em; color:var(--accent); font-weight:700;">•</span>领导留言板与政府回应性<div style="font-size:15px; color:var(--ink-mute); margin-top:0.15em; letter-spacing:0.04em;">在研</div></li>
-</ul>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
+<div></div>
+<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">美国孔子学院的关闭<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">CJIP · SSCI</span></div>
 </div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
+<div></div>
+<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">地方治理的“能力空间”<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">《广州大学学报》</span></div>
 </div>
-<div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1.5em; margin-top:1.6em;">
-<div style="text-align:center;">
-<div style="font-size:32px; font-weight:700; color:var(--accent); letter-spacing:0.02em; font-family:var(--serif-zh);">8</div>
-<div style="font-size:13px; color:var(--ink-mute); margin-top:0.1em; letter-spacing:0.08em;">已发表与拟录用论文</div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">计算政治学</div>
+<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">国家话语同构指数<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">博士论文</span></div>
 </div>
-<div style="text-align:center;">
-<div style="font-size:32px; font-weight:700; color:var(--accent); letter-spacing:0.02em; font-family:var(--serif-zh);">1</div>
-<div style="font-size:13px; color:var(--ink-mute); margin-top:0.1em; letter-spacing:0.08em;">《中国社会科学》</div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
+<div></div>
+<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">官话识别模型 Bureaucratese<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">已开源</span></div>
 </div>
-<div style="text-align:center;">
-<div style="font-size:32px; font-weight:700; color:var(--accent); letter-spacing:0.02em; font-family:var(--serif-zh);">1</div>
-<div style="font-size:13px; color:var(--ink-mute); margin-top:0.1em; letter-spacing:0.08em;">SSCI</div>
-</div>
-<div style="text-align:center;">
-<div style="font-size:32px; font-weight:700; color:var(--accent); letter-spacing:0.02em; font-family:var(--serif-zh);">4</div>
-<div style="font-size:13px; color:var(--ink-mute); margin-top:0.1em; letter-spacing:0.08em;">其他 CSSCI</div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
+<div></div>
+<div style="font-size:22px; font-weight:600; color:var(--ink); line-height:1.4;">领导留言板与政府回应性<span style="font-size:16px; font-weight:400; color:var(--ink-mute); margin-left:1em; letter-spacing:0.04em;">在研</span></div>
 </div>
 </div>
+<div style="text-align:center; font-size:16px; color:var(--ink-mute); margin-top:1.6em; letter-spacing:0.06em;">已发表与拟录用论文 8 篇：《中国社会科学》1 篇 · SSCI 1 篇 · 其他 CSSCI 4 篇</div>
 
 <!--
 我的研究集中在两个领域：**比较政治学**和**计算政治学**。
 
-【鼠标指向左栏】比较政治学方面，有两篇代表作。一篇研究“一带一路”项目对西巴尔干五国媒体态度的影响，用的是空间双重差分和六万余篇新闻的情感数据，已被**《中国社会科学》**拟录用，我是通讯作者。另一篇研究美国孔子学院的关闭，发表在 **CJIP**，是 SSCI 期刊。此外还有一篇地方治理能力的研究。
+【指前三条】比较政治学方面，有两篇代表作。一篇研究“一带一路”项目对西巴尔干五国媒体态度的影响，用的是空间双重差分和六万余篇新闻的情感数据，已被**《中国社会科学》**拟录用，我是通讯作者。另一篇研究美国孔子学院的关闭，发表在 **CJIP**，是 SSCI 期刊。此外还有一篇地方治理能力的研究。
 
-【鼠标指向右栏】计算政治学方面，核心是我的博士论文：我训练了一个基于 BERT 的模型，在 37 万份政府文本上测量话语同构，稍后会详细汇报。在此基础上，我发布了官话识别模型，目前在做领导留言板与政府回应性的研究。〔可删〕我在美团的大模型工作，以及平时维护的几个开源工具，也都服务于这条线。
+【指后三条】计算政治学方面，核心是我的博士论文：我训练了一个基于 BERT 的模型，在 37 万份政府文本上测量话语同构，稍后会详细汇报。在此基础上，我发布了官话识别模型，目前在做领导留言板与政府回应性的研究。〔可删〕我在美团的大模型工作，以及平时维护的几个开源工具，也都服务于这条线。
 
-【鼠标指向底部数字】总体上，我已发表和拟录用论文 8 篇，其中《中国社会科学》1 篇，SSCI 1 篇，其他 CSSCI 4 篇。除了这两条线，我还主导过两项调查实验。
+【指最后一行】总体上，我已发表和拟录用论文 8 篇，其中《中国社会科学》1 篇，SSCI 1 篇，其他 CSSCI 4 篇。除了这两条线，我还主导过两项调查实验。
 
 【翻页】
 -->
@@ -132,34 +112,37 @@ lang: zh-CN
 ---
 
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">可开设课程</div>
-<div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:2em; margin-top:1.2em;">
-<div style="text-align:center;">
-<div style="font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">全校通识</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); margin-top:0.7em; line-height:1.4;">大模型与社会科学</div>
+<div style="width:640px; margin:0.6em auto 0; text-align:left;">
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0;">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">全校通识</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">大模型与社会科学</div>
 </div>
-<div style="text-align:center;">
-<div style="font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">本科</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); margin-top:0.7em; line-height:1.4;">比较政治学</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); margin-top:0.7em; line-height:1.4;">社会科学数据分析</div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">本科</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">比较政治学</div>
 </div>
-<div style="text-align:center;">
-<div style="font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">研究生</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); margin-top:0.7em; line-height:1.4;">计算政治学</div>
-<div style="font-size:22px; font-weight:700; color:var(--ink); margin-top:0.7em; line-height:1.4;">因果推断与实验政治学</div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
+<div></div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">社会科学数据分析</div>
 </div>
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">研究生</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">计算政治学</div>
 </div>
-<div style="text-align:center; font-size:15px; color:var(--ink-mute); margin-top:3em; letter-spacing:0.08em;">
-教学经历 · 清华大学 R Workshop 讲师（2021 至今） · 东京大学英文工作坊“大模型与社会科学研究”
+<div style="display:grid; grid-template-columns:150px 1fr; align-items:baseline; padding:0.6em 0; ">
+<div></div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">因果推断与实验政治学</div>
+</div>
 </div>
 
 <!--
-教学方面，我可以按三个层次开课。
+教学方面，我可以开五门课，分三个层次。
 
-【鼠标指向左栏】面向全校，我可以开一门通识课**《大模型与社会科学》**。这门课我在东京大学以英文工作坊的形式讲过，也和我在美团的大模型工作直接相关。
+【指第一条】面向全校，我可以开一门通识课**《大模型与社会科学》**。这门课我在东京大学以英文工作坊的形式讲过，也和我在美团的大模型工作直接相关。
 
-【鼠标指向中栏】本科阶段，我可以讲**比较政治学**，以及用 R 和 Python 做社会科学数据分析；R 语言课程我在清华已经讲了五年。
+【指本科两条】本科阶段，我可以讲**比较政治学**，以及用 R 和 Python 做社会科学数据分析；R 语言课程我在清华已经讲了五年。
 
-【鼠标指向右栏】研究生阶段，我可以开**计算政治学**，重点是文本分析和大模型方法；以及因果推断与实验政治学。
+【指研究生两条】研究生阶段，我可以开**计算政治学**，重点是文本分析和大模型方法；以及因果推断与实验政治学。
 
 这些课程和系里已有的计算社会科学、数据科学导论、社会统计学等课程可以衔接起来。以上是我的个人介绍。
 
@@ -809,38 +792,29 @@ DiMaggio &amp; Powell <span style="margin:0 0.2em;">·</span> <span style="color
 ---
 
 <div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">研究计划</div>
-<div style="text-align:center; font-size:20px; color:var(--ink); margin-top:1em; line-height:1.7; max-width:940px; margin-left:auto; margin-right:auto;">
-两条主线：<strong style="color:var(--accent);">计算政治学</strong> 与 <strong style="color:var(--accent);">比较政治学</strong>
+<div style="width:760px; margin:0.6em auto 0; text-align:left;">
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0;">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">计算政治学</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">可复用的政治文本测量工具</div>
 </div>
-<div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:2em; margin-top:2em;">
-<div style="text-align:center;">
-<div style="font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">主线一</div>
-<div style="font-size:26px; font-weight:700; color:var(--ink); margin-top:0.4em;">计算政治学</div>
-<div style="font-size:14px; color:var(--ink-mute); margin-top:0.4em; letter-spacing:0.08em;">政治文本测量</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.8em; line-height:1.7;">把同构指数发展为<strong style="color:var(--accent);">可复用的测量工具</strong>，结合大模型开源发布</div>
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">比较政治学</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">话语扩散与国家形象的跨国比较</div>
 </div>
-<div style="text-align:center;">
-<div style="font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">主线二</div>
-<div style="font-size:26px; font-weight:700; color:var(--ink); margin-top:0.4em;">比较政治学</div>
-<div style="font-size:14px; color:var(--ink-mute); margin-top:0.4em; letter-spacing:0.08em;">跨国比较</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.8em; line-height:1.7;">在西巴尔干、孔子学院研究基础上，做<strong style="color:var(--accent);">话语扩散与国家形象</strong>的跨国比较</div>
-</div>
-<div style="text-align:center;">
-<div style="font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">交叉</div>
-<div style="font-size:26px; font-weight:700; color:var(--ink); margin-top:0.4em;">比较地方治理</div>
-<div style="font-size:14px; color:var(--ink-mute); margin-top:0.4em; letter-spacing:0.08em;">计算方法 × 比较研究</div>
-<div style="font-size:16px; color:var(--ink-soft); margin-top:0.8em; line-height:1.7;">比较不同地区、不同国家的<strong style="color:var(--accent);">政府回应与治理绩效</strong></div>
+<div style="display:grid; grid-template-columns:170px 1fr; align-items:baseline; padding:0.6em 0; border-top:1px solid var(--rule-soft);">
+<div style="font-family:var(--sans-zh); font-size:14px; color:var(--accent); font-weight:600; letter-spacing:0.16em;">两者交叉</div>
+<div style="font-size:24px; font-weight:600; color:var(--ink); line-height:1.4;">地方治理与政府回应的比较研究</div>
 </div>
 </div>
 
 <!--
 接下来，我会沿两条主线推进。
 
-【鼠标指向左栏】第一条是计算政治学：把同构指数发展成可复用的政治文本测量工具，结合大模型开源发布。
+【指第一条】第一条是计算政治学：把同构指数发展成可复用的政治文本测量工具，结合大模型开源发布。
 
-【鼠标指向中栏】第二条是比较政治学：在西巴尔干和孔子学院研究的基础上，继续做话语扩散与国家形象的跨国比较。
+【指第二条】第二条是比较政治学：在西巴尔干和孔子学院研究的基础上，继续做话语扩散与国家形象的跨国比较。
 
-【鼠标指向右栏】两条线的交叉处，是地方治理的比较研究：用计算方法比较不同地区、不同国家的政府回应与治理绩效。
+【指第三条】两条线的交叉处，是地方治理的比较研究：用计算方法比较不同地区、不同国家的政府回应与治理绩效。
 
 【翻页】
 -->
