@@ -126,6 +126,78 @@ lang: zh-CN
 <div data-chip="nudge" style="position:absolute; left:40px; top:426px; width:330px; height:44px; box-sizing:border-box; padding:4px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left;"><div style="font-size:14.5px; font-weight:600; color:var(--ink); line-height:1.3; white-space:nowrap;">为何需要助推型政策</div><div style="font-size:11.5px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《公共管理与政策评论》</div></div>
 <div data-chip="gz" style="position:absolute; left:40px; top:476px; width:330px; height:44px; box-sizing:border-box; padding:4px 10px; background:var(--bg); border:1px solid var(--rule); border-left:1px solid var(--rule); opacity:0; will-change:transform; text-align:left;"><div style="font-size:14.5px; font-weight:600; color:var(--ink); line-height:1.3; white-space:nowrap;">高职专业选择满意度</div><div style="font-size:11.5px; color:var(--ink-mute); line-height:1.3; white-space:nowrap;">《中国职业技术教育》</div></div>
 </div>
+<div class="pub-map2" style="position:absolute; left:96px; top:118px; width:1088px; height:560px; visibility:hidden; text-align:left;">
+<svg width="1088" height="560" viewBox="0 0 1088 560" style="position:absolute; left:0; top:0; overflow:visible;">
+<defs><marker id="pm2arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#660874"/></marker></defs>
+<g class="pm2-frame" style="opacity:0;">
+<rect x="150" y="20" width="820" height="230" fill="rgba(102,8,116,0.045)"/>
+<rect x="560" y="20" width="410" height="460" fill="rgba(102,8,116,0.045)"/>
+<line x1="150" y1="480" x2="970" y2="480" stroke="#3F3F3F" stroke-width="1.5"/>
+<line x1="150" y1="20" x2="150" y2="480" stroke="#3F3F3F" stroke-width="1.5"/>
+<line x1="150" y1="250" x2="970" y2="250" stroke="#C9B898" stroke-dasharray="4 4"/>
+<line x1="560" y1="20" x2="560" y2="480" stroke="#C9B898" stroke-dasharray="4 4"/>
+<text x="162" y="44" text-anchor="start" style="font-family:var(--sans-zh); font-size:15px; font-weight:700; fill:#660874; letter-spacing:0.1em;">比较政治学</text>
+<text x="958" y="466" text-anchor="end" style="font-family:var(--sans-zh); font-size:15px; font-weight:700; fill:#660874; letter-spacing:0.1em;">计算社会科学</text>
+<text x="150" y="504" text-anchor="start" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">案例与定性</text>
+<text x="970" y="504" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">文本计算与深度学习</text>
+<text x="560" y="526" text-anchor="middle" style="font-family:var(--sans-zh); font-size:14px; font-weight:700; fill:#2B2B2B; letter-spacing:0.12em;">研究方法 →</text>
+<text x="136" y="480" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">国内</text>
+<text x="136" y="32" text-anchor="end" style="font-family:var(--sans-zh); font-size:13px; font-weight:500; fill:#555555; letter-spacing:0.04em;">跨国比较</text>
+<text x="100" y="250" text-anchor="middle" transform="rotate(-90 100 250)" style="font-family:var(--sans-zh); font-size:14px; font-weight:700; fill:#2B2B2B; letter-spacing:0.12em;">研究对象 →</text>
+<rect x="760" y="512" width="20" height="8" fill="#C9B0CD"/>
+<rect x="780" y="512" width="20" height="8" fill="#BB98C0"/>
+<rect x="800" y="512" width="20" height="8" fill="#AD80B4"/>
+<rect x="820" y="512" width="20" height="8" fill="#9F68A7"/>
+<rect x="840" y="512" width="20" height="8" fill="#90509A"/>
+<rect x="860" y="512" width="20" height="8" fill="#82388D"/>
+<rect x="880" y="512" width="20" height="8" fill="#742081"/>
+<rect x="900" y="512" width="20" height="8" fill="#660874"/>
+<text x="754" y="520" text-anchor="end" style="font-family:var(--sans-zh); font-size:12px; font-weight:500; fill:#877867; letter-spacing:0;">2020</text>
+<text x="926" y="520" text-anchor="start" style="font-family:var(--sans-zh); font-size:12px; font-weight:500; fill:#877867; letter-spacing:0;">2027</text>
+</g>
+<path class="pm2-arrow" d="M248,406 Q563,320 757,94" fill="none" stroke="#660874" stroke-width="2" stroke-dasharray="6 6" stroke-opacity="0.55" marker-end="url(#pm2arrow)" style="opacity:0;"/>
+<g class="pm2-dot" data-year="2020" style="opacity:0; transform-origin:199px 434px;">
+<circle cx="199" cy="434" r="8" fill="#C9B0CD" stroke="#F4EDE0" stroke-width="2"/>
+<text x="211" y="439" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">“条块并举”发包制<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2020</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2021" style="opacity:0; transform-origin:380px 462px;">
+<circle cx="380" cy="462" r="8" fill="#BB98C0" stroke="#F4EDE0" stroke-width="2"/>
+<text x="392" y="467" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">高职专业选择<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2021</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2021" style="opacity:0; transform-origin:445px 402px;">
+<circle cx="445" cy="402" r="8" fill="#BB98C0" stroke="#F4EDE0" stroke-width="2"/>
+<text x="457" y="407" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">助推型政策<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2021</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2022" style="opacity:0; transform-origin:494px 140px;">
+<circle cx="494" cy="140" r="8" fill="#AD80B4" stroke="#F4EDE0" stroke-width="2"/>
+<text x="506" y="145" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">美国孔子学院的关闭<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2022</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2023" style="opacity:0; transform-origin:609px 282px;">
+<circle cx="609" cy="282" r="8" fill="#9F68A7" stroke="#F4EDE0" stroke-width="2"/>
+<text x="621" y="287" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">地方治理的“能力空间”<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2023</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2025" style="opacity:0; transform-origin:535px 360px;">
+<circle cx="535" cy="360" r="8" fill="#82388D" stroke="#F4EDE0" stroke-width="2"/>
+<text x="547" y="365" text-anchor="start" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">公共服务动机<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2025</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2025" style="opacity:0; transform-origin:396px 328px;">
+<circle cx="396" cy="328" r="8" fill="#82388D" stroke="#F4EDE0" stroke-width="2"/>
+<text x="384" y="333" text-anchor="end" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">思政教育<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2025</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2025" style="opacity:0; transform-origin:855px 351px;">
+<circle cx="855" cy="351" r="8" fill="#82388D" stroke="#F4EDE0" stroke-width="2"/>
+<text x="843" y="356" text-anchor="end" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">Bureaucratese<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2025</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2026" style="opacity:0; transform-origin:904px 213px;">
+<circle cx="904" cy="213" r="8" fill="#742081" stroke="#F4EDE0" stroke-width="2"/>
+<text x="892" y="218" text-anchor="end" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">博士论文<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2026</tspan></text>
+</g>
+<g class="pm2-dot" data-year="2027" style="opacity:0; transform-origin:839px 66px;">
+<circle cx="839" cy="66" r="8" fill="#660874" stroke="#F4EDE0" stroke-width="2"/>
+<text x="827" y="71" text-anchor="end" style="font-family:var(--sans-zh); font-size:14px; font-weight:600; fill:#1F1A14;">从“硬联通”到“心联通”<tspan style="font-size:11px; font-weight:500; fill:#877867;" dx="5">2027</tspan></text>
+</g>
+</svg>
+</div>
 
 <!--
 我已发表和拟录用论文 8 篇。
@@ -135,6 +207,8 @@ lang: zh-CN
 【指中文论文】中文论文 7 篇，其中《中国社会科学》1 篇已拟录用，我也是通讯作者；其余 CSSCI 期刊 4 篇。
 
 【点击，成果汇聚到两个方向】这些成果最终收敛到两个方向。一是**比较政治学**，包括两篇代表作和两篇国家治理研究；二是**计算社会科学**，包括我的博士论文、开源的官话识别模型，以及四篇调查与实验研究。
+
+【再点击，成果落到坐标上】如果按研究方法和研究对象把这些成果放到坐标上，再看时间，我的研究从早期的国内案例和调查研究，逐步走向右上方，也就是计算方法与跨国比较的交叉处。
 
 【翻页】
 -->

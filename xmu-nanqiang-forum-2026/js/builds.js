@@ -1,4 +1,4 @@
-/* 点击动画：学术发表页的成果从列表移到左列，再连线汇聚到研究方向。→ / 空格 / 单击前进，← 退回。 */
+/* 点击动画：学术发表页的成果从列表移到左列，连线汇聚到研究方向；再点一次落到坐标图上。→ / 空格 / 单击前进，← 退回。 */
 (function () {
   function activeSection() { return document.querySelector('svg.bespoke-marp-active section'); }
   function gotoNext() {
@@ -11,11 +11,47 @@
     var map = sec.querySelector('.pub-map');
     if (!list || !map) return;
     var chips = all(map, '[data-chip]'), lines = all(map, '.pm-line'), nodes = all(map, '.pm-node');
+    var map2 = sec.querySelector('.pub-map2');
+    var dots = map2 ? all(map2, '.pm2-dot') : [], frame2 = map2 ? map2.querySelector('.pm2-frame') : null;
+    var arrow = map2 ? map2.querySelector('.pm2-arrow') : null;
+    function toScatter() {
+      busy = true;
+      map.style.transition = 'opacity .4s';
+      map.style.opacity = '0';
+      map2.style.transition = 'none';
+      map2.style.opacity = '1';
+      map2.style.visibility = 'visible';
+      frame2.style.transition = 'none';
+      frame2.style.opacity = '0';
+      dots.forEach(function (d) { d.style.transition = 'none'; d.style.opacity = '0'; d.style.transform = 'scale(0.3)'; });
+      var len = arrow.getTotalLength();
+      arrow.style.transition = 'none';
+      arrow.style.opacity = '0';
+      void map2.offsetHeight;
+      frame2.style.transition = 'opacity .5s .3s';
+      frame2.style.opacity = '1';
+      dots.forEach(function (d, i) {
+        var t = 700 + i * 140;
+        d.style.transition = 'opacity .35s ' + t + 'ms, transform .45s cubic-bezier(.3,1.4,.5,1) ' + t + 'ms';
+        d.style.opacity = '1';
+        d.style.transform = 'scale(1)';
+      });
+      var t2 = 700 + dots.length * 140 + 200;
+      setTimeout(function () { map.style.visibility = 'hidden'; }, 400);
+      setTimeout(function () {
+        arrow.style.strokeDasharray = 'none';
+        arrow.style.transition = 'opacity .8s';
+        arrow.style.opacity = '1';
+      }, t2);
+      state = 2;
+      setTimeout(function () { busy = false; }, t2 + 600);
+    }
     var state = 0, busy = false;
     function scale() { return sec.getBoundingClientRect().width / 1280 || 1; }
     sec._advance = function () {
       if (busy) return true;
-      if (state === 1) return false;
+      if (state === 2) return false;
+      if (state === 1) { if (!map2) return false; toScatter(); return true; }
       busy = true;
       var k = scale();
       map.style.transition = 'none';
@@ -64,6 +100,16 @@
       if (busy) return true;
       if (state === 0) return false;
       busy = true;
+      if (state === 2) {
+        map2.style.transition = 'opacity .35s';
+        map2.style.opacity = '0';
+        map.style.visibility = 'visible';
+        map.style.transition = 'opacity .35s';
+        map.style.opacity = '1';
+        setTimeout(function () { map2.style.visibility = 'hidden'; busy = false; }, 350);
+        state = 1;
+        return true;
+      }
       map.style.transition = 'opacity .35s';
       map.style.opacity = '0';
       setTimeout(function () {
