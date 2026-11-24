@@ -223,11 +223,6 @@ footer: 南强青年学者论坛 · 2026
 <div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;"></div>
 </div>
 <div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
-<div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">外语</div>
-<div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">英语（IELTS 7），具备独立英文授课经验</div>
-<div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;"></div>
-</div>
-<div style="display:grid; grid-template-columns:170px 1fr auto; align-items:baseline; padding:0.38em 0;">
 <div style="font-family:var(--sans-zh); font-size:16px; color:var(--ink); font-weight:700; letter-spacing:0.02em;">编程与工具</div>
 <div style="font-size:18px; color:var(--ink-soft); line-height:1.4;">R、Python、SQL；Git、LaTeX、Quarto</div>
 <div style="font-size:15px; color:var(--ink-mute); text-align:right; padding-left:1.5em;"></div>
