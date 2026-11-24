@@ -1,0 +1,22 @@
+:root{--bg:#F4EDE0;--ink:#1F1A14;--soft:#4A4035;--mute:#877867;--rule:#DCCFB5;--accent:#660874;--card:#FAF6EE}
+html{background:var(--bg)}
+body{max-width:780px;margin:0 auto;padding:40px 16px 90px;color:var(--ink);background:var(--bg);
+ font-family:"Songti SC","STSong",serif;font-size:18px;line-height:1.9}
+header h1.title{font-size:30px;color:var(--accent);margin:0 0 8px}
+.lede{color:var(--soft);font-size:16px;line-height:1.8;margin:0 0 18px}
+.toolbar{position:sticky;top:0;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--rule);z-index:2;
+ display:flex;align-items:center;gap:14px;font-family:"PingFang SC",sans-serif;font-size:14px;color:var(--mute)}
+.toolbar button{font:inherit;color:var(--accent);background:transparent;border:1px solid var(--accent);border-radius:4px;padding:4px 14px;cursor:pointer}
+.toolbar button:hover{background:rgba(102,8,116,.07)}
+h1{font-family:"PingFang SC",sans-serif;font-size:15px;letter-spacing:.2em;color:var(--mute);margin:2.6em 0 .2em;padding-top:1.2em;border-top:1px solid var(--rule)}
+h2{font-size:21px;line-height:1.6;color:var(--accent);margin:1.6em 0 .5em;cursor:pointer}
+blockquote{margin:.6em 0 1em;padding:.5em 1.1em;background:var(--card);border-left:3px solid var(--accent);border-radius:0 4px 4px 0}
+blockquote p{margin:.5em 0}
+p{margin:.6em 0}
+p > strong:only-child{font-family:"PingFang SC",sans-serif;font-size:15px;color:var(--soft)}
+ul{padding-left:1.2em;font-size:16px;color:var(--soft)}li{margin:.25em 0}
+.src{font-family:"PingFang SC",sans-serif;font-size:13.5px;line-height:1.7;color:var(--mute);margin:.2em 0 1em}
+.tag{font-family:"PingFang SC",sans-serif;font-size:12px;letter-spacing:.05em;color:var(--mute);border:1px solid var(--rule);border-radius:3px;padding:1px 6px;margin-left:6px;white-space:nowrap;vertical-align:middle;font-weight:400}
+body.q-only blockquote, body.q-only .src, body.q-only ul, body.q-only p:not(.lede){display:none}
+body.q-only section.open blockquote, body.q-only section.open .src, body.q-only section.open ul, body.q-only section.open p{display:block}
+@media (max-width:600px){body{font-size:16.5px}h2{font-size:19px}}

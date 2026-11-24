@@ -16,3 +16,5 @@ script:
 	python3 script_html.py
 	python3 script_html.py script-v1.md script-v1.html
 all: html pdf pptx script
+qa:
+	python3 qa_html.py
