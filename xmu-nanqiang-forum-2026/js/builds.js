@@ -97,6 +97,44 @@
     sec.style.cursor = 'pointer';
     sec.addEventListener('click', function () { if (!sec._advance()) gotoNext(); });
   }
+  /* 通用分步出现：.steps 容器内带 data-step 的元素按点击次数依次显现；data-delay 为同一步内的延时（毫秒）。
+     不运行脚本时（PDF、PNG）所有内容直接可见。 */
+  function setupSteps(sec) {
+    var box = sec.querySelector('.steps');
+    if (!box) return;
+    var items = all(box, '[data-step]'), max = 0, state = 0;
+    function hide(el, animate) {
+      var grow = el.getAttribute('data-fx') === 'grow';
+      if (grow) { el.style.transformBox = 'fill-box'; el.style.transformOrigin = 'center'; }
+      el.style.transition = animate ? 'opacity .3s, transform .3s' : 'none';
+      el.style.opacity = '0';
+      el.style.transform = grow ? 'scale(0.82)' : 'translateY(14px)';
+    }
+    items.forEach(function (el) {
+      max = Math.max(max, +el.getAttribute('data-step'));
+      hide(el, false);
+    });
+    sec._advance = function () {
+      if (state >= max) return false;
+      state += 1;
+      items.forEach(function (el) {
+        if (+el.getAttribute('data-step') !== state) return;
+        var d = +(el.getAttribute('data-delay') || 0);
+        el.style.transition = 'opacity .6s ease-out ' + d + 'ms, transform .7s cubic-bezier(.2,.7,.2,1) ' + d + 'ms';
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+      });
+      return true;
+    };
+    sec._retreat = function () {
+      if (state === 0) return false;
+      items.forEach(function (el) { if (+el.getAttribute('data-step') === state) hide(el, true); });
+      state -= 1;
+      return true;
+    };
+    sec.style.cursor = 'pointer';
+    sec.addEventListener('click', function () { if (!sec._advance()) gotoNext(); });
+  }
   document.addEventListener('keydown', function (e) {
     if (e.shiftKey || e.ctrlKey || e.altKey || e.metaKey) return;
     var next = e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' ';
@@ -113,6 +151,10 @@
     all(document, '.pub-list').forEach(function (l) {
       var sec = l.closest('section');
       if (sec) setupPubMap(sec);
+    });
+    all(document, '.steps').forEach(function (b) {
+      var sec = b.closest('section');
+      if (sec) setupSteps(sec);
     });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

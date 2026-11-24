@@ -859,6 +859,64 @@ DiMaggio &amp; Powell <span style="margin:0 0.2em;">·</span> <span style="color
 
 ---
 
+<div style="position:absolute; top:48px; left:96px; font-family: var(--serif-zh); font-size: 30px; font-weight: 600; color: var(--accent); margin: 0; letter-spacing: 0.01em;">未来研究方向</div>
+<div class="steps" style="position:absolute; left:96px; top:118px; width:1088px; height:540px; text-align:left;">
+<div style="position:absolute; left:0; top:0; width:500px; text-align:center;">
+<div style="font-family:var(--serif-zh); font-size:26px; font-weight:700; color:var(--ink);">比较政治学</div>
+<div style="font-size:16px; color:var(--ink-mute); margin-top:0.3em; letter-spacing:0.06em;">话语作为治理资源：互动与效果</div>
+</div>
+<svg viewBox="0 0 500 450" style="position:absolute; left:0; top:84px; width:500px; height:450px;">
+<g data-step="1" data-delay="700" data-fx="grow">
+<circle cx="250" cy="225" r="205" fill="rgba(102,8,116,0.04)" stroke="#660874" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="250" y="58" text-anchor="middle" font-size="19" fill="#1F1A14" style="font-family:'Songti SC','STSong',serif; font-weight:600;">国内与国外之间</text>
+</g>
+<g data-step="1" data-delay="350" data-fx="grow">
+<circle cx="250" cy="225" r="138" fill="rgba(102,8,116,0.07)" stroke="#660874" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="250" y="125" text-anchor="middle" font-size="19" fill="#1F1A14" style="font-family:'Songti SC','STSong',serif; font-weight:600;">国家与社会之间</text>
+</g>
+<g data-step="1" data-delay="0" data-fx="grow">
+<circle cx="250" cy="225" r="70" fill="rgba(102,8,116,0.13)" stroke="#660874" stroke-width="1.4" stroke-opacity="0.55"/>
+<text x="250" y="232" text-anchor="middle" font-size="19" fill="#1F1A14" style="font-family:'Songti SC','STSong',serif; font-weight:600;">官僚体系内部</text>
+</g>
+</svg>
+<div style="position:absolute; left:544px; top:30px; width:1px; height:490px; background:var(--rule);"></div>
+<div style="position:absolute; left:600px; top:0; width:488px; text-align:center;">
+<div style="font-family:var(--serif-zh); font-size:26px; font-weight:700; color:var(--ink);">计算政治学</div>
+<div style="font-size:16px; color:var(--ink-mute); margin-top:0.3em; letter-spacing:0.06em;">大模型与政治学的双向关系</div>
+</div>
+<div style="position:absolute; left:600px; top:118px; width:488px;">
+<div data-step="2" data-delay="0" style="border-left:3px solid var(--rule); padding:0.7em 0 0.7em 1.1em; margin-bottom:1.1em;">
+<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">研究工具</div>
+<div style="font-size:23px; font-weight:700; color:var(--ink); margin-top:0.25em; line-height:1.4;">把大模型作为研究工具</div>
+<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">测量政治话语与政治行为</div>
+</div>
+<div data-step="2" data-delay="350" style="border-left:3px solid var(--rule); padding:0.7em 0 0.7em 1.1em; margin-bottom:1.1em;">
+<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">研究对象</div>
+<div style="font-size:23px; font-weight:700; color:var(--ink); margin-top:0.25em; line-height:1.4;">把大模型作为研究对象</div>
+<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">大模型及其带来的社会变迁</div>
+</div>
+<div data-step="3" data-delay="0" style="border-left:3px solid var(--accent); background:rgba(102,8,116,0.06); padding:0.7em 0 0.7em 1.1em; margin-bottom:1.1em;">
+<div style="font-family:var(--sans-zh); font-size:13px; color:var(--accent); font-weight:600; letter-spacing:0.2em;">交叉研究</div>
+<div style="font-size:23px; font-weight:700; color:var(--ink); margin-top:0.25em; line-height:1.4;">用社会科学理论反哺大模型</div>
+<div style="font-size:16px; color:var(--ink-soft); margin-top:0.25em; line-height:1.5;">以经典理论改进大模型算法</div>
+</div>
+</div>
+</div>
+
+<!--
+在未来的研究方向上，我会沿着比较政治学和计算政治学两条主线继续推进。
+
+【点击，左侧三层依次出现】在比较政治学方面，我将继续关注话语这一治理资源在官僚体系内部、国家与社会之间、国内与国外之间的互动与效果。
+
+【点击，右侧前两条出现】在计算政治学方面，我希望能够发挥自己的技术优势：一方面把大模型作为研究工具，另一方面也把大模型以及由此带来的社会变迁作为研究对象。
+
+【点击，第三条出现】在此基础上，我也在尝试用经典的社会科学理论反哺大模型算法，开展交叉学科的研究。
+
+【翻页】
+-->
+
+---
+
 <style scoped>section { justify-content:center !important; padding:64px 96px !important; } section { text-align:center !important; }</style>
 
 <div style="width:100%; text-align:center;">
